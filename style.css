@@ -64,3 +64,12 @@ h2{margin-top:2rem;font-size:1.6rem}
   border-radius: 6px;
 }
 
+/* Gold sponsor logos bigger */
+.sponsor-row.gold img {
+  max-height: 120px; /* increase if you want even bigger */
+}
+
+/* Silver sponsor logos normal size */
+.sponsor-row.silver img {
+  max-height: 80px;
+}
