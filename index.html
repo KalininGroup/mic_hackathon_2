@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI & ML for Microscopy – Hackathon (Edition 2)</title>
+  <meta name="description" content="Microscopy Hackathon (2<sup>nd</sup> Edition): registration, agenda, projects, and results."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Hackathon logo" class="logo" onerror="this.style.display='none'">
+        <span>Microscopy Hackathon</span>
+      </div>
+      <nav>
+        <a href="#registration">Registration</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#projects">Projects</a>
+        <!-- <a href="#results">Results</a> -->
+        <a href="#media">Videos & Slides</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>AI & ML for Microscopy — Hackathon (Edition 2)</h1>
+      <p class="lead">Welcome to the second edition! Use the tabs above to register, view the agenda, explore project ideas, and later see results and recordings.</p>
+      <p class="cta-row">
+        <a class="btn" id="btn-register" href="#" target="_blank" rel="noopener">Register</a>
+        <a class="btn btn-secondary" id="btn-cfp" href="#" target="_blank" rel="noopener">Call for Projects</a>
+      </p>
+      <p class="update" id="announcement">Update: Dates and venue TBD.</p>
+    </section>
+
+    <section id="registration">
+      <h2>Registration</h2>
+      <p>Registration for the second edition of the Microscopy Hackathon is not yet open. Please check back later.</p>
+        <li><strong>Registration opens:</strong> TBA</li>
+        <li><strong>Project submissions due:</strong> TBA</li>
+        <li><strong>Hackathon dates:</strong> December 16-18, 2025</li>
+      </ul>
+    </section>
+
+    <section id="agenda">
+      <h2>Agenda</h2>
+      <table class="table">
+        <thead><tr><th>Time</th><th>Session</th><th>Speaker/Notes</th></tr></thead>
+        <tbody id="agenda-body">
+          <!-- Filled from data/agenda.json by script.js -->
+        </tbody>
+      </table>
+      <!-- <p class="note">Edit <code>data/agenda.json</code> to populate the table.</p> -->
+    </section>
+
+    <section id="projects">
+      <h2>Project Ideas</h2>
+      <div id="projects-grid" class="cards">
+        <!-- Filled from data/projects.json by script.js -->
+      </div>
+      <p class="note">Edit <code>data/projects.json</code>. Each entry supports a title, summary, code link, and data link.</p>
+    </section>
+
+    <!--
+    <section id="results">
+      <h2>Results (Edition 2)</h2>
+      <table class="table">
+      <thead>
+        <tr>
+        <th>Rank</th>
+        <th>Team Name</th>
+        <th>Participants & Affiliations</th>
+        <th>Code</th>
+        <th>Drive</th>
+        </tr>
+      </thead>
+      <tbody id="results-body">
+        <!-- Filled from data/results.json by script.js -->
+      </tbody>
+      </table>
+      <p class="note">When ready, edit <code>data/results.json</code> to publish winners and links.</p>
+    </section>
+    -->
+
+    <section id="media">
+      <h2>Videos & Slides</h2>
+      <ul id="media-list">
+        <!-- Filled from data/media.json by script.js -->
+      </ul>
+      <!-- <p class="note">Add YouTube and slide links in <code>data/media.json</code>.</p> -->
+    </section>
+
+    <section id="previous">
+      <h2>Previous Edition</h2>
+      <p>Check out the winners, projects, and recordings from the 
+      <a href="https://kaliningroup.github.io/mic-hackathon/" target="_blank" rel="noopener">
+      1<sup>st</sup> Edition of the Microscopy Hackathon
+      </a>.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>This community hackathon brings together researchers and students to advance AI/ML for microscopy. Organizers: replace with names and affiliations. For questions, add a contact email or link to an issue tracker.</p>
+    </section>
+    <section id="sponsors">
+  <h2>Gold Sponsor</h2>
+  <div class="sponsor-row">
+    <img src="assets/utkbw.png" alt="University of Tennessee AI Tennessee Initiative" />
+    <img src="assets/onr.png" alt="Office of Naval Research" />
+  </div>
+
+  <h2>Silver Sponsor</h2>
+  <div class="sponsor-row">
+    <img src="assets/thermofisher.png" alt="Thermo Fisher Scientific" />
+    <img src="assets/msa.png" alt="Microscopy Society of America | Student Council" />
+    <!-- <img src="assets/stc.png" alt="MSA Student Council" /> -->
+  </div>
+
+  <h2>Partners</h2>
+  <div class="sponsor-row">
+    <img src="assets/arems.png" alt="AREMS" />
+    <img src="assets/pnnl.png" alt="PNNL" />
+    <img src="assets/zyvex.png" alt="Zyvex Labs" />
+    <img src="assets/nrel.png" alt="NREL" />
+    <img src="assets/molecularfoundry.png" alt="Molecular Foundry" />
+    <img src="assets/ornl.png" alt="Oak Ridge National Laboratory" />
+  </div>
+
+  <p>Please get in touch if you would like to be a sponsor at 
+    <a href="mailto:sergei2@utk.edu">sergei2@utk.edu</a>
+  </p>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© 2025 Microscopy Hackathon (Edition 2)</span>
+      <span class="sep">•</span>
+      <a href="https://github.com" target="_blank" rel="noopener">Built with GitHub Pages</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

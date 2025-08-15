@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Sparse scanning AFM reconstruction",
+    "summary": "Reconstruct high\u2011quality scans from sparse lines using ML.",
+    "code": "",
+    "data": ""
+  },
+  {
+    "title": "Auto-alignment for TEM series",
+    "summary": "Detect and track interfaces in time\u2011series TEM videos.",
+    "code": "",
+    "data": ""
+  }
+]
