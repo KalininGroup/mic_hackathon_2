@@ -7,7 +7,7 @@ menu_icon: house-door
 ## We are back in 2025! - [click to see previous year's website](https://kaliningroup.github.io/mic-hackathon/)
 
 
-This year We are going multi-site, currently, the confirmed team includes NCSU, UTK, NWU/UIC/ANL, and ICN2. More sites may come up soon. If you wish to host a site please contact [sergei2@utk.edu](mailto:sergei2@utk.edu).
+This year we are going **Multi-Site**, currently, the confirmed team includes NCSU, UTK, NWU/UIC/ANL, and ICN2. More sites may come up soon. If you wish to host a site please contact [sergei2@utk.edu](mailto:sergei2@utk.edu).
 
 The hackathon is open to everyone, regardless of background or experience. Our North Star goal is to build the bridge between microscopy and machine learning communities. For microscopists, we welcome participation from all field - electron, scanning probe, chemical imaging, and all stages of the microscope workflow from sample selection to microscope optimization, data analytics, in-line analysis, automated experimentation, and interpretation. From machine learning community, we welcome experts in image analysis, optimization, and active learning. Let’s build the window between machine learning and nanoscale world together!
 
