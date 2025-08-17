@@ -28,9 +28,6 @@ The event will take place in hybrid(virtual and in-person) mode using a combinat
 
 Will be announced soon! 
 
-{% else %}
-
-{% endif %}
 
 ##  Gold Sponsor 
 
