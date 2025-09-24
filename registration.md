@@ -1,4 +1,11 @@
-##  <!-- intentionally left blank: remove duplicate H2 -->
+---
+layout: page
+title: Register for the Hackathon
+menu_title: Register
+menu_icon: pencil-square
+permalink: /registration/
+published: true
+---
 
 <style>
 /* keep everything inside the card */
@@ -55,66 +62,95 @@
 </style>
 
 {% raw %}
-<div class="reg-card">
-  <h3>Registration form</h3>
+<iframe name="gform_target" id="gform_target" style="display:none;"></iframe>
 
+<form class="reg-form"
+      action="https://docs.google.com/forms/d/e/1FAIpQLScDGl0L5HVDjOKBpGQMLPIFekOiFywDBH_Kut02T9I-DwqpbQ/formResponse"
+      method="POST"
+      target="gform_target"
+      id="onsite-registration-form">
 
-  <form class="reg-form"
-        action="https://docs.google.com/forms/d/e/1FAIpQLScDGl0L5HVDjOKBpGQMLPIFekOiFywDBH_Kut02T9I-DwqpbQ/formResponse"
-        method="POST" target="_blank">
+  <!-- ↓↓↓ keep ALL your existing fields exactly as you have them ↓↓↓ -->
 
-    <p>
-      <label>Name <span class="required">*</span><br>
-        <input type="text" name="entry.2092238618" required placeholder="Your full name">
-      </label>
-    </p>
+  <p>
+    <label>Name <span class="required">*</span><br>
+      <input type="text" name="entry.2092238618" required placeholder="Your full name">
+    </label>
+  </p>
 
-    <p>
-      <label>Email <span class="required">*</span><br>
-        <input type="email" name="entry.1556369182" required placeholder="you@university.edu">
-      </label>
-    </p>
+  <p>
+    <label>Email <span class="required">*</span><br>
+      <input type="email" name="entry.1556369182" required placeholder="you@university.edu">
+    </label>
+  </p>
 
-    <p>
-      <label>Organization <span class="required">*</span><br>
-        <input type="text" name="entry.479301265" required placeholder="e.g., University of Tennessee">
-      </label>
-    </p>
+  <p>
+    <label>Organization <span class="required">*</span><br>
+      <input type="text" name="entry.479301265" required placeholder="e.g., University of Tennessee">
+    </label>
+  </p>
 
-    <fieldset>
-      <legend>Role in your Organization <span class="required">*</span></legend>
-      <label><input type="radio" name="entry.2064945275" value="Undergraduate Student" required> Undergraduate Student</label>
-      <label><input type="radio" name="entry.2064945275" value="Graduate Student"> Graduate Student</label>
-      <label><input type="radio" name="entry.2064945275" value="Postdoctoral Associates"> Postdoctoral Associates</label>
-      <label><input type="radio" name="entry.2064945275" value="Faculty"> Faculty</label>
-      <label><input type="radio" name="entry.2064945275" value="Other"> Other</label>
-      <div class="hint"><input type="text" name="entry.2064945275.other_option_response" placeholder="If Other, specify"></div>
-    </fieldset>
+  <fieldset>
+    <legend>Role in your Organization <span class="required">*</span></legend>
+    <label><input type="radio" name="entry.2064945275" value="Undergraduate Student" required> Undergraduate Student</label>
+    <label><input type="radio" name="entry.2064945275" value="Graduate Student"> Graduate Student</label>
+    <label><input type="radio" name="entry.2064945275" value="Postdoctoral Associates"> Postdoctoral Associates</label>
+    <label><input type="radio" name="entry.2064945275" value="Faculty"> Faculty</label>
+    <label><input type="radio" name="entry.2064945275" value="Other"> Other</label>
+    <div class="hint"><input type="text" name="entry.2064945275.other_option_response" placeholder="If Other, specify"></div>
+  </fieldset>
 
-    <fieldset>
-      <legend>Where do you want to attend the hackathon? <span class="required">*</span></legend>
-      <div class="checkgrid">
-        <label><input type="checkbox" name="entry.1753222212" value="Online"> Online</label>
-        <label><input type="checkbox" name="entry.1753222212" value="University of Tennessee, Knoxville"> University of Tennessee, Knoxville</label>
-        <label><input type="checkbox" name="entry.1753222212" value="North Carolina State University"> North Carolina State University</label>
-        <label><input type="checkbox" name="entry.1753222212" value="Northwestern University"> Northwestern University</label>
-        <label><input type="checkbox" name="entry.1753222212" value="University of Illinois at Chicago"> University of Illinois at Chicago</label>
-        <label><input type="checkbox" name="entry.1753222212" value="Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona"> Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona</label>
-        <label><input type="checkbox" name="entry.1753222212" value="University of Toronto"> University of Toronto</label>
-        <label><input type="checkbox" name="entry.1753222212" value="University of Wisconsin"> University of Wisconsin</label>
-        <label><input type="checkbox" name="entry.1753222212" value="University of Colorado"> University of Colorado</label>
-      </div>
-    </fieldset>
+  <fieldset>
+    <legend>Where do you want to attend the hackathon? <span class="required">*</span></legend>
+    <div class="checkgrid">
+      <label><input type="checkbox" name="entry.1753222212" value="Online"> Online</label>
+      <label><input type="checkbox" name="entry.1753222212" value="University of Tennessee, Knoxville"> University of Tennessee, Knoxville</label>
+      <label><input type="checkbox" name="entry.1753222212" value="North Carolina State University"> North Carolina State University</label>
+      <label><input type="checkbox" name="entry.1753222212" value="Northwestern University"> Northwestern University</label>
+      <label><input type="checkbox" name="entry.1753222212" value="University of Illinois at Chicago"> University of Illinois at Chicago</label>
+      <label><input type="checkbox" name="entry.1753222212" value="Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona"> Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona</label>
+      <label><input type="checkbox" name="entry.1753222212" value="University of Toronto"> University of Toronto</label>
+      <label><input type="checkbox" name="entry.1753222212" value="University of Wisconsin"> University of Wisconsin</label>
+      <label><input type="checkbox" name="entry.1753222212" value="University of Colorado"> University of Colorado</label>
+    </div>
+  </fieldset>
 
-    <p>
-      <label>What is your area of research?<br>
-        <textarea name="entry.2109138769" rows="4" placeholder="e.g., electron microscopy, optimization, active learning"></textarea>
-      </label>
-    </p>
+  <p>
+    <label>What is your area of research?<br>
+      <textarea name="entry.2109138769" rows="4" placeholder="e.g., electron microscopy, optimization, active learning"></textarea>
+    </label>
+  </p>
 
-    <p><button class="btn-primary" type="submit">Submit registration</button></p>
-  </form>
+  <p><button class="btn-primary" type="submit" id="reg-submit">Submit registration</button></p>
+</form>
 
-  <p class="hint">After you submit, a Google “Thank you” tab will open. Keep it open to confirm your response was recorded.</p>
+<!-- success alert -->
+<div id="reg-success" style="display:none; margin-top:.8rem; padding:.75rem 1rem; border:1px solid #c8e6c9; background:#e8f5e9; border-radius:10px; color:#256029;">
+  ✅ Thanks! Your registration was received.
 </div>
+
+<script>
+(function() {
+  const form   = document.getElementById('onsite-registration-form');
+  const btn    = document.getElementById('reg-submit');
+  const ok     = document.getElementById('reg-success');
+  const iframe = document.getElementById('gform_target');
+
+  iframe.addEventListener('load', function () {
+    if (!form.dataset.submitted) return;
+    btn.disabled = false;
+    btn.textContent = 'Submit registration';
+    form.reset();
+    ok.style.display = 'block';
+    form.dataset.submitted = '';
+  });
+
+  form.addEventListener('submit', function () {
+    ok.style.display = 'none';
+    btn.disabled = true;
+    btn.textContent = 'Submitting...';
+    form.dataset.submitted = '1';
+  });
+})();
+</script>
 {% endraw %}
