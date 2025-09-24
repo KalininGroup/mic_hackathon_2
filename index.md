@@ -28,50 +28,20 @@ The event will take place in hybrid(virtual and in-person) mode using a combinat
 Will be announced soon! 
 
 
-##  Gold Sponsor 
+## Sponsor 
 
 <div style="display: flex; align-items: center; justify-content: center;">
-    <a href="https://research.utk.edu/oried/research-innovation-initiatives/ai-tennessee-initiative/">
-        <img src="./assets/ai_tenn_logo.png" alt="AI Tennessee Initiative" style="width:230px; margin-right: 20px;">
-    </a>
     <a href="https://www.onr.navy.mil/">
-        <img src="./assets/ONR.png" alt="Office of Naval Research" style="width:400px; margin-left: 20px;">
+        <img src="./assets/ONR.png" alt="Office of Naval Research" style="width:400px; margin: 20px;">
     </a>
 </div>
-
-## Silver Sponsor
-<div style="display: flex; align-items: center; justify-content: center;">
-    <a href="https://www.thermofisher.com/">
-        <img src="./assets/tf_logo.png" alt="ThermoFisher scientific" style="width:250px;">
-    </a>
-    <a href="https://microscopy.org/the-student-council-stc">
-        <img src="./assets/msa.png" alt="Microscopy society of America" style="width:420px; margin-left: 20px;">
-    </a>
-</div>
-
 
 ## Partners
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
-    <a href="https://arems.org/">
-        <img src="./assets/arems.jpg" alt="Arems" style="width:340px;">
-    </a>
-    <a href="https://www.pnnl.gov/">
-        <img src="./assets/pnnl_logo.jpg" alt="Pacific Northwest National Laboratory" style="width:200px;">
-    </a>
-    <a href="https://www.zyvexlabs.com/">
-        <img src="./assets/zyvex_logo.png" alt="Zyvex Labs" style="width:300px;">
-    </a>
-    <a href="https://www.nrel.gov/">
-        <img src="./assets/nrel_logo.png" alt="National Renewable Energy Laboratory" style="width:300px;">
-    </a>
-    <a href="https://foundry.lbl.gov/">
-        <img src="./assets/mf_logo.png" alt="The Molecular Foundry" style="width:300px;">
-    </a>
-    <a href="https://www.ornl.gov/">
-        <img src="./assets/ornl_logo.png" alt="Oak Ridge National Laboratory" style="width:280px;">
+    <a href="https://mat3ra.com/">
+        <img src="./assets/mat3ra_logo.png" alt="Mat3ra" style="width:300px;">
     </a>
 </div>
-
 
 #### Please get in touch if you would like to be a sponsor at [sergei2@utk.edu](mailto:sergei2@utk.edu)
