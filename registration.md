@@ -1,67 +1,110 @@
-
 ## Register for the Hackathon
 
+
+<style>
+/* --- Registration form styles --- */
+.reg-card{
+  max-width: 820px; margin: 1.2rem auto; padding: 1.2rem 1.4rem;
+  background:#fff; border:1px solid #e6e6e6; border-radius:14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.05);
+}
+.reg-card h3{ margin-top:0; }
+.reg-form p, .reg-form fieldset{ margin: .9rem 0; }
+.reg-form label{ font-weight:600; }
+.reg-form input[type="text"],
+.reg-form input[type="email"],
+.reg-form textarea,
+.reg-form select{
+  width:100%; padding:.65rem .75rem; border:1px solid #d6d6d6; border-radius:10px;
+  outline:none; background:#fafafa; transition: box-shadow .15s, border-color .15s, background .15s;
+}
+.reg-form textarea{ resize: vertical; min-height: 120px; }
+.reg-form input:focus, .reg-form textarea:focus, .reg-form select:focus{
+  border-color:#3a7bd5; background:#fff; box-shadow: 0 0 0 3px rgba(58,123,213,.15);
+}
+.reg-form fieldset{
+  border:1px solid #eee; border-radius:12px; padding: .8rem 1rem;
+}
+.reg-form legend{ font-weight:700; padding:0 .4rem; }
+.reg-form .hint{ font-size:.9rem; color:#666; margin-top:.3rem; }
+
+/* two-column checklist */
+.checkgrid{
+  display:grid; grid-template-columns: repeat(2, minmax(220px,1fr)); gap:.35rem 1rem;
+}
+@media (max-width:680px){ .checkgrid{ grid-template-columns: 1fr; } }
+
+/* button */
+.btn-primary{
+  display:inline-block; padding:.7rem 1.1rem; border-radius:10px;
+  border:1px solid #2e6bd6; background:#3a7bd5; color:#fff; font-weight:700;
+  text-decoration:none; cursor:pointer; transition: transform .03s ease, box-shadow .15s;
+}
+.btn-primary:hover{ box-shadow: 0 8px 18px rgba(58,123,213,.25); }
+.btn-primary:active{ transform: translateY(1px); }
+.required{ color:#d00; }
+</style>
+
 {% raw %}
-<form action="https://docs.google.com/forms/d/e/1FAIpQLScDGl0L5HVDjOKBpGQMLPIFekOiFywDBH_Kut02T9I-DwqpbQ/formResponse"
-      method="POST" target="_blank" style="max-width:720px">
+<div class="reg-card">
+  <h3>Registration form</h3>
 
-  <!-- Name -->
-  <p>
-    <label>Name<br>
-      <input type="text" name="entry.2092238618" required style="width:100%">
-    </label>
-  </p>
+  <form class="reg-form"
+        action="https://docs.google.com/forms/d/e/1FAIpQLScDGl0L5HVDjOKBpGQMLPIFekOiFywDBH_Kut02T9I-DwqpbQ/formResponse"
+        method="POST" target="_blank">
 
-  <!-- Email -->
-  <p>
-    <label>Email<br>
-      <input type="email" name="entry.1556369182" required style="width:100%">
-    </label>
-  </p>
+    <p>
+      <label>Name <span class="required">*</span><br>
+        <input type="text" name="entry.2092238618" required placeholder="Your full name">
+      </label>
+    </p>
 
-  <!-- Organization -->
-  <p>
-    <label>Organization<br>
-      <input type="text" name="entry.479301265" required style="width:100%">
-    </label>
-  </p>
+    <p>
+      <label>Email <span class="required">*</span><br>
+        <input type="email" name="entry.1556369182" required placeholder="you@university.edu">
+      </label>
+    </p>
 
-  <!-- Role in Organization -->
-  <fieldset>
-    <legend>Role in your Organization <span style="color:#d00">*</span></legend>
-    <label><input type="radio" name="entry.2064945275" value="Undergraduate Student" required> Undergraduate Student</label><br>
-    <label><input type="radio" name="entry.2064945275" value="Graduate Student"> Graduate Student</label><br>
-    <label><input type="radio" name="entry.2064945275" value="Postdoctoral Associates"> Postdoctoral Associates</label><br>
-    <label><input type="radio" name="entry.2064945275" value="Faculty"> Faculty</label><br>
-    <label><input type="radio" name="entry.2064945275" value="Other"> Other</label>
-    <div style="margin-top:.3rem; margin-left:1.6rem">
-      <input type="text" name="entry.2064945275.other_option_response" placeholder="If Other, specify" style="width:100%">
-    </div>
-  </fieldset>
+    <p>
+      <label>Organization <span class="required">*</span><br>
+        <input type="text" name="entry.479301265" required placeholder="e.g., University of Tennessee">
+      </label>
+    </p>
 
-  <!-- Where do you want to attend the hackathon? (Checkboxes) -->
-  <fieldset>
-    <legend>Where do you want to attend the hackathon? <span style="color:#d00">*</span></legend>
-    <label><input type="checkbox" name="entry.1753222212" value="Online"> Online</label><br>
-    <label><input type="checkbox" name="entry.1753222212" value="University of Tennessee, Knoxville"> University of Tennessee, Knoxville</label><br>
-    <label><input type="checkbox" name="entry.1753222212" value="North Carolina State University"> North Carolina State University</label><br>
-    <label><input type="checkbox" name="entry.1753222212" value="Northwestern University"> Northwestern University</label><br>
-    <label><input type="checkbox" name="entry.1753222212" value="University of Illinois at Chicago"> University of Illinois at Chicago</label><br>
-    <label><input type="checkbox" name="entry.1753222212" value="Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona"> Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona</label><br>
-    <label><input type="checkbox" name="entry.1753222212" value="University of Toronto"> University of Toronto</label><br>
-    <label><input type="checkbox" name="entry.1753222212" value="University of Wisconsin"> University of Wisconsin</label><br>
-    <label><input type="checkbox" name="entry.1753222212" value="University of Colorado"> University of Colorado</label>
-  </fieldset>
+    <fieldset>
+      <legend>Role in your Organization <span class="required">*</span></legend>
+      <label><input type="radio" name="entry.2064945275" value="Undergraduate Student" required> Undergraduate Student</label><br>
+      <label><input type="radio" name="entry.2064945275" value="Graduate Student"> Graduate Student</label><br>
+      <label><input type="radio" name="entry.2064945275" value="Postdoctoral Associates"> Postdoctoral Associates</label><br>
+      <label><input type="radio" name="entry.2064945275" value="Faculty"> Faculty</label><br>
+      <label><input type="radio" name="entry.2064945275" value="Other"> Other</label>
+      <div class="hint"><input type="text" name="entry.2064945275.other_option_response" placeholder="If Other, specify"></div>
+    </fieldset>
 
-  <!-- Research area -->
-  <p>
-    <label>What is your area of research?<br>
-      <textarea name="entry.2109138769" rows="4" style="width:100%"></textarea>
-    </label>
-  </p>
+    <fieldset>
+      <legend>Where do you want to attend the hackathon? <span class="required">*</span></legend>
+      <div class="checkgrid">
+        <label><input type="checkbox" name="entry.1753222212" value="Online"> Online</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Tennessee, Knoxville"> University of Tennessee, Knoxville</label>
+        <label><input type="checkbox" name="entry.1753222212" value="North Carolina State University"> North Carolina State University</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Northwestern University"> Northwestern University</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Illinois at Chicago"> University of Illinois at Chicago</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona"> Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Toronto"> University of Toronto</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Wisconsin"> University of Wisconsin</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Colorado"> University of Colorado</label>
+      </div>
+    </fieldset>
 
-  <p><button type="submit">Submit registration</button></p>
-</form>
+    <p>
+      <label>What is your area of research?<br>
+        <textarea name="entry.2109138769" rows="4" placeholder="e.g., electron microscopy, optimization, active learning"></textarea>
+      </label>
+    </p>
+
+    <p><button class="btn-primary" type="submit">Submit registration</button></p>
+  </form>
+
+  <p class="hint">After you submit, a Google “Thank you” tab will open. Keep it open to confirm your response was recorded.</p>
+</div>
 {% endraw %}
-
-<p><em>After you submit, a Google “Thank you” tab will open. Keep it open to confirm your response was recorded.</em></p>
