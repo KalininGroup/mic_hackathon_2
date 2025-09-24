@@ -1,16 +1,18 @@
-## Register for the Hackathon
-
+##  <!-- intentionally left blank: remove duplicate H2 -->
 
 <style>
-/* --- Registration form styles --- */
+/* keep everything inside the card */
+.reg-card, .reg-card * { box-sizing: border-box; }
+
 .reg-card{
   max-width: 820px; margin: 1.2rem auto; padding: 1.2rem 1.4rem;
   background:#fff; border:1px solid #e6e6e6; border-radius:14px;
   box-shadow: 0 6px 18px rgba(0,0,0,.05);
+  overflow:hidden;
 }
-.reg-card h3{ margin-top:0; }
+
 .reg-form p, .reg-form fieldset{ margin: .9rem 0; }
-.reg-form label{ font-weight:600; }
+.reg-form label{ font-weight:600; display:block; }
 .reg-form input[type="text"],
 .reg-form input[type="email"],
 .reg-form textarea,
@@ -22,17 +24,24 @@
 .reg-form input:focus, .reg-form textarea:focus, .reg-form select:focus{
   border-color:#3a7bd5; background:#fff; box-shadow: 0 0 0 3px rgba(58,123,213,.15);
 }
+
 .reg-form fieldset{
   border:1px solid #eee; border-radius:12px; padding: .8rem 1rem;
 }
 .reg-form legend{ font-weight:700; padding:0 .4rem; }
-.reg-form .hint{ font-size:.9rem; color:#666; margin-top:.3rem; }
+.required{ color:#d00; }
 
-/* two-column checklist */
+/* prettier, even checklist: responsive grid */
 .checkgrid{
-  display:grid; grid-template-columns: repeat(2, minmax(220px,1fr)); gap:.35rem 1rem;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap:.5rem 1rem;
 }
-@media (max-width:680px){ .checkgrid{ grid-template-columns: 1fr; } }
+.checkgrid label{
+  display:flex; align-items:flex-start; gap:.5rem;
+  padding:.45rem .6rem; border:1px solid #eee; border-radius:10px; background:#fafafa;
+}
+.checkgrid input{ margin-top:.2rem; }
 
 /* button */
 .btn-primary{
@@ -42,12 +51,13 @@
 }
 .btn-primary:hover{ box-shadow: 0 8px 18px rgba(58,123,213,.25); }
 .btn-primary:active{ transform: translateY(1px); }
-.required{ color:#d00; }
+.hint{ font-size:.9rem; color:#666; margin-top:.3rem; }
 </style>
 
 {% raw %}
 <div class="reg-card">
   <h3>Registration form</h3>
+
 
   <form class="reg-form"
         action="https://docs.google.com/forms/d/e/1FAIpQLScDGl0L5HVDjOKBpGQMLPIFekOiFywDBH_Kut02T9I-DwqpbQ/formResponse"
@@ -73,10 +83,10 @@
 
     <fieldset>
       <legend>Role in your Organization <span class="required">*</span></legend>
-      <label><input type="radio" name="entry.2064945275" value="Undergraduate Student" required> Undergraduate Student</label><br>
-      <label><input type="radio" name="entry.2064945275" value="Graduate Student"> Graduate Student</label><br>
-      <label><input type="radio" name="entry.2064945275" value="Postdoctoral Associates"> Postdoctoral Associates</label><br>
-      <label><input type="radio" name="entry.2064945275" value="Faculty"> Faculty</label><br>
+      <label><input type="radio" name="entry.2064945275" value="Undergraduate Student" required> Undergraduate Student</label>
+      <label><input type="radio" name="entry.2064945275" value="Graduate Student"> Graduate Student</label>
+      <label><input type="radio" name="entry.2064945275" value="Postdoctoral Associates"> Postdoctoral Associates</label>
+      <label><input type="radio" name="entry.2064945275" value="Faculty"> Faculty</label>
       <label><input type="radio" name="entry.2064945275" value="Other"> Other</label>
       <div class="hint"><input type="text" name="entry.2064945275.other_option_response" placeholder="If Other, specify"></div>
     </fieldset>
