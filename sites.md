@@ -112,6 +112,29 @@ published: true
 .hint{ font-size:.95rem; color:#555; }
 </style>
 
+<style>
+/* Fix: make Register buttons always look like buttons */
+.site-actions .btn-primary,
+.site-actions .btn-primary:link,
+.site-actions .btn-primary:visited {
+  background: #3a7bd5 !important;
+  border-color: #2e6bd6 !important;
+  color: #fff !important;
+}
+
+.site-actions .btn-primary:hover,
+.site-actions .btn-primary:focus {
+  background: #325fbf !important;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.site-actions .btn-primary:active {
+  background: #2d55a9 !important;
+  color: #fff !important;
+}
+</style>
+
 <div class="sites-wrap">
   <div class="sites-grid">
 
