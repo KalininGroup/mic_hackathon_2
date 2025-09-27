@@ -66,12 +66,19 @@ published: true
 
   // Scroll to and highlight a card
   window.focusSite = function(id){
+    const cards = document.querySelectorAll('.site-card');
+    cards.forEach(c => c.classList.remove('expanded'));   // collapse any open one
+
     const el = document.getElementById(id);
     if(!el) return;
-    el.scrollIntoView({ behavior:'smooth', block:'start' });
-    el.classList.remove('highlight'); void el.offsetWidth; el.classList.add('highlight');
-  };
 
+    el.classList.add('expanded');                         // expand this one
+    el.scrollIntoView({ behavior:'smooth', block:'start' });
+
+    // Optional: briefly pulse the border to draw the eye
+    el.style.willChange = 'box-shadow, border-color';
+    setTimeout(() => { el.style.willChange = 'auto'; }, 600);
+  };
   // Add markers
   const markers = [];
   sites.forEach(s => {
@@ -289,3 +296,36 @@ published: true
 
   </div>
 </div>
+<style>
+/* allow grid items to re-pack when one expands */
+.sites-grid{
+  grid-auto-flow: dense;   /* let items fill gaps */
+}
+
+/* default card transitions */
+.site-card{
+  transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease;
+}
+
+/* the expanded state */
+.site-card.expanded{
+  grid-column: span 2;                     /* take two columns */
+  border-color: #3a7bd5;
+  box-shadow: 0 12px 28px rgba(58,123,213,.22);
+  transform: translateY(-2px);
+}
+
+/* optional: reveal extra content area only when expanded */
+.site-card .site-more{ display:none; }
+.site-card.expanded .site-more{ display:block; margin-top:.6rem; color:#333; }
+
+/* on narrow screens, keep normal size */
+@media (max-width: 720px){
+  .site-card.expanded{ grid-column: span 1; transform:none; }
+}
+
+/* on very wide screens, let expanded cards take 3 columns */
+@media (min-width: 1200px){
+  .site-card.expanded { grid-column: span 3; }
+}
+</style>
