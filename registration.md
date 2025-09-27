@@ -112,6 +112,7 @@ published: true
       <label><input type="checkbox" name="entry.1753222212" value="University of Toronto"> University of Toronto</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Wisconsin"> University of Wisconsin</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Colorado"> University of Colorado</label>
+      <label><input type="checkbox" name="entry.1753222212" value="Colorado School of Mines"> Colorado School of Mines</label>
     </div>
   </fieldset>
 
