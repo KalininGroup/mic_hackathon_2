@@ -155,3 +155,27 @@ published: true
 })();
 </script>
 {% endraw %}
+
+<script>
+(function(){
+  const params = new URLSearchParams(location.search);
+  const site = params.get('site');
+  if(!site) return;
+
+  // Find the checkbox group (entry.1753222212) and tick the one that matches
+  const boxes = document.querySelectorAll('input[type="checkbox"][name="entry.1753222212"]');
+  let matched = false;
+  boxes.forEach(b => {
+    if (b.value.trim() === site.trim()) {
+      b.checked = true;
+      matched = true;
+    }
+  });
+  if (matched) {
+    // Optionally scroll into view to show it's preselected
+    const fieldset = boxes[0].closest('fieldset') || boxes[0].parentElement;
+    fieldset && fieldset.scrollIntoView({behavior:'smooth', block:'start'});
+  }
+})();
+</script>
+
