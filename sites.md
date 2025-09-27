@@ -183,3 +183,113 @@ published: true
 
   </div>
 </div>
+
+
+## Map of sites
+
+<style>
+  #worldmap { height: 520px; border-radius: 14px; border:1px solid #e6e6e6; margin: 1rem 0 1.5rem; }
+  .leaflet-popup-content { margin: 8px 10px; }
+  .leaflet-popup-content h4 { margin: 0 0 .25rem; font-size: 1rem; }
+  .leaflet-popup-content p { margin: 0; font-size: .92rem; color:#444; }
+  .map-cta { display:inline-block; margin-top:.5rem; padding:.35rem .6rem; border-radius:8px; background:#3a7bd5; color:#fff; text-decoration:none; font-weight:700; }
+</style>
+
+<div id="worldmap"></div>
+
+<!-- Leaflet (no key needed) -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""
+/>
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""
+></script>
+
+{% raw %}
+<script>
+  // --- Edit/add sites here (coords are approximate) ---
+  const sites = [
+    {
+      name: "University of Tennessee, Knoxville (UTK)",
+      city: "Knoxville, TN, USA",
+      lat: 35.954, lon: -83.929
+    },
+    {
+      name: "North Carolina State University (NCSU)",
+      city: "Raleigh, NC, USA",
+      lat: 35.7847, lon: -78.6821
+    },
+    {
+      name: "Northwestern University",
+      city: "Evanston, IL, USA",
+      lat: 42.05598, lon: -87.67517
+    },
+    {
+      name: "University of Illinois at Chicago (UIC)",
+      city: "Chicago, IL, USA",
+      lat: 41.8708, lon: -87.6505
+    },
+    {
+      name: "ICN2 — Institut Català de Nanociència i Nanotecnologia",
+      city: "Barcelona (Bellaterra), Spain",
+      lat: 41.501, lon: 2.105
+    },
+    {
+      name: "University of Toronto",
+      city: "Toronto, ON, Canada",
+      lat: 43.6629, lon: -79.3957
+    },
+    {
+      name: "University of Wisconsin",
+      city: "Madison, WI, USA",
+      lat: 43.0766, lon: -89.4125
+    },
+    {
+      name: "University of Colorado Boulder",
+      city: "Boulder, CO, USA",
+      lat: 40.0076, lon: -105.2659
+    },
+    {
+      name: "Colorado School of Mines",
+      city: "Golden, CO, USA",
+      lat: 39.7510, lon: -105.2226
+    },
+    // Online is global; no pin
+  ];
+
+  // --- Build the map ---
+  const map = L.map('worldmap', { scrollWheelZoom: false });
+  const osm = L.tileLayer(
+    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    { attribution: '&copy; OpenStreetMap contributors' }
+  ).addTo(map);
+
+  // Add markers
+  const markers = [];
+  sites.forEach(s => {
+    const m = L.marker([s.lat, s.lon]).addTo(map);
+    m.bindPopup(`
+      <h4>${s.name}</h4>
+      <p>${s.city}</p>
+      <a class="map-cta" href="{{ '/registration/' | relative_url }}">Register</a>
+    `);
+    markers.push(m);
+  });
+
+  // Fit map to markers (fallback to world view if none)
+  if (markers.length) {
+    const group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds().pad(0.2));
+  } else {
+    map.setView([20, 0], 2);
+  }
+
+  // Improve mobile: recalc size when tabs/layout shift
+  window.addEventListener('resize', () => map.invalidateSize());
+</script>
+{% endraw %}
