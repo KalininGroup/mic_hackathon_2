@@ -142,7 +142,7 @@ published: true
     <div class="site-card" id="site-utk">
       <span class="badge">Tennessee, USA</span>
       <h3>University of Tennessee, Knoxville (UTK)</h3>
-      <img class="site-logo" src="{{ '/assets/logos/UTK.jpg' | relative_url }}" alt="UTK logo">
+      <img class="site-logo" src="{{ '/assets/UTK.jpg' | relative_url }}" alt="UTK logo">
       <div class="site-meta">
         Knoxville, TN • Building/Room: <em>TBD</em><br>
         Local lead: <a href="mailto:sergei2@utk.edu">sergei2@utk.edu</a>
@@ -157,7 +157,7 @@ published: true
     <div class="site-card" id="site-ncsu">
       <span class="badge">North Carolina, USA</span>
       <h3>North Carolina State University (NCSU)</h3>
-      <img class="site-logo" src="{{ '/assets/logos/ncsu.png' | relative_url }}" alt="NCSU logo">
+      <img class="site-logo" src="{{ '/assets/ncsu.png' | relative_url }}" alt="NCSU logo">
       <div class="site-meta">
         Raleigh, NC • Building/Room: <em>TBD</em><br>
         Contact: <em>TBD</em>
@@ -172,7 +172,7 @@ published: true
     <div class="site-card" id="site-nwu">
       <span class="badge">Illinois, USA</span>
       <h3>Northwestern University</h3>
-      <img class="site-logo" src="{{ '/assets/logos/northwestern.jpg' | relative_url }}" alt="Northwestern logo">
+      <img class="site-logo" src="{{ '/assets/northwestern.jpg' | relative_url }}" alt="Northwestern logo">
       <div class="site-meta">
         Evanston, IL • Building/Room: <em>TBD</em><br>
         Contact: <em>TBD</em>
@@ -187,7 +187,7 @@ published: true
     <div class="site-card" id="site-uic">
       <span class="badge">Illinois, USA</span>
       <h3>University of Illinois at Chicago (UIC)</h3>
-      <img class="site-logo" src="{{ '/assets/logos/UIC.jpg' | relative_url }}" alt="UIC logo">
+      <img class="site-logo" src="{{ '/assets/UIC.jpg' | relative_url }}" alt="UIC logo">
       <div class="site-meta">
         Chicago, IL • Building/Room: <em>TBD</em><br>
         Contact: <em>TBD</em>
@@ -202,7 +202,7 @@ published: true
     <div class="site-card" id="site-icn2">
       <span class="badge">Barcelona, Spain</span>
       <h3>ICN2 — Institut Català de Nanociència i Nanotecnologia</h3>
-      <img class="site-logo" src="{{ '/assets/logos/ICN2.png' | relative_url }}" alt="ICN2 logo">
+      <img class="site-logo" src="{{ '/assets/ICN2.png' | relative_url }}" alt="ICN2 logo">
       <div class="site-meta">
         Barcelona • Building/Room: <em>TBD</em><br>
         Contact: <em>TBD</em>
@@ -217,7 +217,7 @@ published: true
     <div class="site-card" id="site-utor">
       <span class="badge">Ontario, Canada</span>
       <h3>University of Toronto</h3>
-      <img class="site-logo" src="{{ '/assets/logos/UofT.png' | relative_url }}" alt="University of Toronto logo">
+      <img class="site-logo" src="{{ '/assets/UofT.png' | relative_url }}" alt="University of Toronto logo">
       <div class="site-meta">
         Toronto, ON • Building/Room: <em>TBD</em><br>
         Contact: <em>TBD</em>
@@ -232,7 +232,7 @@ published: true
     <div class="site-card" id="site-uwisc">
       <span class="badge">Wisconsin, USA</span>
       <h3>University of Wisconsin</h3>
-      <img class="site-logo" src="{{ '/assets/logos/uw.png' | relative_url }}" alt="University of Wisconsin logo">
+      <img class="site-logo" src="{{ '/assets/uw.png' | relative_url }}" alt="University of Wisconsin logo">
       <div class="site-meta">
         Madison, WI • Building/Room: <em>TBD</em><br>
         Contact: <em>TBD</em>
@@ -247,7 +247,7 @@ published: true
     <div class="site-card" id="site-ucolo">
       <span class="badge">Colorado, USA</span>
       <h3>University of Colorado</h3>
-      <img class="site-logo" src="{{ '/assets/logos/UCB.png' | relative_url }}" alt="University of Colorado logo">
+      <img class="site-logo" src="{{ '/assets/UCB.png' | relative_url }}" alt="University of Colorado logo">
       <div class="site-meta">
         Boulder, CO • Building/Room: <em>TBD</em><br>
         Contact: <em>TBD</em>
@@ -263,7 +263,7 @@ published: true
     <div class="site-card" id="site-mines">
       <span class="badge">Colorado, USA</span>
       <h3>Colorado School of Mines</h3>
-      <img class="site-logo" src="{{ '/assets/logos/Mines.png' | relative_url }}" alt="Colorado School of Mines logo">
+      <img class="site-logo" src="{{ '/assets/Mines.png' | relative_url }}" alt="Colorado School of Mines logo">
       <div class="site-meta">
         Golden, CO • Building/Room: <em>TBD</em><br>
         Contact: <em>TBD</em>
