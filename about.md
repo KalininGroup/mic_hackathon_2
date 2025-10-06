@@ -65,9 +65,6 @@ menu_icon: info-circle
       Oak Ridge National Laboratory<br>
       <em>Software & Infrastructure</em></p>
     </div>
-    <div style="text-align:center; opacity:0.6;">
-      <em>Team photos coming soon</em>
-    </div>
   </div>
 </div>
 
