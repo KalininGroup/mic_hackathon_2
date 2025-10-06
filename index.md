@@ -4,44 +4,108 @@ title: AI and ML for Microscopy, Hackathon
 menu_title: Home
 menu_icon: house-door
 ---
-## We are back in 2025! - [click to see previous year's website](https://kaliningroup.github.io/mic-hackathon/)
 
+# 🧠 Machine Learning for Microscopy Hackathon 2  
+### December 16–18, 2025 | Hybrid (In-person + Virtual)
 
-This year we are going **Multi-Site**, currently, the confirmed team includes NCSU, UTK, NWU/UIC/ANL, and ICN2. More sites may come up soon. If you wish to host a site please contact [sergei2@utk.edu](mailto:sergei2@utk.edu).
+---
 
-The hackathon is open to everyone, regardless of background or experience. Our North Star goal is to build the bridge between microscopy and machine learning communities. For microscopists, we welcome participation from all field - electron, scanning probe, chemical imaging, and all stages of the microscope workflow from sample selection to microscope optimization, data analytics, in-line analysis, automated experimentation, and interpretation. From machine learning community, we welcome experts in image analysis, optimization, and active learning. Let’s build the window between machine learning and nanoscale world together!
+## We are back in 2025!  
+[Click to see last year's website ➜](https://kaliningroup.github.io/mic-hackathon/)
 
-Prior programming experience is not required, but it is recommended for coding projects. We provide the starting materials on the resource page, To learn about the types of projects within the scope of the hackathon, go to the submission page.  During the hackathon, the organizers will be available to support you. After the hackathon, we plan to integrate the projects in scholarly publication. If you are interested in supporting the hackathon as an organizer or acting as a judge, please indicate so on the registration form.
+This year we are going **Multi-Site**!  
+Confirmed host sites include **UTK**, **NCSU**, **NWU/UIC/ANL**, and **ICN2 (Barcelona)** — with more joining soon.  
+If you wish to host a site, please contact [sergei2@utk.edu](mailto:sergei2@utk.edu).
 
+---
 
-## Logistics
+## 🎯 About the Hackathon
 
-The event will take place in hybrid(virtual and in-person) mode using a combination of **video conferencing** (Zoom) for meetings and seminars, and **discussion forums** (Slack, Miro).
+The **Machine Learning for Microscopy Hackathon** brings together researchers from microscopy, data science, and materials communities to solve *real-world problems* using AI and machine learning.  
 
-**[Link](https://tiny.utk.edu/slack) to join slack group**.
+Whether you are a microscopist, data scientist, or student exploring new tools, this hackathon is designed for you. Our mission is to **bridge microscopy and ML communities**, accelerating innovation in data-driven discovery.
 
-**[Link]() to access miro board (to be provided soon)**. Edit access will be provided after joining the slack. 
+For microscopists: participation from all imaging fields — electron, scanning probe, and chemical — is encouraged, covering the entire workflow from **sample selection → optimization → data analysis → interpretation**.  
+For ML participants: we invite experts and enthusiasts in **image analysis, representation learning, optimization, and active learning** to help shape the next generation of intelligent microscopy tools.  
 
+Let’s build the bridge between **AI and the nanoscale world** together!
 
-## Prizes
+---
 
-Will be announced soon! 
+## 🧩 Why Participate?
 
+- **Learn by doing:** Work with real microscopy datasets and state-of-the-art AI workflows.  
+- **Collaborate globally:** Join interdisciplinary teams across 10+ international sites.  
+- **Contribute to open science:** Winning projects may be featured in group publications or repositories.  
+- **Gain visibility:** Present your results to leading researchers and industry partners.  
 
-## Sponsor 
+Prior programming experience is helpful but *not required*. Starter materials and tutorials will be provided on the **Resources** page.
 
-<div style="display: flex; align-items: center; justify-content: center;">
-    <a href="https://www.onr.navy.mil/">
-        <img src="./assets/ONR.png" alt="Office of Naval Research" style="width:400px; margin: 20px;">
-    </a>
+---
+
+## 🗓️ Timeline
+
+| Phase | Date | Description |
+|-------|------|-------------|
+| **Launch & Registration** | Now – Dec 10 | Team formation and Slack/Miro onboarding |
+| **Hackathon Begins** | Dec 16 | Opening session + data problem statements |
+| **Workshops & Mentorship** | Dec 16–17 | Guidance from mentors across all sites |
+| **Final Presentations** | Dec 18 | Showcase projects + judging |
+| **Post-Hackathon** | Jan 2026 | Collaborative paper writing & code integration |
+
+---
+
+## 🧭 Logistics
+
+The hackathon will take place in **hybrid** mode using **Zoom** for seminars and **Slack + Miro** for collaboration.
+
+- 🔗 [Join our Slack group](https://tiny.utk.edu/slack)  
+- 🔗 Miro board (link to be provided soon — edit access after joining Slack)
+
+Each participating site will also host in-person discussions, mentoring, and presentations.
+
+---
+
+## 🏆 Prizes
+
+Exciting prizes for the top teams — details coming soon!  
+(*Awards will include research visibility, hardware tokens, and sponsor-backed recognition.*)
+
+---
+
+## 🧑‍🤝‍🧑 Sponsors & Partners
+
+### Primary Sponsor
+<div style="display: flex; align-items: center; justify-content: center; margin-top: 15px;">
+  <a href="https://www.onr.navy.mil/">
+    <img src="./assets/ONR.png" alt="Office of Naval Research" style="width:400px; margin: 20px;">
+  </a>
 </div>
 
-## Partners
-
-<div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
-    <a href="https://mat3ra.com/">
-        <img src="./assets/mat3ra_logo.png" alt="Mat3ra" style="width:300px;">
-    </a>
+### Partners
+<div style="display: flex; align-items: center; justify-content: center; gap: 30px; flex-wrap: wrap; margin-top: 10px;">
+  <a href="https://mat3ra.com/">
+    <img src="./assets/mat3ra_logo.png" alt="Mat3ra" style="width:300px;">
+  </a>
 </div>
 
-#### Please get in touch if you would like to be a sponsor at [sergei2@utk.edu](mailto:sergei2@utk.edu)
+#### Interested in sponsoring?
+Please get in touch at [sergei2@utk.edu](mailto:sergei2@utk.edu)
+
+---
+
+## 🌍 Multi-Site Participation
+
+This year’s hackathon will feature **10+ global sites**.  
+Visit the [**Sites**](/sites/) page to find a location near you — or participate **online**.
+
+---
+
+## 💬 Questions?
+
+Join our community on Slack or email us directly:  
+📧 [sergei2@utk.edu](mailto:sergei2@utk.edu)
+
+---
+
+*Let’s build the bridge between AI and microscopy — together!*
