@@ -10,15 +10,18 @@ menu_icon: house-door
   background:#fafbfd;
   border:1px solid #e8ecf3;
   border-radius:14px;
-  padding:20px 22px;
-  margin:24px 0;
+  padding:26px 24px;
+  margin:32px 0;
   box-shadow:0 1px 2px rgba(16,24,40,.04);
 }
-.k-badge{
-  display:inline-block;
-  font-weight:650; font-size:1.02rem;
-  background:#eef4ff; color:#1f3a8a;
-  padding:6px 12px; border-radius:999px; border:1px solid #dbe6ff;
+.section-card h2{
+  font-size:1.3rem;
+  color:#1d2a56;
+  margin-top:0;
+  margin-bottom:10px;
+  font-weight:600;
+  border-left:4px solid #b4c8ff;
+  padding-left:10px;
 }
 .grid-2{ display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
 @media (max-width: 760px){ .grid-2{ grid-template-columns:1fr; } }
@@ -35,18 +38,16 @@ menu_icon: house-door
 }
 </style>
 
-<div class="section-card" style="text-align:center;">
-  <div class="k-badge">Machine Learning for Microscopy Hackathon 2</div>
-  <div style="margin-top:8px; font-size:1.1rem; color:#475467;">
+<div style="text-align:center; margin-top:10px;">
+  <h1 style="font-size:1.7rem; color:#1f2d4f; margin-bottom:8px;">Machine Learning for Microscopy Hackathon 2</h1>
+  <p style="font-size:1.05rem; color:#475467; margin-bottom:0;">
     <strong>December 16–18, 2025</strong> · Hybrid (In-person + Virtual)
-  </div>
-  <div style="margin-top:6px;">
-    <a href="https://kaliningroup.github.io/mic-hackathon/">See the 2024 edition</a>
-  </div>
+  </p>
+  <p style="margin-top:6px;"><a href="https://kaliningroup.github.io/mic-hackathon/">See the 2024 edition</a></p>
 </div>
 
 <div class="section-card">
-  <div class="k-badge">What is the Hackathon?</div>
+  <h2>What is the Hackathon?</h2>
   <p>
     The <strong>Machine Learning for Microscopy Hackathon</strong> is a hands-on event that brings together
     researchers, students, and professionals to solve real microscopy problems using AI and data-driven tools.
@@ -56,7 +57,7 @@ menu_icon: house-door
 </div>
 
 <div class="section-card">
-  <div class="k-badge">Multi-Site Participation</div>
+  <h2>Multi-Site Participation</h2>
   <p>
     Attend in person or join remotely — teams will collaborate across sites and time zones.
     Confirmed 2025 host sites include:
@@ -79,7 +80,7 @@ menu_icon: house-door
 </div>
 
 <div class="section-card">
-  <div class="k-badge">Why Participate?</div>
+  <h2>Why Participate?</h2>
   <div class="grid-2">
     <div><strong>Learn by doing</strong><br>Work with real microscopy datasets and apply state-of-the-art AI methods.</div>
     <div><strong>Collaborate globally</strong><br>Form teams with participants from around the world — fully remote participation supported.</div>
@@ -89,7 +90,7 @@ menu_icon: house-door
 </div>
 
 <div class="section-card">
-  <div class="k-badge">Timeline</div>
+  <h2>Timeline</h2>
   <table class="table-soft">
     <thead><tr><th>Phase</th><th>Date</th><th>Description</th></tr></thead>
     <tbody>
@@ -103,7 +104,7 @@ menu_icon: house-door
 </div>
 
 <div class="section-card">
-  <div class="k-badge">Logistics</div>
+  <h2>Logistics</h2>
   <p>
     The hackathon will take place in <strong>hybrid format</strong> using Zoom for talks and
     <strong>Slack + Miro</strong> for collaboration.
@@ -115,7 +116,7 @@ menu_icon: house-door
 </div>
 
 <div class="section-card">
-  <div class="k-badge">Sponsors & Partners</div>
+  <h2>Sponsors & Partners</h2>
   <p>
     Supported by the <strong>Office of Naval Research (ONR)</strong> and <strong>Mat3ra – Materials R&D Cloud</strong>.
     Learn more about our partners on the <a href="/about/">About page</a>.
