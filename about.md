@@ -25,32 +25,23 @@ menu_icon: info-circle
 </style>
 
 <div class="section-card">
-  <div class="k-badge">Mission</div>
+  <div class="k-badge">Our Mission</div>
   <p>
-    The <strong>Machine Learning for Microscopy Hackathon</strong> unites researchers from microscopy,
-    materials science, and data science to accelerate the adoption of AI in microscopy.
-    Our mission is to create a collaborative platform where the community can explore how
-    machine learning transforms imaging, spectroscopy, and automated experimentation.
+    The <strong>Machine Learning for Microscopy Hackathon</strong> aims to accelerate the use of artificial intelligence
+    in microscopy and materials research. By connecting the microscopy and machine learning communities,
+    the hackathon fosters collaboration, open science, and the development of reproducible AI workflows
+    for imaging, spectroscopy, and automated experimentation.
   </p>
 </div>
 
 <div class="section-card">
-  <div class="k-badge">Goals</div>
-  <div class="grid-2">
-    <div>
-      <ul>
-        <li>Foster collaboration between microscopists and ML researchers.</li>
-        <li>Promote open datasets, reproducible code, and shared learning.</li>
-        <li>Enable rapid prototyping of AI tools for image and spectral analysis.</li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>Provide hands-on learning opportunities for students and early-career scientists.</li>
-        <li>Connect academia, national labs, and industry around common challenges.</li>
-      </ul>
-    </div>
-  </div>
+  <div class="k-badge">Hackathon History</div>
+  <p>
+    The first <strong>Machine Learning for Microscopy Hackathon</strong> took place at the University of Tennessee,
+    Knoxville, in 2024, bringing together over 250 registrants and 80 active participants from across the world.
+    Building on that success, the <strong>2025 edition</strong> expands into a <strong>multi-site hybrid event</strong> across
+    universities and research centers, creating opportunities for global collaboration and real-time problem solving.
+  </p>
 </div>
 
 <div class="section-card">
@@ -70,11 +61,13 @@ menu_icon: info-circle
       <em>Site Coordination</em></p>
 
       <p><strong>Rama Vasudevan</strong><br>
-      University of Tennessee, Knoxville<br>
+      Center for Nanophase Materials Sciences,
+      Oak Ridge National Laboratory<br>
       <em>Software & Infrastructure</em></p>
-
     </div>
-
+    <div style="text-align:center; opacity:0.6;">
+      <em>Team photos coming soon</em>
+    </div>
   </div>
 </div>
 
@@ -82,9 +75,10 @@ menu_icon: info-circle
   <div class="k-badge">Partners & Support</div>
   <p>
     The hackathon is supported by the <strong>AI Tennessee Initiative</strong>,
-    the <strong>Center for Advanced Materials & Manufacturing (CAMM)</strong>, and
-    collaborating institutions including UTK, NCSU, NWU, UIC/ANL, ICN2, and others.
+    the <strong>Center for Advanced Materials & Manufacturing (CAMM)</strong>,
+    and collaborating institutions including UTK, NCSU, NWU, UIC/ANL, ICN2, and others.
   </p>
+
   <p>
     <strong>Primary Sponsor:</strong> Office of Naval Research (ONR)<br>
     <strong>Industry Partner:</strong> Mat3ra – Materials R&D Cloud
@@ -101,20 +95,10 @@ menu_icon: info-circle
 </div>
 
 <div class="section-card">
-  <div class="k-badge">Hackathon History</div>
-  <p>
-    The first <strong>Machine Learning for Microscopy Hackathon</strong> was held at the University of Tennessee in 2024,
-    bringing together over 250 registrants and 80 active participants. Building on that success,
-    the 2025 edition expands to a <strong>multi-site hybrid event</strong> with global participation and new challenges
-    in autonomous microscopy, data analytics, and educational outreach.
-  </p>
-</div>
-
-<div class="section-card">
   <div class="k-badge">Get Involved</div>
   <ul>
     <li><a href="https://tiny.utk.edu/slack">Join the Slack group</a> to connect with participants.</li>
-    <li>Propose or join a project via the <a href="/submission/">Submission page</a>.</li>
+    <li>Propose or join a project on the <a href="/submission/">Submission page</a>.</li>
     <li>Interested in sponsoring or hosting a site? Contact <a href="mailto:sergei2@utk.edu">sergei2@utk.edu</a>.</li>
   </ul>
 </div>
