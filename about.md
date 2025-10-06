@@ -82,11 +82,14 @@ menu_icon: info-circle
   </p>
 
   <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:30px; margin-top:10px;">
+    <!-- ONR logo -->
     <a href="https://www.onr.navy.mil/">
-      <img src="./assets/ONR.png" alt="Office of Naval Research" style="width:300px; margin: 20px;">
+      <img src="{{ '/assets/ONR.png' | relative_url }}" alt="Office of Naval Research" style="width:300px;">
     </a>
+    
+    <!-- Mat3ra logo -->
     <a href="https://mat3ra.com/">
-      <img src="./assets/mat3ra_logo.png" alt="Mat3ra" style="width:300px;">
+      <img src="{{ '/assets/mat3ra_logo.png' | relative_url }}" alt="Mat3ra" style="width:250px;">
     </a>
   </div>
 </div>
