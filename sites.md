@@ -53,6 +53,7 @@ published: true
     { id:"site-nwu",   name:"Northwestern University",                  city:"Evanston, IL, USA",  lat:42.05598, lon:-87.67517 },
     { id:"site-uic",   name:"University of Illinois at Chicago (UIC)",  city:"Chicago, IL, USA",   lat:41.8708,  lon:-87.6505 },
     { id:"site-icn2",  name:"ICN2 — Institut Català de Nanociència i Nanotecnologia", city:"Barcelona (Bellaterra), Spain", lat:41.501, lon:2.105 },
+    { id:"site-iitd", name:"Indian Institute of Technology Delhi", city:"New Delhi, India", lat:28.5450, lon:77.1926 },
     { id:"site-utor",  name:"University of Toronto",                    city:"Toronto, ON, Canada",lat:43.6629,  lon:-79.3957 },
     { id:"site-uwisc", name:"University of Wisconsin",                  city:"Madison, WI, USA",   lat:43.0766,  lon:-89.4125 },
     { id:"site-ucolo", name:"University of Colorado",                   city:"Boulder, CO, USA",   lat:40.0076,  lon:-105.2659 },
@@ -281,6 +282,22 @@ published: true
       </div>
     </div>
 
+    <!-- IIT Delhi -->
+    <div class="site-card" id="site-iitd">
+      <span class="badge">Delhi, India</span>
+      <h3>Indian Institute of Technology Delhi</h3>
+      <img class="site-logo" src="{{ '/assets/IITD.png' | relative_url }}" alt="IIT Delhi logo">
+      <div class="site-meta">
+        New Delhi, India • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Indian%20Institute%20of%20Technology%20Delhi" target="_blank" rel="noopener">Map</a>
+        <!-- IMPORTANT: this query string MUST match the checkbox value on /registration/ -->
+        <a href="{{ '/registration/' | relative_url }}?site=Indian%20Institute%20of%20Technology%20Delhi" class="btn-primary">Register</a>
+      </div>
+    </div>
+        
     <!-- Online (no pin) -->
     <div class="site-card" id="site-online">
       <span class="badge">Global</span>
