@@ -294,7 +294,7 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Indian%20Institute%20of%20Technology%20Delhi" target="_blank" rel="noopener">Map</a>
         <!-- IMPORTANT: this query string MUST match the checkbox value on /registration/ -->
-        <a href="{{ '/registration/' | relative_url }}?site=Indian%20Institute%20of%20Technology%20Delhi" class="btn-primary">Register</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Indian%20Institute%20of%20Technology%20Delhi%20(IIT%20Delhi)" class="btn-primary">Register</a>
       </div>
     </div>
         
