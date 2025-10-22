@@ -111,8 +111,8 @@ published: true
     Our primary sponsors provide critical support for enabling open, collaborative AI-driven microscopy:
   </p>
   <div class="logo-row" style="margin-top:10px;">
-    <img src="{{ '/assets/ONR.png' | relative_url }}" alt="Office of Naval Research logo">
-    <img src="{{ '/assets/tf_logo.png' | relative_url }}" alt="Thermo Fisher Scientific logo">
+    <img src="{{ '/assets/ONR.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/tf_logo.png' | relative_url }}"  style="max-height:64px;">
   </div>
 
   <p style="margin-top:20px;"><strong>Partners</strong></p>
