@@ -72,6 +72,7 @@ menu_icon: house-door
     <div>University of Wisconsin</div>
     <div>University of Colorado Boulder</div>
     <div>Colorado School of Mines</div>
+    <div>Indian Institute of Technology Delhi (IITD)</div>
     <div>Online (Global)</div>
   </div>
   <p style="margin-top:10px;">
