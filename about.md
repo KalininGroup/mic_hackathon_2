@@ -99,16 +99,33 @@ published: true
 
 <div class="section-card">
   <h2>Partners &amp; Support</h2>
+
   <p>
-    Supported by the <strong>AI Tennessee Initiative</strong>, the <strong>Center for Advanced Materials &amp; Manufacturing (CAMM)</strong>,
-    and collaborating institutions (UTK, NCSU, NWU, UIC/ANL, ICN2, and others). Primary supporters include:
+    The hackathon is supported by the <strong>AI Tennessee Initiative</strong> and the
+    <strong>Center for Advanced Materials &amp; Manufacturing (CAMM)</strong>, with participation from
+    <strong>UTK, NCSU, NWU, UIC/ANL, ICN2, and IIT Delhi</strong>.
   </p>
-  <p class="logo-row">
-    <!-- Replace with your actual assets -->
-    <img src="{{ '/assets/ONR.png' | relative_url }}" alt="ONR">
-    <img src="{{ '/assets/matora.png' | relative_url }}" alt="Mat3ra">
+
+  <p><strong>Sponsors</strong></p>
+  <p>
+    Our primary sponsors provide critical support for enabling open, collaborative AI-driven microscopy:
   </p>
+  <div class="logo-row" style="margin-top:10px;">
+    <img src="{{ '/assets/ONR.png' | relative_url }}" alt="Office of Naval Research logo">
+    <img src="{{ '/assets/tf_logo.png' | relative_url }}" alt="Thermo Fisher Scientific logo">
+  </div>
+
+  <p style="margin-top:20px;"><strong>Partners</strong></p>
+  <p>
+    Our partners empower open science and innovation in AI for materials research:
+  </p>
+  <div class="logo-row" style="margin-top:10px;">
+    <img src="{{ '/assets/mat3ra_logo.png' | relative_url }}" alt="Mat3ra – Materials R&D Cloud logo">
+    <img src="{{ '/assets/hf.png' | relative_url }}" alt="Hugging Face logo">
+  </div>
 </div>
+
+
 
 <div class="section-card">
   <h2>Get Involved</h2>
