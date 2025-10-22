@@ -119,7 +119,7 @@ menu_icon: house-door
 <div class="section-card">
   <h2>Sponsors & Partners</h2>
   <p>
-    Supported by the <strong>Office of Naval Research (ONR)</strong> and <strong>Mat3ra – Materials R&D Cloud</strong>.
+    Supported by the <strong>Office of Naval Research (ONR)</strong>, <strong>Thermo Fisher Scientific</strong>, <strong>Mat3ra – Materials R&D Cloud</strong>, and <strong>Hugging Face</strong>.
     Learn more about our partners on the <a href="/about/">About page</a>.
   </p>
 </div>
