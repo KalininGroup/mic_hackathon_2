@@ -57,7 +57,8 @@ published: true
     { id:"site-utor",  name:"University of Toronto",                    city:"Toronto, ON, Canada",lat:43.6629,  lon:-79.3957 },
     { id:"site-uwisc", name:"University of Wisconsin",                  city:"Madison, WI, USA",   lat:43.0766,  lon:-89.4125 },
     { id:"site-ucolo", name:"University of Colorado",                   city:"Boulder, CO, USA",   lat:40.0076,  lon:-105.2659 },
-    { id:"site-mines", name:"Colorado School of Mines",                 city:"Golden, CO, USA",    lat:39.7510,  lon:-105.2226 }
+    { id:"site-mines", name:"Colorado School of Mines",                 city:"Golden, CO, USA",    lat:39.7510,  lon:-105.2226 },
+    { id:"site-tfs", name:"Thermo Fisher Scientific – Eindhoven", city:"Eindhoven, Netherlands", lat:51.469218, lon:5.421370 }
   ];
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -297,6 +298,22 @@ published: true
         <a href="{{ '/registration/' | relative_url }}?site=Indian%20Institute%20of%20Technology%20Delhi%20(IIT%20Delhi)" class="btn-primary">Register</a>
       </div>
     </div>
+
+    <!-- Thermo Fisher Scientific Eindhoven -->
+    <div class="site-card" id="site-tfs">
+      <span class="badge">Eindhoven, Netherlands</span>
+      <h3>Thermo Fisher Scientific – Eindhoven</h3>
+      <img class="site-logo" src="{{ '/assets/tf_logo.png' | relative_url }}" alt="Thermo Fisher Scientific logo">
+      <div class="site-meta">
+        Eindhoven, Netherlands • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Thermo%20Fisher%20Scientific%20Eindhoven" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Thermo%20Fisher%20Scientific%20%E2%80%93%20Eindhoven" class="btn-primary">Register</a>
+      </div>
+    </div>
+
         
     <!-- Online (no pin) -->
     <div class="site-card" id="site-online">
