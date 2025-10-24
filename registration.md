@@ -114,6 +114,7 @@ published: true
       <label><input type="checkbox" name="entry.1753222212" value="University of Colorado"> University of Colorado</label>
       <label><input type="checkbox" name="entry.1753222212" value="Colorado School of Mines"> Colorado School of Mines</label>
       <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Technology Delhi (IIT Delhi)"> Indian Institute of Technology Delhi (IIT Delhi)</label>
+      <label><input type="checkbox" name="entry.1753222212" value="Thermo Fisher Scientific – Eindhoven"> Thermo Fisher Scientific – Eindhoven</label>
     </div>
   </fieldset>
 
