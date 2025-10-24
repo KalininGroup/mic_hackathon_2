@@ -77,7 +77,7 @@ menu_icon: house-door
     <div>Online (Global)</div>
   </div>
   <p style="margin-top:10px;">
-    Interested in hosting a future site? Contact <a href="mailto:sergei2@utk.edu">sergei2@utk.edu</a>.
+    <strong>Interested in hosting a future site? Contact <a href="mailto:sergei2@utk.edu">sergei2@utk.edu</a>.</strong>
   </p>
 </div>
 
