@@ -57,7 +57,7 @@ nav_exclude: true        # Hidden from navigation/menu
     <thead><tr><th>Sponsor</th><th>Prize</th><th>Notes</th></tr></thead>
     <tbody>
       <tr>
-        <td><strong>DENS Solutions</strong></td>
+        <td><strong>DENS solutions</strong></td>
         <td>Mystery Prize</td>
         <td>Awarded to the <strong>Overall Winner</strong> of the hackathon.</td>
       </tr>
@@ -68,7 +68,7 @@ nav_exclude: true        # Hidden from navigation/menu
       </tr>
       <tr>
         <td><strong>Thermo Fisher Scientific</strong></td>
-        <td>$1,000</td>
+        <td>$500</td>
         <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
       </tr>
       <tr>
@@ -115,7 +115,7 @@ nav_exclude: true        # Hidden from navigation/menu
   <div class="logo-row">
     <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific logo">
     <img src="{{ '/assets/tf_logo.png' | relative_url }}" alt="Thermo Fisher Scientific logo">
-    <img src="{{ '/assets/HuggingFace.png' | relative_url }}" alt="Hugging Face logo">
+    <img src="{{ '/assets/hf.png' | relative_url }}" alt="Hugging Face logo">
     <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS Solutions logo">
   </div>
 </div>
