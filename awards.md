@@ -58,22 +58,22 @@ nav_exclude: true        # Hidden from navigation/menu
     <tbody>
       <tr>
         <td><strong>DENS solutions</strong></td>
-        <td>Mystery Prize</td>
+        <td>--</td>
         <td>Awarded to the <strong>Overall Winner</strong> of the hackathon.</td>
       </tr>
       <tr>
         <td><strong>Theia Scientific</strong></td>
-        <td>$1,000</td>
+        <td>--</td>
         <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
       </tr>
       <tr>
         <td><strong>Thermo Fisher Scientific</strong></td>
-        <td>$500</td>
+        <td>--</td>
         <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
       </tr>
       <tr>
         <td><strong>Hugging Face</strong></td>
-        <td>Merchandise</td>
+        <td>--</td>
         <td>May accompany another prize or serve as a special recognition award.</td>
       </tr>
     </tbody>
@@ -85,27 +85,6 @@ nav_exclude: true        # Hidden from navigation/menu
   </p>
 </div>
 
-<div class="section-card">
-  <h2>Award Categories</h2>
-  <div class="grid-2">
-    <div>
-      <strong>Best Overall Project</strong><br>
-      Highest-scoring project across all metrics — technical excellence, impact, and presentation.
-    </div>
-    <div>
-      <strong>Category 1</strong><br>
-      Description
-    </div>
-    <div>
-      <strong>Category 2</strong><br>
-      Description
-    </div>
-    <div>
-      <strong>Student Awards</strong><br>
-      Description
-    </div>
-  </div>
-</div>
 
 <div class="section-card">
   <h2>Sponsors</h2>
