@@ -62,40 +62,33 @@ published: true
   font-size:.9rem; color:#1d4ed8; text-decoration:none;
   border:1px solid #e5e7eb; padding:4px 8px; border-radius:999px;
 }
-/* --- icon-only socials --- */
+/* --- simple inline socials --- */
 .socials {
-  margin-top: 8px;
+  margin-top: 4px;
   display: flex;
-  flex-wrap: wrap;
   gap: 8px;
 }
 .socials a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  border: 1px solid #e5e7eb;
-  background: #fff;
-  color: #1d4ed8;              /* ensures SVG uses this color */
   text-decoration: none;
-  box-shadow: 0 1px 1px rgba(16,24,40,.05);
-  transition: background 0.2s ease, border-color 0.2s ease;
+  color: #1d4ed8; /* same blue as before */
+  transition: color 0.2s ease;
 }
 .socials a:hover {
-  background: #eef2ff;
-  border-color: #c7d2fe;
+  color: #0f172a; /* darker on hover */
 }
 .socials svg {
   width: 18px;
   height: 18px;
-  fill: currentColor;           /* critical for icon visibility */
+  fill: currentColor;
 }
 .socials a span {
   position: absolute;
-  left: -9999px;                /* hides text but keeps screen reader access */
+  left: -9999px; /* hide text for accessibility */
 }
+
 </style>
 
 <div class="section-card">
@@ -127,7 +120,7 @@ published: true
       <div class="team-meta">
         <div class="name">Sergei V. Kalinin</div>
         <div class="affil">University of Tennessee, Knoxville; Pacific Northwest National Laboratory</div>
-        <div class="role"><em>Lead Organizer</em></div>
+
         <div class="socials">
           <!-- GitHub -->
           <a href="https://github.com/SergeiVKalinin" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
@@ -157,17 +150,13 @@ published: true
       <div class="team-meta">
         <div class="name">Gerd Duscher</div>
         <div class="affil">University of Tennessee, Knoxville</div>
-        <div class="role"><em>Education &amp; Outreach</em></div>
+
         <div class="socials">
           <a href="https://github.com/gduscher" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/>
-            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
           </a>
           <a href="https://tickle.utk.edu/mse/faculty/gerd-duscher/" target="_blank" rel="noopener" aria-label="Website" title="Website">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="currentColor" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25Zm0 2.25c-1.473 0-2.933 2.295-3.54 5.625h7.08C14.933 6.795 13.473 4.5 12 4.5Zm-5.213 6.75c.099 1.968.588 3.78 1.34 5.115A7.5 7.5 0 0 1 4.5 12c0-.255.013-.507.037-.756h2.25Zm10.926 0h2.25c.024.249.037.501.037.756a7.5 7.5 0 0 1-3.627 6.365c.752-1.335 1.241-3.147 1.34-5.115ZM8.46 13.5c.607 3.33 2.067 5.625 3.54 5.625s2.933-2.295 3.54-5.625H8.46Z"/>
-            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25Zm0 2.25c-1.473 0-2.933 2.295-3.54 5.625h7.08C14.933 6.795 13.473 4.5 12 4.5Zm-5.213 6.75c.099 1.968.588 3.78 1.34 5.115A7.5 7.5 0 0 1 4.5 12c0-.255.013-.507.037-.756h2.25Zm10.926 0h2.25c.024.249.037.501.037.756a7.5 7.5 0 0 1-3.627 6.365c.752-1.335 1.241-3.147 1.34-5.115ZM8.46 13.5c.607 3.33 2.067 5.625 3.54 5.625s2.933-2.295 3.54-5.625H8.46Z"/></svg>
           </a>
         </div>
       </div>
@@ -179,17 +168,13 @@ published: true
       <div class="team-meta">
         <div class="name">Rama Vasudevan</div>
         <div class="affil">CNMS, Oak Ridge National Laboratory</div>
-        <div class="role"><em>Software &amp; Infrastructure</em></div>
+   
         <div class="socials">
           <a href="https://github.com/ramav87" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/>
-            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
           </a>
           <a href="https://www.ornl.gov/staff-profile/rama-k-vasudevan" target="_blank" rel="noopener" aria-label="Website" title="Website">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="currentColor" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25Zm0 2.25c-1.473 0-2.933 2.295-3.54 5.625h7.08C14.933 6.795 13.473 4.5 12 4.5Zm-5.213 6.75c.099 1.968.588 3.78 1.34 5.115A7.5 7.5 0 0 1 4.5 12c0-.255.013-.507.037-.756h2.25Zm10.926 0h2.25c.024.249.037.501.037.756a7.5 7.5 0 0 1-3.627 6.365c.752-1.335 1.241-3.147 1.34-5.115ZM8.46 13.5c.607 3.33 2.067 5.625 3.54 5.625s2.933-2.295 3.54-5.625H8.46Z"/>
-            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25Zm0 2.25c-1.473 0-2.933 2.295-3.54 5.625h7.08C14.933 6.795 13.473 4.5 12 4.5Zm-5.213 6.75c.099 1.968.588 3.78 1.34 5.115A7.5 7.5 0 0 1 4.5 12c0-.255.013-.507.037-.756h2.25Zm10.926 0h2.25c.024.249.037.501.037.756a7.5 7.5 0 0 1-3.627 6.365c.752-1.335 1.241-3.147 1.34-5.115ZM8.46 13.5c.607 3.33 2.067 5.625 3.54 5.625s2.933-2.295 3.54-5.625H8.46Z"/></svg>
           </a>
         </div>
       </div>
@@ -201,12 +186,10 @@ published: true
       <div class="team-meta">
         <div class="name">Richard Liu</div>
         <div class="affil">Postdoctoral Researcher, University of Tennessee, Knoxville</div>
-        <div class="role"><em>Benchmarking &amp; Evaluation</em></div>
+
         <div class="socials">
           <a href="https://github.com/RichardLiuCoding" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/>
-            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
           </a>
         </div>
       </div>
@@ -218,12 +201,10 @@ published: true
       <div class="team-meta">
         <div class="name">Boris Slautin</div>
         <div class="affil">Postdoctoral Researcher, University of Tennessee, Knoxville</div>
-        <div class="role"><em>Systems &amp; Infra</em></div>
+
         <div class="socials">
           <a href="https://github.com/Slautin" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/>
-            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
           </a>
         </div>
       </div>
@@ -235,17 +216,13 @@ published: true
       <div class="team-meta">
         <div class="name">Utkarsh Pratiush</div>
         <div class="affil">University of Tennessee, Knoxville</div>
-        <div class="role"><em>Site Coordination</em></div>
+
         <div class="socials">
           <a href="https://github.com/utkarshp1161" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/>
-            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
           </a>
           <a href="https://utkarshp1161.github.io/UtkarshsAIInScience.github.io/" target="_blank" rel="noopener" aria-label="Website" title="Website">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="currentColor" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25Zm0 2.25c-1.473 0-2.933 2.295-3.54 5.625h7.08C14.933 6.795 13.473 4.5 12 4.5Zm-5.213 6.75c.099 1.968.588 3.78 1.34 5.115A7.5 7.5 0 0 1 4.5 12c0-.255.013-.507.037-.756h2.25Zm10.926 0h2.25c.024.249.037.501.037.756a7.5 7.5 0 0 1-3.627 6.365c.752-1.335 1.241-3.147 1.34-5.115ZM8.46 13.5c.607 3.33 2.067 5.625 3.54 5.625s2.933-2.295 3.54-5.625H8.46Z"/>
-            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25Zm0 2.25c-1.473 0-2.933 2.295-3.54 5.625h7.08C14.933 6.795 13.473 4.5 12 4.5Zm-5.213 6.75c.099 1.968.588 3.78 1.34 5.115A7.5 7.5 0 0 1 4.5 12c0-.255.013-.507.037-.756h2.25Zm10.926 0h2.25c.024.249.037.501.037.756a7.5 7.5 0 0 1-3.627 6.365c.752-1.335 1.241-3.147 1.34-5.115ZM8.46 13.5c.607 3.33 2.067 5.625 3.54 5.625s2.933-2.295 3.54-5.625H8.46Z"/></svg>
           </a>
         </div>
       </div>
@@ -253,6 +230,7 @@ published: true
 
   </div>
 </div>
+
 
 
 
