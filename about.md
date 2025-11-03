@@ -129,14 +129,23 @@ published: true
         <div class="affil">University of Tennessee, Knoxville; Pacific Northwest National Laboratory</div>
         <div class="role"><em>Lead Organizer</em></div>
         <div class="socials">
+          <!-- GitHub -->
           <a href="https://github.com/SergeiVKalinin" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4..."/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/>
+            </svg>
           </a>
+          <!-- Website -->
           <a href="https://ae-spm.utk.edu/group-leader-pi/" target="_blank" rel="noopener" aria-label="Website" title="Website">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0..."/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25Zm0 2.25c-1.473 0-2.933 2.295-3.54 5.625h7.08C14.933 6.795 13.473 4.5 12 4.5Zm-5.213 6.75c.099 1.968.588 3.78 1.34 5.115A7.5 7.5 0 0 1 4.5 12c0-.255.013-.507.037-.756h2.25Zm10.926 0h2.25c.024.249.037.501.037.756a7.5 7.5 0 0 1-3.627 6.365c.752-1.335 1.241-3.147 1.34-5.115ZM8.46 13.5c.607 3.33 2.067 5.625 3.54 5.625s2.933-2.295 3.54-5.625H8.46Z"/>
+            </svg>
           </a>
+          <!-- Email -->
           <a href="mailto:sergei2@utk.edu" aria-label="Email" title="Email">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4a2 2 0..."/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M1.5 6.75A2.25 2.25 0 0 1 3.75 4.5h16.5A2.25 2.25 0 0 1 22.5 6.75v10.5A2.25 2.25 0 0 1 20.25 19.5H3.75A2.25 2.25 0 0 1 1.5 17.25V6.75Zm1.682-.182 8.068 5.04 8.068-5.04a.75.75 0 1 1 .8 1.264l-8.466 5.29a.75.75 0 0 1-.804 0L2.382 7.832a.75.75 0 1 1 .8-1.264Z"/>
+            </svg>
           </a>
         </div>
       </div>
@@ -151,10 +160,10 @@ published: true
         <div class="role"><em>Education &amp; Outreach</em></div>
         <div class="socials">
           <a href="https://github.com/gduscher" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0..."/></svg>
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41..."/></svg>
           </a>
           <a href="https://tickle.utk.edu/mse/faculty/gerd-duscher/" target="_blank" rel="noopener" aria-label="Website" title="Website">
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10..."/></svg>
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.25c5.385 0 9.75 4.365..."/></svg>
           </a>
         </div>
       </div>
@@ -169,10 +178,10 @@ published: true
         <div class="role"><em>Software &amp; Infrastructure</em></div>
         <div class="socials">
           <a href="https://github.com/ramav87" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0..."/></svg>
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41..."/></svg>
           </a>
           <a href="https://www.ornl.gov/staff-profile/rama-k-vasudevan" target="_blank" rel="noopener" aria-label="Website" title="Website">
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10..."/></svg>
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.25c5.385 0 9.75 4.365..."/></svg>
           </a>
         </div>
       </div>
@@ -187,7 +196,7 @@ published: true
         <div class="role"><em>Benchmarking &amp; Evaluation</em></div>
         <div class="socials">
           <a href="https://github.com/RichardLiuCoding" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0..."/></svg>
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41..."/></svg>
           </a>
         </div>
       </div>
@@ -202,7 +211,7 @@ published: true
         <div class="role"><em>Systems &amp; Infra</em></div>
         <div class="socials">
           <a href="https://github.com/Slautin" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0..."/></svg>
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41..."/></svg>
           </a>
         </div>
       </div>
@@ -217,10 +226,10 @@ published: true
         <div class="role"><em>Site Coordination</em></div>
         <div class="socials">
           <a href="https://github.com/utkarshp1161" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0..."/></svg>
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41..."/></svg>
           </a>
           <a href="https://utkarshp1161.github.io/UtkarshsAIInScience.github.io/" target="_blank" rel="noopener" aria-label="Website" title="Website">
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10..."/></svg>
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.25c5.385 0 9.75 4.365..."/></svg>
           </a>
         </div>
       </div>
@@ -228,6 +237,7 @@ published: true
 
   </div>
 </div>
+
 
 <div class="section-card">
   <h2>How It Works</h2>
