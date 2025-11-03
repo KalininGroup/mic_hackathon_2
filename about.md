@@ -210,7 +210,7 @@ published: true
           </span>
         </div>
         <div class="affil">University of Tennessee, Knoxville; Pacific Northwest National Laboratory</div>
-        <div class="role"><em>Lead Organizer</em></div>
+        
       </div>
     </div>
 
@@ -230,7 +230,7 @@ published: true
           </span>
         </div>
         <div class="affil">University of Tennessee, Knoxville</div>
-        <div class="role"><em>Education &amp; Outreach</em></div>
+        
       </div>
     </div>
 
@@ -250,7 +250,7 @@ published: true
           </span>
         </div>
         <div class="affil">CNMS, Oak Ridge National Laboratory</div>
-        <div class="role"><em>Software &amp; Infrastructure</em></div>
+       
       </div>
     </div>
 
@@ -266,8 +266,8 @@ published: true
             </a>
           </span>
         </div>
-        <div class="affil">Postdoctoral Researcher, University of Tennessee, Knoxville</div>
-        <div class="role"><em>Benchmarking &amp; Evaluation</em></div>
+        <div class="affil"> University of Tennessee, Knoxville</div>
+        
       </div>
     </div>
 
@@ -283,8 +283,8 @@ published: true
             </a>
           </span>
         </div>
-        <div class="affil">Postdoctoral Researcher, University of Tennessee, Knoxville</div>
-        <div class="role"><em>Systems &amp; Infra</em></div>
+        <div class="affil"> University of Tennessee, Knoxville</div>
+        
       </div>
     </div>
 
@@ -304,7 +304,7 @@ published: true
           </span>
         </div>
         <div class="affil">University of Tennessee, Knoxville</div>
-        <div class="role"><em>Site Coordination</em></div>
+       
       </div>
     </div>
 
