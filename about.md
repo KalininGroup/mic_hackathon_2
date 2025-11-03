@@ -62,19 +62,40 @@ published: true
   font-size:.9rem; color:#1d4ed8; text-decoration:none;
   border:1px solid #e5e7eb; padding:4px 8px; border-radius:999px;
 }
-.socials{ margin-top:8px; display:flex; flex-wrap:wrap; gap:8px; }
-.socials a{
-  display:inline-flex; align-items:center; justify-content:center;
-  width:34px; height:34px; border-radius:999px;
-  border:1px solid #e5e7eb; background:#fff; box-shadow:0 1px 1px rgba(16,24,40,.04);
-  text-decoration:none;
+/* --- icon-only socials --- */
+.socials {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
-.socials a:hover{ background:#eef2ff; border-color:#c7d2fe; }
-.socials svg{ width:18px; height:18px; color:#1d4ed8; }
-
-/* hide link text but keep it accessible */
-.socials a span{ position:absolute; left:-9999px; }
-
+.socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  color: #1d4ed8;              /* ensures SVG uses this color */
+  text-decoration: none;
+  box-shadow: 0 1px 1px rgba(16,24,40,.05);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.socials a:hover {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+}
+.socials svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;           /* critical for icon visibility */
+}
+.socials a span {
+  position: absolute;
+  left: -9999px;                /* hides text but keeps screen reader access */
+}
 </style>
 
 <div class="section-card">
