@@ -41,7 +41,7 @@ nav_exclude: false
 
 <div class="agenda-wrap">
 
-# Hackathon Agenda 📅
+
 <div class="note">All times in Eastern Standard Time (EST). Schedule subject to minor updates.</div>
 
 ---
