@@ -57,25 +57,41 @@ nav_exclude: true        # Hidden from navigation/menu
     <thead><tr><th>Sponsor</th><th>Prize</th><th>Notes</th></tr></thead>
     <tbody>
       <tr>
-        <td><strong>DENS solutions</strong></td>
+        <td style="text-align:center;">
+          <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy" style="max-height:50px;">
+        </td>
         <td>--</td>
-        <td>Sponsors one of the main award categories </td>
+        <td>Supports community-driven innovation and open collaboration awards.</td>
       </tr>
       <tr>
-        <td><strong>Theia Scientific</strong></td>
+        <td style="text-align:center;">
+          <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS Solutions" style="max-height:50px;">
+        </td>
+        <td>--</td>
+        <td>Overall Winner — “Mystery Prize” sponsored by DENS Solutions.</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:50px;">
+        </td>
         <td>--</td>
         <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
       </tr>
       <tr>
-        <td><strong>Thermo Fisher Scientific</strong></td>
+        <td style="text-align:center;">
+          <img src="{{ '/assets/tf_logo.png' | relative_url }}" alt="Thermo Fisher Scientific" style="max-height:50px;">
+        </td>
         <td>--</td>
         <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
       </tr>
       <tr>
-        <td><strong>Hugging Face</strong></td>
+        <td style="text-align:center;">
+          <img src="{{ '/assets/hf.png' | relative_url }}" alt="Hugging Face" style="max-height:50px;">
+        </td>
         <td>--</td>
         <td>May accompany another prize or serve as a special recognition award.</td>
       </tr>
+
     </tbody>
   </table>
 
@@ -83,20 +99,6 @@ nav_exclude: true        # Hidden from navigation/menu
     <em>Exact prize-to-category mapping will be finalized based on submissions and judging outcomes.</em><br>
     All prizes will be presented during the <strong>Final Showcase on December 18, 2025</strong>.
   </p>
-</div>
-
-
-<div class="section-card">
-  <h2>Sponsors</h2>
-  <p>
-    The 2025 Hackathon awards are made possible by the generous support of our sponsors and partners:
-  </p>
-  <div class="logo-row">
-    <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific logo">
-    <img src="{{ '/assets/tf_logo.png' | relative_url }}" alt="Thermo Fisher Scientific logo">
-    <img src="{{ '/assets/hf.png' | relative_url }}" alt="Hugging Face logo">
-    <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS Solutions logo">
-  </div>
 </div>
 
 <div class="section-card" style="text-align:center;">
