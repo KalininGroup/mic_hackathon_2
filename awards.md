@@ -59,7 +59,7 @@ nav_exclude: true        # Hidden from navigation/menu
       <tr>
         <td><strong>DENS solutions</strong></td>
         <td>--</td>
-        <td>Awarded to the <strong>Overall Winner</strong> of the hackathon.</td>
+        <td>Awarded to the <strong> Sponsors one of the main award categories </strong> of the hackathon.</td>
       </tr>
       <tr>
         <td><strong>Theia Scientific</strong></td>
