@@ -72,7 +72,7 @@ nav_exclude: true        # Hidden from navigation/menu
       </tr>
       <tr>
         <td style="text-align:center;">
-          <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:50px;">
+          <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:65px;">
         </td>
         <td>--</td>
         <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
