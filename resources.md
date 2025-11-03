@@ -46,11 +46,11 @@ published: true
   It walks you through joining the workspace, setting up team channels, and using Miro for brainstorming and project planning.
   </p>
 
-  <div class="video-frame">
-    <iframe src="https://drive.google.com/file/d/1KzXTkm81dt123DO4Hms8E8LQmn3sCs0f/preview"
-        width="100%" height="480" allow="autoplay"></iframe>
-  </div>
-
+<div class="video-frame" style="aspect-ratio:16/9; max-width:1920px; margin:auto;">
+  <iframe src="https://drive.google.com/file/d/1KzXTkm81dt123DO4Hms8E8LQmn3sCs0f/preview"
+          style="width:100%; height:100%; border:0; border-radius:10px;"
+          allow="autoplay; fullscreen"></iframe>
+</div>
   <p style="font-size:0.9rem; color:#475467; text-align:right; margin-top:6px;">
   🎬 <em>Video credits: Utkarsh Pratiush</em>
   </p>
