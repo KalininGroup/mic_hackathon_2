@@ -54,10 +54,11 @@ nav_exclude: false
       <em>Topic:</em> Machine Learning Across the Microscopy Workflow</li>
     <li><span class="agenda-time">9:25 AM EST</span><strong>Sponsor Presentations:</strong>
       <div class="sponsors">
-        <span class="sponsor-pill">Theia Scientific – $1000 Prize</span>
-        <span class="sponsor-pill">Thermo Fisher Scientific – $1000 Prize</span>
-        <span class="sponsor-pill">Hugging Face – Merch Prize</span>
-        <span class="sponsor-pill">DENS Solutions – Mystery Prize (Overall Winner)</span>
+        <span class="sponsor-pill">Renaissance Philanthropy</span>
+        <span class="sponsor-pill">Theia Scientific</span>
+        <span class="sponsor-pill">Thermo Fisher Scientific</span>
+        <span class="sponsor-pill">Hugging Face</span>
+        <span class="sponsor-pill">DENS Solutions</span>
       </div>
     </li>
     <li><span class="agenda-time">9:50 AM EST</span><strong>Speaker:</strong> Rama K. Vasudevan (Oak Ridge National Laboratory)<br>
