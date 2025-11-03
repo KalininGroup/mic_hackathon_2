@@ -7,75 +7,148 @@ permalink: /about/
 published: true
 ---
 
-<!-- reuse the same styles as Home so both pages match -->
 <style>
-.section-card{
-  background:#fafbfd;
-  border:1px solid #e8ecf3;
-  border-radius:14px;
-  padding:26px 24px;
-  margin:32px 0;
-  box-shadow:0 1px 2px rgba(16,24,40,.04);
+.section-card {
+  background: #fafbfd;
+  border: 1px solid #e8ecf3;
+  border-radius: 14px;
+  padding: 26px 24px;
+  margin: 32px 0;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, .04);
 }
-.section-card h2{
-  font-size:1.3rem;
-  color:#1d2a56;
-  margin-top:0;
-  margin-bottom:10px;
-  font-weight:600;
-  border-left:4px solid #b4c8ff;
-  padding-left:10px;
-}
-.grid-2{ display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
-@media (max-width: 760px){ .grid-2{ grid-template-columns:1fr; } }
-.table-soft{
-  width:100%; border-collapse:separate; border-spacing:0 6px;
-}
-.table-soft th{ text-align:left; font-weight:700; font-size:.95rem; color:#344054; padding:10px 12px; }
-.table-soft td{ background:#fff; border:1px solid #eef0f5; border-radius:10px; padding:12px; }
 
-/* tiny helpers to mirror Home feel */
-.badge{ display:inline-block; font-size:.8rem; padding:.2rem .5rem; border-radius:999px; background:#eef2ff; color:#334155; border:1px solid #c7d2fe; }
-.logo-row{ display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center; }
-.logo-row img{ max-height:56px; width:auto; height:auto; object-fit:contain; background:#fff; padding:.25rem .4rem; border-radius:10px; border:1px solid #eef0f5; }
+.section-card h2 {
+  font-size: 1.3rem;
+  color: #1d2a56;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  border-left: 4px solid #b4c8ff;
+  padding-left: 10px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 760px) {
+  .grid-2 { grid-template-columns: 1fr; }
+}
+
+.table-soft {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 6px;
+}
+
+.table-soft th {
+  text-align: left;
+  font-weight: 700;
+  font-size: .95rem;
+  color: #344054;
+  padding: 10px 12px;
+}
+
+.table-soft td {
+  background: #fff;
+  border: 1px solid #eef0f5;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+/* --- small helpers --- */
+.badge {
+  display: inline-block;
+  font-size: .8rem;
+  padding: .2rem .5rem;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #334155;
+  border: 1px solid #c7d2fe;
+}
+
+.logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  align-items: center;
+}
+
+.logo-row img {
+  max-height: 56px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  background: #fff;
+  padding: .25rem .4rem;
+  border-radius: 10px;
+  border: 1px solid #eef0f5;
+}
+
 /* --- Core Team cards --- */
-.team-grid{
-  display:grid;
+.team-grid {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap:16px;
+  gap: 16px;
 }
-.team-card{
-  display:flex; gap:12px; align-items:flex-start;
-  background:#fff; border:1px solid #eef0f5; border-radius:14px;
-  padding:14px;
+
+.team-card {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid #eef0f5;
+  border-radius: 14px;
+  padding: 14px;
 }
-.team-card img{
-  width:64px; height:64px; border-radius:12px; object-fit:cover;
-  border:1px solid #e8ecf3; background:#fff;
+
+.team-card img {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid #e8ecf3;
+  background: #fff;
 }
-.team-meta .name{ font-weight:700; color:#1d2a56; }
-.team-meta .affil{ font-size:.92rem; color:#64748b; }
-.team-meta .role{ font-size:.92rem; color:#475569; }
-.socials{ margin-top:8px; display:flex; flex-wrap:wrap; gap:8px; }
-.socials a{
-  display:inline-flex; align-items:center; gap:6px;
-  font-size:.9rem; color:#1d4ed8; text-decoration:none;
-  border:1px solid #e5e7eb; padding:4px 8px; border-radius:999px;
+
+.team-meta .name {
+  font-weight: 700;
+  color: #1d2a56;
 }
-  
-/* --- inline clean icon links --- */
+
+.team-meta .affil {
+  font-size: .92rem;
+  color: #64748b;
+}
+
+.team-meta .role {
+  font-size: .92rem;
+  color: #475569;
+}
+
+/* --- clean inline social icons beside names --- */
 .socials {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   margin-left: 6px;
+  margin-bottom: -2px;
 }
 
 .socials a {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   color: #1d4ed8;
   text-decoration: none;
+  background: none;
+  border: none;
+  box-shadow: none;
+  width: auto;
+  height: auto;
+  padding: 0;
   transition: color 0.2s ease;
 }
 
@@ -89,8 +162,8 @@ published: true
   fill: currentColor;
   vertical-align: middle;
 }
-
 </style>
+
 
 <div class="section-card">
   <h2>Our Mission</h2>
