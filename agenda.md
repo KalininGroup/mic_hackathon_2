@@ -102,7 +102,7 @@ nav_exclude: false
   <h2 class="h-sub">Post-Hackathon Activities</h2>
   <ul class="agenda-list">
     <li><span class="agenda-time">Prize Announcement:</span> <strong>Date TBA</strong> (approximately 1–2 weeks after submission deadline)</li>
-    <li><span class="agenda-time">After Event:</span> Project summaries and results will be compiled and shared with participants.</li>
+    <li><span class="agenda-time">After Event:</span> Project summaries and results will be compiled and shared with participants. The manuscript will be integrated over the next 1–2 months and then shared with participants.</li>
   </ul>
 </div>
 
