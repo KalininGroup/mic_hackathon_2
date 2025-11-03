@@ -38,6 +38,33 @@ published: true
 .badge{ display:inline-block; font-size:.8rem; padding:.2rem .5rem; border-radius:999px; background:#eef2ff; color:#334155; border:1px solid #c7d2fe; }
 .logo-row{ display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center; }
 .logo-row img{ max-height:56px; width:auto; height:auto; object-fit:contain; background:#fff; padding:.25rem .4rem; border-radius:10px; border:1px solid #eef0f5; }
+/* --- Core Team cards --- */
+.team-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap:16px;
+}
+.team-card{
+  display:flex; gap:12px; align-items:flex-start;
+  background:#fff; border:1px solid #eef0f5; border-radius:14px;
+  padding:14px;
+}
+.team-card img{
+  width:64px; height:64px; border-radius:12px; object-fit:cover;
+  border:1px solid #e8ecf3; background:#fff;
+}
+.team-meta .name{ font-weight:700; color:#1d2a56; }
+.team-meta .affil{ font-size:.92rem; color:#64748b; }
+.team-meta .role{ font-size:.92rem; color:#475569; }
+.socials{ margin-top:8px; display:flex; flex-wrap:wrap; gap:8px; }
+.socials a{
+  display:inline-flex; align-items:center; gap:6px;
+  font-size:.9rem; color:#1d4ed8; text-decoration:none;
+  border:1px solid #e5e7eb; padding:4px 8px; border-radius:999px;
+}
+.socials a:hover{ background:#eef2ff; }
+.socials svg{ width:16px; height:16px; }
+
 </style>
 
 <div class="section-card">
@@ -60,29 +87,126 @@ published: true
 
 <div class="section-card">
   <h2>Core Organizing Team</h2>
-  <div class="grid-2">
-    <div>
-      <strong>Sergei V. Kalinin</strong><br>
-      University of Tennessee, Knoxville<br>
-      <em>Lead Organizer</em>
+
+  <div class="team-grid">
+
+    <!-- TEMPLATE: copy one .team-card per person -->
+    <!-- Put headshots in /assets/people/ and update filenames/links -->
+    <div class="team-card">
+      <img src="{{ '/assets/svk.png' | relative_url }}" alt="Sergei V. Kalinin">
+      <div class="team-meta">
+        <div class="name">Sergei V. Kalinin</div>
+        <div class="affil">University of Tennessee, Knoxville, Pacific Northwest National Laboratory</div>
+
+        <div class="socials">
+          <a href="https://github.com/SergeiVKalinin" target="_blank" rel="noopener">
+            <!-- GitHub icon -->
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.5v-2c-3.3.7-4-1.4-4-1.4-.6-1.3-1.4-1.6-1.4-1.6-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.6-1.3-5.6-6a4.7 4.7 0 0 1 1.2-3.2 4.3 4.3 0 0 1 .1-3.1s1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0C16.8 5.5 17.8 5.8 17.8 5.8a4.3 4.3 0 0 1 .1 3.1 4.7 4.7 0 0 1 1.2 3.2c0 4.7-2.9 5.7-5.6 6 .4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5A12 12 0 0 0 12 .5Z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="[https://WEBSITE.URL](https://ae-spm.utk.edu/group-leader-pi/)" target="_blank" rel="noopener">
+            <!-- Globe icon -->
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm7.9 9h-3.2a14.5 14.5 0 0 0-1.1-5 8.03 8.03 0 0 1 4.3 5ZM12 4c.9 0 2.4 2.1 3 6h-6c.6-3.9 2.1-6 3-6Zm-3.6 1a14.5 14.5 0 0 0-1.1 5H4.1a8.03 8.03 0 0 1 4.3-5Zm-4.3 7h3.2c.1 1.8.5 3.5 1.1 5a8.03 8.03 0 0 1-4.3-5Zm7.9 8c-.9 0-2.4-2.1-3-6h6c-.6 3.9-2.1 6-3 6Zm3.6-1a14.5 14.5 0 0 0 1.1-5h3.2a8.03 8.03 0 0 1-4.3 5Z"/></svg>
+            <span>Website</span>
+          </a>
+          <!-- Optional email button -->
+          <a href="mailto:sergei2@utk.edu">
+            <!-- Mail icon -->
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
     </div>
-    <div>
-      <strong>Gerd Duscher</strong><br>
-      University of Tennessee, Knoxville<br>
-      <em>Education &amp; Outreach</em>
+
+    <div class="team-card">
+      <img src="{{ '/assets/GD.png' | relative_url }}" alt="Gerd Duscher">
+      <div class="team-meta">
+        <div class="name">Gerd Duscher</div>
+        <div class="affil">University of Tennessee, Knoxville</div>
+        
+        <div class="socials">
+          <a href="https://github.com/gduscher" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.5v-2c-3.3.7-4-1.4-4-1.4-.6-1.3-1.4-1.6-1.4-1.6-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.6-1.3-5.6-6a4.7 4.7 0 0 1 1.2-3.2 4.3 4.3 0 0 1 .1-3.1s1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2a4.3 4.3 0 0 1 .1 3.1 4.7 4.7 0 0 1 1.2 3.2c0 4.7-2.9 5.7-5.6 6 .4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5A12 12 0 0 0 12 .5Z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="[https://WEBSITE.URL](https://tickle.utk.edu/mse/faculty/gerd-duscher/)" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm7.9 9h-3.2a14.5 14.5 0 0 0-1.1-5 8.03 8.03 0 0 1 4.3 5ZM12 4c.9 0 2.4 2.1 3 6h-6c.6-3.9 2.1-6 3-6Zm-3.6 1a14.5 14.5 0 0 0-1.1 5H4.1a8.03 8.03 0 0 1 4.3-5Zm-4.3 7h3.2c.1 1.8.5 3.5 1.1 5a8.03 8.03 0 0 1-4.3-5Zm7.9 8c-.9 0-2.4-2.1-3-6h6c-.6 3.9-2.1 6-3 6Zm3.6-1a14.5 14.5 0 0 0 1.1-5h3.2a8.03 8.03 0 0 1-4.3 5Z"/></svg>
+            <span>Website</span>
+          </a>
+        </div>
+      </div>
     </div>
-    <div>
-      <strong>Utkarsh Pratiush</strong><br>
-      University of Tennessee, Knoxville<br>
-      <em>Site Coordination</em>
+
+
+
+    <div class="team-card">
+      <img src="{{ '/assets/people/rama.png' | relative_url }}" alt="Rama Vasudevan">
+      <div class="team-meta">
+        <div class="name">Rama Vasudevan</div>
+        <div class="affil">CNMS, Oak Ridge National Laboratory</div>
+        <div class="socials">
+          <a href="https://github.com/ramav87" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.5v-2c-3.3.7-4-1.4-4-1.4-.6-1.3-1.4-1.6-1.4-1.6-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.6-1.3-5.6-6a4.7 4.7 0 0 1 1.2-3.2 4.3 4.3 0 0 1 .1-3.1s1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2a4.3 4.3 0 0 1 .1 3.1 4.7 4.7 0 0 1 1.2 3.2c0 4.7-2.9 5.7-5.6 6 .4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5A12 12 0 0 0 12 .5Z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.ornl.gov/staff-profile/rama-k-vasudevan" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm7.9 9h-3.2a14.5 14.5 0 0 0-1.1-5 8.03 8.03 0 0 1 4.3 5ZM12 4c.9 0 2.4 2.1 3 6h-6c.6 3.9-2.1 6-3 6Zm-3.6 1a14.5 14.5 0 0 0-1.1 5H4.1a8.03 8.03 0 0 1 4.3-5Zm-4.3 7h3.2c.1 1.8.5 3.5 1.1 5a8.03 8.03 0 0 1-4.3-5Zm7.9 8c-.9 0-2.4-2.1-3-6h6c-.6 3.9-2.1 6-3 6Zm3.6-1a14.5 14.5 0 0 0 1.1-5h3.2a8.03 8.03 0 0 1-4.3 5Z"/></svg>
+            <span>Website</span>
+          </a>
+        </div>
+      </div>
     </div>
-    <div>
-      <strong>Rama Vasudevan</strong><br>
-      Center for Nanophase Materials Sciences, ORNL<br>
-      <em>Software &amp; Infrastructure</em>
+
+    <!-- ADD NEW PEOPLE HERE: duplicate a .team-card and update fields -->
+    <!-- Example new person -->
+    <div class="team-card">
+      <img src="{{ '/assets/rliu.png' | relative_url }}" alt="Richard Liu">
+      <div class="team-meta">
+        <div class="name">Richard Liu</div>
+        <div class="affil">Postdoctoral Researcher, University of Tennessee, Knoxville</div>
+        <div class="socials">
+          <a href="https://github.com/RichardLiuCoding" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.5v-2c-3.3.7-4-1.4-4-1.4-.6-1.3-1.4-1.6-1.4-1.6-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.6-1.3-5.6-6a4.7 4.7 0 0 1 1.2-3.2 4.3 4.3 0 0 1 .1-3.1s1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2a4.3 4.3 0 0 1 .1 3.1 4.7 4.7 0 0 1 1.2 3.2c0 4.7-2.9 5.7-5.6 6 .4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5A12 12 0 0 0 12 .5Z"/></svg>
+        </div>
+      </div>
     </div>
+
+        <div class="team-card">
+      <img src="{{ '/assets/Boris.png' | relative_url }}" alt="Boris Slautin">
+      <div class="team-meta">
+        <div class="name">Boris Slautin</div>
+        <div class="affil">Postdoctoral Researcher, University of Tennessee, Knoxville</div>
+        <div class="socials">
+          <a href="https://github.com/Slautin" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.5v-2c-3.3.7-4-1.4-4-1.4-.6-1.3-1.4-1.6-1.4-1.6-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.6-1.3-5.6-6a4.7 4.7 0 0 1 1.2-3.2 4.3 4.3 0 0 1 .1-3.1s1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2a4.3 4.3 0 0 1 .1 3.1 4.7 4.7 0 0 1 1.2 3.2c0 4.7-2.9 5.7-5.6 6 .4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5A12 12 0 0 0 12 .5Z"/></svg>
+          <span>GitHub</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <img src="{{ '/assets/up.png' | relative_url }}" alt="Utkarsh Pratiush">
+      <div class="team-meta">
+        <div class="name">Utkarsh Pratiush</div>
+        <div class="affil">University of Tennessee, Knoxville</div>
+        <div class="socials">
+          <a href="https://github.com/utkarshp1161" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.5v-2c-3.3.7-4-1.4-4-1.4-.6-1.3-1.4-1.6-1.4-1.6-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.6-1.3-5.6-6a4.7 4.7 0 0 1 1.2-3.2 4.3 4.3 0 0 1 .1-3.1s1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2a4.3 4.3 0 0 1 .1 3.1 4.7 4.7 0 0 1 1.2 3.2c0 4.7-2.9 5.7-5.6 6 .4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5A12 12 0 0 0 12 .5Z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="[https://WEBSITE.URL](https://utkarshp1161.github.io/UtkarshsAIInScience.github.io/)" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm7.9 9h-3.2a14.5 14.5 0 0 0-1.1-5 8.03 8.03 0 0 1 4.3 5ZM12 4c.9 0 2.4 2.1 3 6h-6c.6 3.9 2.1 6 3 6Zm-3.6 1a14.5 14.5 0 0 0-1.1 5H4.1a8.03 8.03 0 0 1 4.3-5Zm-4.3 7h3.2c.1 1.8.5 3.5 1.1 5a8.03 8.03 0 0 1-4.3-5Zm7.9 8c-.9 0-2.4-2.1-3-6h6c-.6 3.9-2.1 6-3 6Zm3.6-1a14.5 14.5 0 0 0 1.1-5h3.2a8.03 8.03 0 0 1-4.3 5Z"/></svg>
+            <span>Website</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    
   </div>
 </div>
+
+
 
 <div class="section-card">
   <h2>How It Works</h2>
