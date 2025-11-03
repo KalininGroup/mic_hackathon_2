@@ -50,4 +50,8 @@ published: true
     <iframe src="https://drive.google.com/file/d/1KzXTkm81dt123DO4Hms8E8LQmn3sCs0f/preview"
         width="100%" height="480" allow="autoplay"></iframe>
   </div>
+
+  <p style="font-size:0.9rem; color:#475467; text-align:right; margin-top:6px;">
+  🎬 <em>Video credits: Utkarsh Pratiush</em>
+  </p>
 </div>
