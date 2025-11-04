@@ -98,7 +98,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
 
   <p style="margin-top:8px; color:#475467;">
     <em>Exact prize-to-category mapping will be finalized based on submissions and judging outcomes.</em><br>
-    All prizes will be presented during the <strong>Final Showcase on December 18, 2025</strong>.
   </p>
 </div>
 
