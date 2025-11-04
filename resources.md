@@ -47,7 +47,7 @@ published: true
   </p>
 
 <div class="video-frame" style="aspect-ratio:16/9; max-width:1920px; margin:auto;">
-  <iframe src="https://drive.google.com/file/d/1KzXTkm81dt123DO4Hms8E8LQmn3sCs0f/preview"
+  <iframe src="https://drive.google.com/file/d/11XIAidbWpyvbzdi1rE6tQ_XevDuyDM4q/preview"
           style="width:100%; height:100%; border:0; border-radius:10px;"
           allow="autoplay; fullscreen"></iframe>
 </div>
