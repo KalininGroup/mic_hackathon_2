@@ -40,6 +40,23 @@ published: true
 </style>
 
 <div class="section-card">
+  <h2>Getting Started with Python</h2>
+  <p>
+    If you are new to Python, please see this helpful Medium 
+    <a href="https://medium.com/" target="_blank" rel="noopener" style="color:#3366cc; text-decoration:none;">article</a> 
+    to get familiar with basic concepts and coding examples.
+  </p>
+</div>
+
+<div class="section-card">
+  <h2>Microscope Simulator</h2>
+  <p>
+    Please give a try to our <a href="/simulator/" style="color:#3366cc; text-decoration:none;">Microscope simulator</a> (in development).  
+    Head to the <a href="/notebooks/" style="color:#3366cc; text-decoration:none;">notebooks</a> section to explore how it works.
+  </p>
+</div>
+
+<div class="section-card">
   <h2>Using Slack & Miro for Collaboration</h2>
   <p>
   This short video introduces how participants can use <strong>Slack</strong> and <strong>Miro</strong> effectively before and during the hackathon — to form teams, discuss ideas, interact with the organizers and collaborate with members even if they’re at different locations.  
