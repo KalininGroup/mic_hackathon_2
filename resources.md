@@ -43,7 +43,10 @@ published: true
   <h2>Getting Started with Python</h2>
   <p>
     If you are new to Python, please see this helpful Medium 
-    <a href="https://medium.com/@sergei2vk/the-new-language-of-science-how-to-learn-python-effectively-c8ce51012a64" target="_blank" rel="noopener" style="color:#3366cc; text-decoration:none;">article</a> 
+    <a href="https://medium.com/@sergei2vk/the-new-language-of-science-how-to-learn-python-effectively-c8ce51012a64"
+       target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
+       article
+    </a>
     to get familiar with basic concepts and coding examples.
   </p>
 </div>
@@ -51,8 +54,18 @@ published: true
 <div class="section-card">
   <h2>Microscope Simulator</h2>
   <p>
-    Please give a try to our <a href="https://github.com/pycroscopy/DTMicroscope" style="color:#3366cc; text-decoration:none;">Microscope simulator</a> (in development).  
-    Head to the <a href="https://github.com/pycroscopy/DTMicroscope/tree/main/notebooks" style="color:#3366cc; text-decoration:none;">notebooks</a> section to explore how it works.
+    Please give a try to our 
+    <a href="https://github.com/pycroscopy/DTMicroscope"
+       target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
+       Microscope simulator
+    </a>
+    (in development).  
+    Head to the 
+    <a href="https://github.com/pycroscopy/DTMicroscope/tree/main/notebooks"
+       target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
+       notebooks
+    </a>
+    section to explore how it works.
   </p>
 </div>
 
