@@ -87,7 +87,7 @@ nav_exclude: false
   <ul class="agenda-list">
     <li><span class="agenda-time">Daytime</span>Final touches, testing and preparing deliverables</li>
     <li><span class="agenda-time">11:59 PM EST</span><strong>Final Submissions Due</strong><br>
-      Submit by email to <code>sergei2@utk.edu</code><br>
+      Submission procedure will be updated soon...
       <ul style="margin:6px 0 0 22px">
         <li>~2-minute video about the project</li>
         <li>1-page summary (text or PDF)</li>
