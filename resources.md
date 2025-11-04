@@ -47,9 +47,11 @@ published: true
   </p>
 
 <div class="video-frame" style="aspect-ratio:16/9; max-width:1920px; margin:auto;">
-  <iframe src="https://drive.google.com/file/d/11XIAidbWpyvbzdi1rE6tQ_XevDuyDM4q/preview"
-          style="width:100%; height:100%; border:0; border-radius:10px;"
-          allow="autoplay; fullscreen"></iframe>
+  <iframe 
+    src="https://drive.google.com/file/d/1hbGdXziLnsHg2CEAw1BsTPkTeIXt40Q4/preview"
+    style="width:100%; height:100%; border:0; border-radius:10px;"
+    allow="autoplay; fullscreen">
+  </iframe>
 </div>
   <p style="font-size:0.9rem; color:#475467; text-align:right; margin-top:6px;">
   🎬 <em>Video credits: Utkarsh Pratiush</em>
