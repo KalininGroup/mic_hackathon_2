@@ -403,7 +403,6 @@ published: true
     <img src="{{ '/assets/tf_logo.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/renaissance.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/TheiaScientific.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/hf.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/DENS.png' | relative_url }}"  style="max-height:64px;">
   </div>
 
