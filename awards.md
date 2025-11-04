@@ -40,6 +40,11 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
 }
 </style>
 
+<div class="private-banner">
+  🔒 <strong>Private Preview:</strong> This Awards page is hidden from the public navigation and search results.
+  Only maintainers with the direct link can access it.
+</div>
+
 <div class="section-card">
   <h2>Prize Breakdown</h2>
 
@@ -56,35 +61,35 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         <td style="text-align:center;">
           <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy" style="max-height:50px;">
         </td>
-        <td>--</td>
+        <td>$15000</td>
         <td>Supports community-driven innovation and open collaboration awards.</td>
       </tr>
       <tr>
         <td style="text-align:center;">
           <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS Solutions" style="max-height:50px;">
         </td>
-        <td>--</td>
+        <td>Mystery Prize</td>
         <td>Overall Winner — “Mystery Prize” sponsored by DENS Solutions.</td>
       </tr>
       <tr>
         <td style="text-align:center;">
           <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:65px;">
         </td>
-        <td>--</td>
+        <td>$1000</td>
         <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
       </tr>
       <tr>
         <td style="text-align:center;">
           <img src="{{ '/assets/tf_logo.png' | relative_url }}" alt="Thermo Fisher Scientific" style="max-height:50px;">
         </td>
-        <td>--</td>
+        <td>$500</td>
         <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
       </tr>
       <tr>
         <td style="text-align:center;">
           <img src="{{ '/assets/hf.png' | relative_url }}" alt="Hugging Face" style="max-height:50px;">
         </td>
-        <td>--</td>
+        <td>Merchandise and supporting resources </td>
         <td>May accompany another prize or serve as a special recognition award.</td>
       </tr>
 
