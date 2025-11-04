@@ -54,47 +54,57 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
     Final prize assignments will be announced during the hackathon.
   </p>
 
-  <table class="table-soft">
-    <thead><tr><th>Sponsor</th><th>Prize</th><th>Notes</th></tr></thead>
-    <tbody>
-      <tr>
-        <td style="text-align:center;">
+<table class="table-soft">
+  <thead><tr><th>Sponsor</th><th>Prize</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://www.renaissancephilanthropy.org" target="_blank">
           <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy" style="max-height:50px;">
-        </td>
-        <td>$15000</td>
-        <td>Supports community-driven innovation and open collaboration awards.</td>
-      </tr>
-      <tr>
-        <td style="text-align:center;">
+        </a>
+      </td>
+      <td>$15000</td>
+      <td>Sponsors the <strong>1st Overall Winner ($10,000)</strong> and <strong>2nd Overall Winner ($5,000)</strong> awards</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://denssolutions.com" target="_blank">
           <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS Solutions" style="max-height:50px;">
-        </td>
-        <td>Mystery Prize</td>
-        <td>Overall Winner — “Mystery Prize” sponsored by DENS Solutions.</td>
-      </tr>
-      <tr>
-        <td style="text-align:center;">
-          <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:65px;">
-        </td>
-        <td>$1000</td>
-        <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
-      </tr>
-      <tr>
-        <td style="text-align:center;">
+        </a>
+      </td>
+      <td>Mystery Prize</td>
+      <td>Accompanied with Overall Winner Award</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://theiascientific.com" target="_blank">
+          <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:50px;">
+        </a>
+      </td>
+      <td>$1000</td>
+      <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://www.thermofisher.com" target="_blank">
           <img src="{{ '/assets/tf_logo.png' | relative_url }}" alt="Thermo Fisher Scientific" style="max-height:50px;">
-        </td>
-        <td>$500</td>
-        <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
-      </tr>
-      <tr>
-        <td style="text-align:center;">
+        </a>
+      </td>
+      <td>$500</td>
+      <td>Sponsors one of the main award categories (to be announced at the final judging).</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://huggingface.co" target="_blank">
           <img src="{{ '/assets/hf.png' | relative_url }}" alt="Hugging Face" style="max-height:50px;">
-        </td>
-        <td>Merchandise and supporting resources </td>
-        <td>May accompany another prize or serve as a special recognition award.</td>
-      </tr>
+        </a>
+      </td>
+      <td>Merchandise and supporting resources</td>
+      <td>May accompany another prize or serve as a special recognition award.</td>
+    </tr>
+  </tbody>
+</table>
 
-    </tbody>
-  </table>
 
   <p style="margin-top:8px; color:#475467;">
     <em>Exact prize-to-category mapping will be finalized based on submissions and judging outcomes.</em><br>
