@@ -78,7 +78,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
     <tr>
       <td style="text-align:center;">
         <a href="https://theiascientific.com" target="_blank">
-          <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:50px;">
+          <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:70px;">
         </a>
       </td>
       <td>$1000</td>
