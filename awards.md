@@ -6,7 +6,7 @@ menu_icon: trophy
 permalink: /awards/
 published: true
 sitemap: true
-nav_exclude: false     # show in navigation
+nav_exclude: true     # show in navigation
 nav_order: 40          # adjust position in the menu (lower = earlier)
 ---
 
