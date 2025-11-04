@@ -254,6 +254,47 @@ published: true
       </div>
     </div>
 
+    
+    <!-- Yongtao -->
+    <div class="team-card">
+      <img src="{{ '/assets/Yliu.png' | relative_url }}" alt="Yongtao">
+      <div class="team-meta">
+        <div class="name">
+          Yongtao Liu
+          <span class="socials">
+            <a href="https://www.ornl.gov/staff-profile/yongtao-liu" target="_blank" rel="noopener" title="Website" aria-label="Website">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 2c.9 0 2.4 2.1 3 6H9c.6-3.9 2.1-6 3-6ZM5.06 11a7.8 7.8 0 0 1 .16-1h3.01a20 20 0 0 0 0 2H5.22a7.8 7.8 0 0 1-.16-1Zm6.94 9c-.9 0-2.4-2.1-3-6h6c-.6 3.9-2.1 6-3 6Zm3.77-7a20 20 0 0 0 0-2h3.01c.21.98.21 2.02 0 3H15.77ZM7.2 7H4.9a8 8 0 0 1 3.4-2.6c-.43.82-.8 1.7-1.1 2.6Zm9.6 0c-.3-.9-.67-1.78-1.1-2.6A8 8 0 0 1 19.1 7h-2.3ZM7.2 17c.3.9.67 1.78 1.1 2.6A8 8 0 0 1 4.9 17h2.3Zm9.6 0h2.3a8 8 0 0 1-3.4 2.6c.43-.82.8-1.7 1.1-2.6Z"/></svg>
+            </a>
+            <a href="https://github.com/yongtaoliu" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            </a>
+          </span>
+        </div>
+        <div class="affil">CNMS, Oak Ridge National Laboratory, TN</div>
+       
+      </div>
+    </div>
+
+        <!-- Steven -->
+    <div class="team-card">
+      <img src="{{ '/assets/ss.png' | relative_url }}" alt="Steven R Spurgeon">
+      <div class="team-meta">
+        <div class="name">
+          Steven R Spurgeon
+          <span class="socials">
+            <a href="https://www.stevenspurgeon.com/group" target="_blank" rel="noopener" title="Website" aria-label="Website">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 2c.9 0 2.4 2.1 3 6H9c.6-3.9 2.1-6 3-6ZM5.06 11a7.8 7.8 0 0 1 .16-1h3.01a20 20 0 0 0 0 2H5.22a7.8 7.8 0 0 1-.16-1Zm6.94 9c-.9 0-2.4-2.1-3-6h6c-.6 3.9-2.1 6-3 6Zm3.77-7a20 20 0 0 0 0-2h3.01c.21.98.21 2.02 0 3H15.77ZM7.2 7H4.9a8 8 0 0 1 3.4-2.6c-.43.82-.8 1.7-1.1 2.6Zm9.6 0c-.3-.9-.67-1.78-1.1-2.6A8 8 0 0 1 19.1 7h-2.3ZM7.2 17c.3.9.67 1.78 1.1 2.6A8 8 0 0 1 4.9 17h2.3Zm9.6 0h2.3a8 8 0 0 1-3.4 2.6c.43-.82.8-1.7 1.1-2.6Z"/></svg>
+            </a>
+            <a href="https://github.com/stevenspurgeon" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            </a>
+          </span>
+        </div>
+        <div class="affil">National Renewable Energy Laboratory, CO; Colorado SChool of Mines</div>
+       
+      </div>
+    </div>
+
     <!-- Richard -->
     <div class="team-card">
       <img src="{{ '/assets/rliu.png' | relative_url }}" alt="Richard Liu">
@@ -288,6 +329,23 @@ published: true
       </div>
     </div>
 
+    <!-- Austin -->
+    <div class="team-card">
+      <img src="{{ '/assets/Austin.png' | relative_url }}" alt="Austin Houston">
+      <div class="team-meta">
+        <div class="name">
+          Austin Houston
+          <span class="socials">
+            <a href="https://github.com/AustinHouston" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            </a>
+          </span>
+        </div>
+        <div class="affil">University of Tennessee, Knoxville</div>
+       
+      </div>
+    </div>
+    
     <!-- Utkarsh -->
     <div class="team-card">
       <img src="{{ '/assets/up.png' | relative_url }}" alt="Utkarsh Pratiush">
