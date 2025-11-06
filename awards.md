@@ -6,7 +6,7 @@ menu_icon: trophy
 permalink: /awards/
 published: true
 sitemap: true
-nav_exclude: true     # show in navigation
+nav_exclude: False     # show in navigation
 nav_order: 40          # adjust position in the menu (lower = earlier)
 ---
 
@@ -39,11 +39,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
   padding:10px 14px; color:#7a5900; font-size:.9rem; margin-top:10px;
 }
 </style>
-
-<div class="private-banner">
-  🔒 <strong>Private Preview:</strong> This Awards page is hidden from the public navigation and search results.
-  Only maintainers with the direct link can access it.
-</div>
 
 <div class="section-card">
   <h2>Prize Breakdown</h2>
