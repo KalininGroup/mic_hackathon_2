@@ -105,11 +105,5 @@ published: true
   <p style="font-size:0.9rem; color:#475467; text-align:right; margin-top:6px;">
     🎬 <em>Video credits: Richard Liu</em>
   </p>
-
-  <p style="font-size:0.92rem; color:#475467; margin-top:8px;">
-    Having trouble playing the video? 
-    <a href="https://drive.google.com/file/d/1rsj5udZULTyWfXn0uS3oM1ejZLT2jDjd/view?usp=sharing"
-       target="_blank" rel="noopener">Open it directly in Google Drive</a>.
-  </p>
 </div>
 
