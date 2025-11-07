@@ -87,3 +87,29 @@ published: true
   🎬 <em>Video credits: Utkarsh Pratiush</em>
   </p>
 </div>
+
+<div class="section-card">
+  <h2>Understanding Digital Twins in Microscopy</h2>
+  <p>
+    Discover how machine learning is transforming microscopy research through collaborative hackathons and digital twin simulations.  
+  </p>
+
+  <div class="video-frame" style="aspect-ratio:16/9; max-width:1920px; margin:auto;">
+    <iframe 
+      src="https://drive.google.com/file/d/1rsj5udZULTyWfXn0uS3oM1ejZLT2jDjd/preview"
+      style="width:100%; height:100%; border:0; border-radius:10px;"
+      allow="autoplay; fullscreen">
+    </iframe>
+  </div>
+
+  <p style="font-size:0.9rem; color:#475467; text-align:right; margin-top:6px;">
+    🎬 <em>Video credits: Richard Liu</em>
+  </p>
+
+  <p style="font-size:0.92rem; color:#475467; margin-top:8px;">
+    Having trouble playing the video? 
+    <a href="https://drive.google.com/file/d/1rsj5udZULTyWfXn0uS3oM1ejZLT2jDjd/view?usp=sharing"
+       target="_blank" rel="noopener">Open it directly in Google Drive</a>.
+  </p>
+</div>
+
