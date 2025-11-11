@@ -74,6 +74,7 @@ menu_icon: house-door
     <div>Colorado School of Mines</div>
     <div>Indian Institute of Technology Delhi (IITD)</div>
     <div>Thermo Fisher Scientific – Eindhoven</div>
+    <div>Johns Hopkins University, Maryland</div>
     <div>Online (Global)</div>
   </div>
   <p style="margin-top:10px;">
