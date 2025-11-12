@@ -366,6 +366,23 @@ published: true
       </div>
     </div>
 
+     <!-- Aditya -->
+    <div class="team-card">
+      <img src="{{ '/assets/Aditya.jpg' | relative_url }}" alt="Aditya Raghavan">
+      <div class="team-meta">
+        <div class="name">
+          Aditya Raghavan
+          <span class="socials">
+            <a href="https://github.com/adityaraghavan98" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.53-1.35-1.29-1.71-1.29-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.39.96.1-.76.41-1.26.74-1.55-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.47 5.92.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            </a>
+          </span>
+        </div>
+        <div class="affil">University of Tennessee, Knoxville</div>
+       
+      </div>
+    </div>
+
   </div>
 </div>
 
