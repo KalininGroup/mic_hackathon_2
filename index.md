@@ -115,7 +115,7 @@ menu_icon: house-door
   </p>
   <ul>
     <li><a href="https://tiny.utk.edu/slack">Join the Slack workspace</a></li>
-    <li>Miro board link will be provided after registration</li>
+    <li><a href="https://miro.com/app/board/uXjVJTYNLw4=/?share_link_id=534372708492">Access the Miro Board to create teams/projects</a></li>
   </ul>
 </div>
 
