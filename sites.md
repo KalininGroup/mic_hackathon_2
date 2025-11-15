@@ -59,6 +59,8 @@ published: true
     { id:"site-ucolo", name:"University of Colorado",                   city:"Boulder, CO, USA",   lat:40.0076,  lon:-105.2659 },
     { id:"site-mines", name:"Colorado School of Mines",                 city:"Golden, CO, USA",    lat:39.7510,  lon:-105.2226 },
     { id:"site-tfs", name:"Thermo Fisher Scientific – Eindhoven", city:"Eindhoven, Netherlands", lat:51.469218, lon:5.421370 }
+    { id:"site-aiscia", name:"AISCIA Informatics – Doha, Qatar", city:"Qatar Science and Technology Park, Doha", lat:25.325, lon:51.435 },
+
   ];
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -311,6 +313,21 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Thermo%20Fisher%20Scientific%20Eindhoven" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=Thermo%20Fisher%20Scientific%20%E2%80%93%20Eindhoven" class="btn-primary">Register</a>
+      </div>
+    </div>
+    
+    <!-- AISCIA Informatics – Doha -->
+    <div class="site-card" id="site-aiscia">
+      <span class="badge">Doha, Qatar</span>
+      <h3>AISCIA Informatics – Doha, Qatar</h3>
+      <img class="site-logo" src="{{ '/assets/AISCIA.png' | relative_url }}" alt="AISCIA Informatics logo">
+      <div class="site-meta">
+        Qatar Science and Technology Park, Doha • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Qatar%20Science%20and%20Technology%20Park%20Doha" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=AISCIA%20Informatics%20%E2%80%93%20Doha,%20Qatar" class="btn-primary">Register</a>
       </div>
     </div>
 
