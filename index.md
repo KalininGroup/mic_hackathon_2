@@ -64,7 +64,8 @@ menu_icon: house-door
     <p style="font-size:1.05rem; line-height:1.6; color:#344054;">
       Two enthusiastic participants decided to camp out in the microscopy lab so they wouldn’t
       miss the hackathon… until someone walks in and reminds them:
-      you can just <a href="/register/" style="color:#1d4ed8; text-decoration:underline;">register online</a>.
+      you can just <a href="{{ '/register' | relative_url }}" style="color:#1d4ed8; text-decoration:underline;">register online</a>
+      register online</a>.
       <br><br>
       No sleeping bags required — just bring your ideas, curiosity, and a laptop.
       Sign up, join a team, and be ready when the challenges drop.
