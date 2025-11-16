@@ -46,6 +46,16 @@ menu_icon: house-door
   <p style="margin-top:6px;"><a href="https://kaliningroup.github.io/mic-hackathon/">See the 2024 edition</a></p>
 </div>
 
+<div style="margin: 32px 0; display: flex; justify-content: center;">
+  <iframe 
+      src="https://drive.google.com/file/d/1Mhz6qqFdVOdIvUSQWFl30HIEMgCPEcjV/preview" 
+      width="360" 
+      height="640" 
+      allow="autoplay"
+      style="border-radius:12px; border:1px solid #e8ecf3;">
+  </iframe>
+</div>
+
 <div class="section-card">
   <h2>What is the Hackathon?</h2>
   <p>
