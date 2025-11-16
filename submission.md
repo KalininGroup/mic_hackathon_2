@@ -43,7 +43,6 @@ nav_exclude: false
 }
 </style>
 
-## Submissions
 
 Use the resources below to prepare your final hackathon submission.  
 Each section includes links and instructions to help you navigate the process.
