@@ -46,19 +46,38 @@ menu_icon: house-door
   <p style="margin-top:6px;"><a href="https://kaliningroup.github.io/mic-hackathon/">See the 2024 edition</a></p>
 </div>
 
-<div style="margin: 32px 0; display: flex; justify-content: center;">
-  <video 
-      src="/assets/Hackathon_2025_Fun_small.mp4"
+<div style="display: flex; justify-content: center; gap: 32px; margin: 40px 0; align-items: center; flex-wrap: wrap;">
+
+  <!-- Left: Video -->
+  <video
+      src="{{ '/assets/HHackathon_2025_Fun_small.mp4' | relative_url }}"
       autoplay
       muted
       loop
       playsinline
       controls
-      width="360"
-      height="640"
-      style="border-radius:12px; border:1px solid #e8ecf3; background:#000;">
+      style="width: 320px; height: 570px; border-radius:12px; border:1px solid #e8ecf3; background:#000;">
   </video>
+
+  <!-- Right: Text -->
+  <div style="max-width: 420px;">
+    <h3 style="margin-top:0; color:#1d2a56;">Don’t camp in the lab to join the hackathon 😄</h3>
+    <p style="font-size:1.05rem; line-height:1.6; color:#344054;">
+      Two enthusiastic participants decided to camp out in the microscopy lab so they wouldn’t
+      miss the hackathon… until someone walks in and reminds them:
+      you can just <a href="/register/" style="color:#1d4ed8; text-decoration:underline;">register online</a>.
+      <br><br>
+      No sleeping bags required — just bring your ideas, curiosity, and a laptop.
+      Sign up, join a team, and be ready when the challenges drop.
+    </p>
+
+    <p style="font-size:0.85rem; color:#6b7280; margin-top:16px;">
+      <em>Video created by members of the hackathon organizing team.</em>
+    </p>
+  </div>
+
 </div>
+
 
 
 <div class="section-card">
