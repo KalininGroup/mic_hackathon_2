@@ -2,6 +2,7 @@
 layout: page
 title: Submissions
 menu_title: Submissions
+menu_icon: cloud-upload
 permalink: /submissions/
 published: true
 nav_exclude: false
