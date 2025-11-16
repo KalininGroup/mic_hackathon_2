@@ -52,8 +52,7 @@ menu_icon: house-door
   <video
       src="{{ '/assets/Hackathon_2025_Fun_small.mp4' | relative_url }}"
       autoplay
-      muted
-      loop
+      unmuted
       playsinline
       controls
       style="width: 320px; height: 570px; border-radius:12px; border:1px solid #e8ecf3; background:#000;">
