@@ -72,7 +72,7 @@ menu_icon: house-door
     </p>
 
     <p style="font-size:0.85rem; color:#6b7280; margin-top:16px;">
-      <em>Video created by members of the hackathon organizing team.</em>
+      <em>Video created by Austin Houston, Utkarsh Pratiush and Kamyar Barakati.</em>
     </p>
   </div>
 
