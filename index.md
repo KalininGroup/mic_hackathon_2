@@ -50,7 +50,7 @@ menu_icon: house-door
 
   <!-- Left: Video -->
   <video
-      src="{{ '/assets/HHackathon_2025_Fun_small.mp4' | relative_url }}"
+      src="{{ '/assets/Hackathon_2025_Fun_small.mp4' | relative_url }}"
       autoplay
       muted
       loop
