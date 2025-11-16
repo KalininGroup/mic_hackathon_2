@@ -47,14 +47,19 @@ menu_icon: house-door
 </div>
 
 <div style="margin: 32px 0; display: flex; justify-content: center;">
-  <iframe 
-      src="https://drive.google.com/file/d/1Mhz6qqFdVOdIvUSQWFl30HIEMgCPEcjV/preview" 
-      width="360" 
-      height="640" 
-      allow="autoplay"
-      style="border-radius:12px; border:1px solid #e8ecf3;">
-  </iframe>
+  <video 
+      src="/assets/Hackathon_2025_Fun_small.mp4"
+      autoplay
+      muted
+      loop
+      playsinline
+      controls
+      width="360"
+      height="640"
+      style="border-radius:12px; border:1px solid #e8ecf3; background:#000;">
+  </video>
 </div>
+
 
 <div class="section-card">
   <h2>What is the Hackathon?</h2>
