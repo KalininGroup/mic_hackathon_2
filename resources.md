@@ -126,9 +126,4 @@ published: true
     🎬 <em>Video credits: Rama Vasudevan and Aditya Raghavan</em>
   </p>
 
-  <p style="font-size:0.92rem; color:#475467; margin-top:8px;">
-    Having trouble playing the video? 
-    <a href="https://drive.google.com/file/d/1a2I7dsaJE3xa6djz2dczQCrSNqr1h1S0/view?usp=sharing"
-       target="_blank" rel="noopener">Open it directly in Google Drive</a>.
-  </p>
 </div>
