@@ -52,7 +52,7 @@ menu_icon: house-door
   <video
       src="{{ '/assets/Hackathon_2025_Fun_small.mp4' | relative_url }}"
       autoplay
-      unmuted
+      muted
       playsinline
       controls
       style="width: 320px; height: 570px; border-radius:12px; border:1px solid #e8ecf3; background:#000;">
@@ -63,9 +63,8 @@ menu_icon: house-door
     <h3 style="margin-top:0; color:#1d2a56;">Don’t camp in the lab to join the hackathon 😄</h3>
     <p style="font-size:1.05rem; line-height:1.6; color:#344054;">
       Two enthusiastic participants decided to camp out in the microscopy lab so they wouldn’t
-      miss the hackathon… until someone walks in and reminds them:
-      you can just <a href="{{ '/register' | relative_url }}" style="color:#1d4ed8; text-decoration:underline;">register online</a>
-      register online</a>.
+      miss the hackathon… until a friend walks in and reminds them:
+      you can just <a href="{{ '/registration' | relative_url }}" style="color:#1d4ed8; text-decoration:underline;">register online</a>.
       <br><br>
       No sleeping bags required — just bring your ideas, curiosity, and a laptop.
       Sign up, join a team, and be ready when the challenges drop.
