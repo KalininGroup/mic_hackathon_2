@@ -60,6 +60,10 @@ published: true
     { id:"site-mines", name:"Colorado School of Mines",                 city:"Golden, CO, USA",    lat:39.7510,  lon:-105.2226 },
     { id:"site-tfs", name:"Thermo Fisher Scientific – Eindhoven", city:"Eindhoven, Netherlands", lat:51.469218, lon:5.421370 },
     { id:"site-aiscia", name:"AISCIA Informatics – Doha, Qatar", city:"Qatar Science and Technology Park, Doha", lat:25.325, lon:51.435 },
+    { id:"site-psu",  name:"Pennsylvania State University", city:"State College, PA, USA", lat:40.7982, lon:-77.8599 },
+    { id:"site-upenn", name:"University of Pennsylvania", city:"Philadelphia, PA, USA", lat:39.9522, lon:-75.1932 },
+    { id:"site-umich", name:"University of Michigan, Ann Arbor", city:"Ann Arbor, MI, USA", lat:42.2780, lon:-83.7382 },
+
 
   ];
 
@@ -330,6 +334,51 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Qatar%20Science%20and%20Technology%20Park%20Doha" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=AISCIA%20Informatics%20%E2%80%93%20Doha,%20Qatar" class="btn-primary">Register</a>
+      </div>
+    </div>
+
+    <!-- Pennsylvania State University -->
+    <div class="site-card" id="site-psu">
+      <span class="badge">Pennsylvania, USA</span>
+      <h3>Pennsylvania State University</h3>
+      <img class="site-logo" src="{{ '/assets/PSU.png' | relative_url }}" alt="Pennsylvania State University logo">
+      <div class="site-meta">
+        State College, PA • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Pennsylvania%20State%20University%20State%20College" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Pennsylvania%20State%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+
+    <!-- University of Pennsylvania -->
+    <div class="site-card" id="site-upenn">
+      <span class="badge">Pennsylvania, USA</span>
+      <h3>University of Pennsylvania</h3>
+      <img class="site-logo" src="{{ '/assets/UPenn.png' | relative_url }}" alt="University of Pennsylvania logo">
+      <div class="site-meta">
+        Philadelphia, PA • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Pennsylvania%20Philadelphia" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Pennsylvania" class="btn-primary">Register</a>
+      </div>
+    </div>
+
+    <!-- University of Michigan, Ann Arbor -->
+    <div class="site-card" id="site-umich">
+      <span class="badge">Michigan, USA</span>
+      <h3>University of Michigan, Ann Arbor</h3>
+      <img class="site-logo" src="{{ '/assets/UMich.png' | relative_url }}" alt="University of Michigan logo">
+      <div class="site-meta">
+        Ann Arbor, MI • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Michigan%20Ann%20Arbor" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Michigan,%20Ann%20Arbor" class="btn-primary">Register</a>
       </div>
     </div>
 
