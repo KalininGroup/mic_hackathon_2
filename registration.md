@@ -116,7 +116,10 @@ published: true
       <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Technology Delhi (IIT Delhi)"> Indian Institute of Technology Delhi (IIT Delhi)</label>
       <label><input type="checkbox" name="entry.1753222212" value="Thermo Fisher Scientific – Eindhoven"> Thermo Fisher Scientific – Eindhoven</label>
       <label><input type="checkbox" name="entry.1753222212" value="Johns Hopkins University"> Johns Hopkins University</label>
-      <label><input type="checkbox" name="entry.1753222212" value="AISCIA Informatics – Doha, Qatar "> AISCIA Informatics – Doha, Qatar </label>
+      <label><input type="checkbox" name="entry.1753222212" value="AISCIA Informatics – Doha, Qatar"> AISCIA Informatics – Doha, Qatar </label>
+      <label><input type="checkbox" name="entry.1753222212" value="Pennsylvania State University"> Pennsylvania State University </label>
+      <label><input type="checkbox" name="entry.1753222212" value="University of Pennsylvania"> University of Pennsylvania </label>
+      <label><input type="checkbox" name="entry.1753222212" value="University of Michigan, Ann Arbor"> University of Michigan, Ann Arbor </label>
     </div>
   </fieldset>
 
