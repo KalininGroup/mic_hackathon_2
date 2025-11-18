@@ -97,6 +97,17 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td>Merchandise and supporting resources</td>
       <td>May accompany another prize or serve as a special recognition award.</td>
     </tr>
+
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://microscopy.org/the-student-council-stc/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/msa_stc.png' | relative_url }}" alt="MSA Student Council" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$500 + Student registration to Pre-Meeting Congress (PMC) at MSA 2026, Milwaukee</td>
+      <td>Awarded to the top student team by the MSA Student Council (MSA StC).</td>
+    </tr>
+
   </tbody>
 </table>
 
