@@ -109,6 +109,9 @@ menu_icon: house-door
     <div>Thermo Fisher Scientific – Eindhoven</div>
     <div>Johns Hopkins University, Maryland</div>
     <div>AISCIA Informatics – Doha, Qatar</div>
+    <div>Pennsylvania State Universityr</div>
+    <div>University of Pennsylvania</div>
+    <div>University of Michigan, Ann Arbor</div>
     <div>Online (Global)</div>
   </div>
   <p style="margin-top:10px;">
@@ -131,14 +134,51 @@ menu_icon: house-door
   <table class="table-soft">
     <thead><tr><th>Phase</th><th>Date</th><th>Description</th></tr></thead>
     <tbody>
-      <tr><td>Registration & Team Formation</td><td>Now – Dec 10</td><td>Register, join Slack, and find collaborators.</td></tr>
-      <tr><td>Hackathon Start</td><td>Dec 16</td><td>Opening session and challenge release.</td></tr>
-      <tr><td>Mentorship & Collaboration</td><td>Dec 16–17</td><td>Hands-on work with mentors and cross-site support.</td></tr>
-      <tr><td>Final Presentations</td><td>Dec 18</td><td>Team presentations and judging.</td></tr>
-      <tr><td>Post-Event</td><td>Jan 2026</td><td>Paper writing and open-source integration.</td></tr>
+      <tr>
+        <td>Registration & Team Formation</td>
+        <td>Now – Dec 10</td>
+        <td>Register, join Slack, and find collaborators.</td>
+      </tr>
+
+      <tr>
+        <td>Hackathon Start</td>
+        <td>Dec 16</td>
+        <td>Opening session and challenge release.</td>
+      </tr>
+
+      <tr>
+        <td>Mentorship & Collaboration</td>
+        <td>Dec 16–17</td>
+        <td>Hands-on work with mentors and cross-site support.</td>
+      </tr>
+
+      <tr>
+        <td>Final Presentations</td>
+        <td>Dec 18</td>
+        <td>Team presentations and submissions.</td>
+      </tr>
+
+      <tr>
+        <td>Judging Period</td>
+        <td>Dec 19 – Jan 2026</td>
+        <td>Judging of submissions by the Jury.</td>
+      </tr>
+
+      <tr>
+        <td>Award Announcement</td>
+        <td>Jan 2026 (TBA)</td>
+        <td>Winners announced after judging is completed.</td>
+      </tr>
+
+      <tr>
+        <td>Post-Event</td>
+        <td>Jan 2026</td>
+        <td>Paper writing and open-source integration.</td>
+      </tr>
     </tbody>
   </table>
 </div>
+
 
 <div class="section-card">
   <h2>Logistics</h2>
