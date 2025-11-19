@@ -405,11 +405,17 @@ published: true
 <div class="section-card">
   <h2>Partners &amp; Support</h2>
 
-  <p>
-    The hackathon is supported by the <strong>AI Tennessee Initiative</strong> and the
-    <strong>Center for Advanced Materials &amp; Manufacturing (CAMM)</strong>, with participation from
-    <strong>UTK, NCSU, NWU, UIC/ANL, ICN2, and IIT Delhi</strong>.
-  </p>
+<p>
+  The hackathon is supported by the <strong>AI Tennessee Initiative</strong> and the 
+  <strong>Center for Advanced Materials &amp; Manufacturing (CAMM)</strong>, with participation from 
+  <strong>University of Tennessee Knoxville, North Carolina State University, Northwestern University, 
+  University of Illinois Chicago, ICN2 Barcelona, University of Toronto, University of Wisconsin–Madison, 
+  University of Colorado Boulder, Colorado School of Mines, Indian Institute of Technology Delhi, 
+  Thermo Fisher Scientific (Eindhoven), AISCIA Informatics (Doha, Qatar), Pennsylvania State University, 
+  University of Pennsylvania, University of Michigan Ann Arbor, Sungkyunkwan University (SKKU), 
+  Nanyang Technological University Singapore, and Texas A&M University</strong>.
+</p>
+
 
   <p><strong>Sponsors</strong></p>
   <p>
