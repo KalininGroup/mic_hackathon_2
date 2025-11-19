@@ -63,6 +63,8 @@ published: true
     { id:"site-psu",  name:"Pennsylvania State University", city:"State College, PA, USA", lat:40.7982, lon:-77.8599 },
     { id:"site-upenn", name:"University of Pennsylvania", city:"Philadelphia, PA, USA", lat:39.9522, lon:-75.1932 },
     { id:"site-umich", name:"University of Michigan, Ann Arbor", city:"Ann Arbor, MI, USA", lat:42.2780, lon:-83.7382 },
+    { id:"site-skku",name:"Sungkyunkwan University (SKKU)", city:"Suwon, Republic of Korea", lat:37.2930, lon:126.9769 },
+
 
 
   ];
@@ -381,6 +383,22 @@ published: true
         <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Michigan,%20Ann%20Arbor" class="btn-primary">Register</a>
       </div>
     </div>
+
+    <!-- Sungkyunkwan University (SKKU) -->
+    <div class="site-card" id="site-skku">
+      <span class="badge">Republic of Korea</span>
+      <h3>Sungkyunkwan University (SKKU)</h3>
+      <img class="site-logo" src="{{ '/assets/SKKU.jpg' | relative_url }}" alt="SKKU logo">
+      <div class="site-meta">
+        Suwon, Republic of Korea • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Sungkyunkwan%20University%20Suwon%20Korea" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Sungkyunkwan%20University%20(SKKU)" class="btn-primary">Register</a>
+      </div>
+    </div>
+
 
         
     <!-- Online (no pin) -->
