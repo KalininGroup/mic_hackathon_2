@@ -64,6 +64,7 @@ published: true
     { id:"site-upenn", name:"University of Pennsylvania", city:"Philadelphia, PA, USA", lat:39.9522, lon:-75.1932 },
     { id:"site-umich", name:"University of Michigan, Ann Arbor", city:"Ann Arbor, MI, USA", lat:42.2780, lon:-83.7382 },
     { id:"site-skku",name:"Sungkyunkwan University (SKKU)", city:"Suwon, Republic of Korea", lat:37.2930, lon:126.9769 },
+    { id:"site-ntu", name:"Nanyang Technological University (NTU), Singapore", city:"Singapore", lat:1.3483, lon:103.6831 },
 
 
 
@@ -399,6 +400,20 @@ published: true
       </div>
     </div>
 
+    <!-- Nanyang Technological University (NTU), Singapore -->
+    <div class="site-card" id="site-ntu">
+      <span class="badge">Singapore</span>
+      <h3>Nanyang Technological University (NTU), Singapore</h3>
+      <img class="site-logo" src="{{ '/assets/NTU.png' | relative_url }}" alt="NTU logo">
+      <div class="site-meta">
+        Singapore • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Nanyang%20Technological%20University%20Singapore" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Nanyang%20Technological%20University%20(NTU),%20Singapore" class="btn-primary">Register</a>
+      </div>
+    </div>
 
         
     <!-- Online (no pin) -->
