@@ -122,6 +122,8 @@ published: true
       <label><input type="checkbox" name="entry.1753222212" value="University of Michigan, Ann Arbor"> University of Michigan, Ann Arbor </label>
       <label><input type="checkbox" name="entry.1753222212" value="Sungkyunkwan University (SKKU), Republic of Korea"> Sungkyunkwan University (SKKU), Republic of Korea</label>
       <label><input type="checkbox" name="entry.1753222212" value="Nanyang Technological University (NTU), Singapore">Nanyang Technological University (NTU), Singapore </label>
+      <label><input type="checkbox" name="entry.1753222212" value="Texas A&M University">Texas A&M University</label>
+
 
     </div>
   </fieldset>
