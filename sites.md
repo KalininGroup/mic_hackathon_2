@@ -395,7 +395,7 @@ published: true
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Sungkyunkwan%20University%20Suwon%20Korea" target="_blank" rel="noopener">Map</a>
-        <a href="{{ '/registration/' | relative_url }}?site=Sungkyunkwan%20University%20(SKKU)" class="btn-primary">Register</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Sungkyunkwan%20University%20(SKKU),%20Republic%20of%20Korea" class="btn-primary">Register</a>
       </div>
     </div>
 
