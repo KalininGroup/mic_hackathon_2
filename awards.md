@@ -108,6 +108,27 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td>Awarded to the top student team by the MSA Student Council (MSA StC).</td>
     </tr>
 
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://www.tri.global" target="_blank" rel="noopener">
+          <img src="{{ '/assets/TRI.png' | relative_url }}" alt="Toyota Research Institute" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$1000</td>
+      <td>Special category award sponsored by the Toyota Research Institute (TRI).</td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://www.waviks.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/waviks.png' | relative_url }}" alt="Waviks" style="max-height:50px;">
+        </a>
+      </td>
+      <td>$500</td>
+      <td>Sponsored award from Waviks.</td>
+    </tr>
+
+
   </tbody>
 </table>
 
