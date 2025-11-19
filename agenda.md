@@ -47,7 +47,7 @@ nav_exclude: false
 ---
 
 <div class="section-card">
-  <h2 class="h-sub">Day 1 – Monday, December 16 • Kickoff & Talks</h2>
+  <h2 class="h-sub">Day 1 – Tuesday, December 16 • Kickoff & Talks</h2>
   <ul class="agenda-list">
     <li><span class="agenda-time">9:00 AM EST</span>Welcome and Introduction</li>
     <li><span class="agenda-time">9:05 AM EST</span><strong>Keynote Speaker:</strong> Sergei V. Kalinin (University of Tennessee, Knoxville)<br>
@@ -73,7 +73,7 @@ nav_exclude: false
 </div>
 
 <div class="section-card">
-  <h2 class="h-sub">Day 2 – Tuesday, December 17 • Full Work Day</h2>
+  <h2 class="h-sub">Day 2 – Wednesday, December 17 • Full Work Day</h2>
   <ul class="agenda-list">
     <li><span class="agenda-time">All Day</span>Teams work on hackathon projects and problem statements</li>
     <li><span class="agenda-time">Throughout Day</span>Office hours and organizer support available on Slack & Zoom</li>
@@ -83,7 +83,7 @@ nav_exclude: false
 </div>
 
 <div class="section-card">
-  <h2 class="h-sub">Day 3 – Wednesday, December 18 • Submissions & Wrap-Up</h2>
+  <h2 class="h-sub">Day 3 – Thursday, December 18 • Submissions & Wrap-Up</h2>
   <ul class="agenda-list">
     <li><span class="agenda-time">Daytime</span>Final touches, testing and preparing deliverables</li>
     <li><span class="agenda-time">11:59 PM EST</span><strong>Final Submissions Due</strong><br>
