@@ -65,6 +65,7 @@ published: true
     { id:"site-umich", name:"University of Michigan, Ann Arbor", city:"Ann Arbor, MI, USA", lat:42.2780, lon:-83.7382 },
     { id:"site-skku",name:"Sungkyunkwan University (SKKU)", city:"Suwon, Republic of Korea", lat:37.2930, lon:126.9769 },
     { id:"site-ntu", name:"Nanyang Technological University (NTU), Singapore", city:"Singapore", lat:1.3483, lon:103.6831 },
+    { id:"site-tamu", name:"Texas A&M University", city:"College Station, TX, USA", lat:30.6150, lon:-96.3410},
 
 
 
@@ -412,6 +413,21 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Nanyang%20Technological%20University%20Singapore" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=Nanyang%20Technological%20University%20(NTU),%20Singapore" class="btn-primary">Register</a>
+      </div>
+    </div>
+
+    <!-- Texas A&M University -->
+    <div class="site-card" id="site-tamu">
+      <span class="badge">Texas, USA</span>
+      <h3>Texas A&M University</h3>
+      <img class="site-logo" src="{{ '/assets/TAMU.png' | relative_url }}" alt="Texas A&M University logo">
+      <div class="site-meta">
+        College Station, TX • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Texas%20A%26M%20University%20College%20Station" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Texas%20A%26M%20University" class="btn-primary">Register</a>
       </div>
     </div>
 
