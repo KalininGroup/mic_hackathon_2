@@ -112,6 +112,9 @@ menu_icon: house-door
     <div>Pennsylvania State Universityr</div>
     <div>University of Pennsylvania</div>
     <div>University of Michigan, Ann Arbor</div>
+    <div>Sungkyunkwan University (SKKU), Republic of Korea</div>
+    <div>Nanyang Technological University (NTU), Singapore</div>
+    <div>Texas A&M University</div>
     <div>Online (Global)</div>
   </div>
   <p style="margin-top:10px;">
@@ -195,7 +198,7 @@ menu_icon: house-door
 <div class="section-card">
   <h2>Sponsors & Partners</h2>
   <p>
-    Supported by the <strong>Office of Naval Research (ONR)</strong>, <strong>Thermo Fisher Scientific</strong>, <strong>Renaissance Philanthropy</strong>, <strong>Mat3ra – Materials R&D Cloud</strong>, and <strong>Hugging Face</strong>.
+    Supported by the <strong>Office of Naval Research (ONR)</strong>, <strong>Thermo Fisher Scientific</strong>, <strong>Renaissance Philanthropy</strong>, <strong>Mat3ra – Materials R&D Cloud</strong>, <strong>Toyota Research Institute</strong>, <strong>Waviks</strong>, <strong>Microscopy Society of Ameriica, Student Council</strong> and <strong>Hugging Face</strong>.
     Learn more about our partners on the <a href="{{ '/about/' | relative_url }}">About page</a>.
   </p>
 </div>
