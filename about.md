@@ -427,7 +427,7 @@ published: true
     <img src="{{ '/assets/renaissance.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/TheiaScientific.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/DENS.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/waviks.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/waviks.png' | relative_url }}"  style="max-height:48px;">
     <img src="{{ '/assets/TRI.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/msa_stc.png' | relative_url }}"  style="max-height:64px;">
   </div>
