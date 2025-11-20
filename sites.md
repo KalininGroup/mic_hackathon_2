@@ -480,6 +480,7 @@ published: true
       </div>
     </div>
 
+
     <!-- Online (no pin) -->
     <div class="site-card" id="site-online">
       <span class="badge">Global</span>
