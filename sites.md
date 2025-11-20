@@ -69,6 +69,7 @@ published: true
     { id:"site-jhu", name:"Johns Hopkins University", city:"Baltimore, MD, USA", lat:39.3299, lon:-76.6205},
     { id:"site-cambridge", name:"University of Cambridge", city:"Cambridge, United Kingdom", lat:52.2043, lon:0.1149},
     { id:"site-ucinci", name:"University of Cincinnati", city:"Cincinnati, OH, USA", lat:39.1311, lon:-84.5160},
+    { id:"site-ucdublin", name:"University College Dublin", city:"Dublin, Ireland", lat:53.3080, lon:-6.2236},
 
 
 
@@ -480,6 +481,20 @@ published: true
       </div>
     </div>
 
+    <!-- University College Dublin -->
+    <div class="site-card" id="site-ucdublin">
+    <span class="badge">Ireland</span>
+    <h3>University College Dublin, Ireland</h3>
+    <img class="site-logo" src="{{ '/assets/UCDublin.jpg' | relative_url }}" alt="University College Dublin logo">
+    <div class="site-meta">
+      Dublin, Ireland • Building/Room: <em>TBD</em><br>
+      Contact: <em>TBD</em>
+    </div>
+    <div class="site-actions">
+      <a href="https://maps.google.com/?q=University%20College%20Dublin" target="_blank" rel="noopener">Map</a>
+      <a href="{{ '/registration/' | relative_url }}?site=University%20College%20Dublin,%20Ireland" class="btn-primary">Register</a>
+    </div>
+    </div>
 
     <!-- Online (no pin) -->
     <div class="site-card" id="site-online">
