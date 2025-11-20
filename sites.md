@@ -66,6 +66,7 @@ published: true
     { id:"site-skku",name:"Sungkyunkwan University (SKKU)", city:"Suwon, Republic of Korea", lat:37.2930, lon:126.9769 },
     { id:"site-ntu", name:"Nanyang Technological University (NTU), Singapore", city:"Singapore", lat:1.3483, lon:103.6831 },
     { id:"site-tamu", name:"Texas A&M University", city:"College Station, TX, USA", lat:30.6150, lon:-96.3410},
+    { id:"site-jhu", name:"Johns Hopkins University", city:"Baltimore, MD, USA", lat:39.3299, lon:-76.6205},
 
 
 
@@ -310,6 +311,22 @@ published: true
         <a href="{{ '/registration/' | relative_url }}?site=Indian%20Institute%20of%20Technology%20Delhi%20(IIT%20Delhi)" class="btn-primary">Register</a>
       </div>
     </div>
+
+    <!-- Johns Hopkins University -->
+    <div class="site-card" id="site-jhu">
+      <span class="badge">Maryland, USA</span>
+      <h3>Johns Hopkins University</h3>
+      <img class="site-logo" src="{{ '/assets/JHU.png' | relative_url }}" alt="Johns Hopkins University logo">
+      <div class="site-meta">
+        Baltimore, MD • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Johns%20Hopkins%20University%20Baltimore" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Johns%20Hopkins%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+
 
     <!-- Thermo Fisher Scientific Eindhoven -->
     <div class="site-card" id="site-tfs">
