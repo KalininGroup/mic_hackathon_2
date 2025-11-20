@@ -68,6 +68,7 @@ published: true
     { id:"site-tamu", name:"Texas A&M University", city:"College Station, TX, USA", lat:30.6150, lon:-96.3410},
     { id:"site-jhu", name:"Johns Hopkins University", city:"Baltimore, MD, USA", lat:39.3299, lon:-76.6205},
     { id:"site-cambridge", name:"University of Cambridge", city:"Cambridge, United Kingdom", lat:52.2043, lon:0.1149},
+    { id:"site-ucinci", name:"University of Cincinnati", city:"Cincinnati, OH, USA", lat:39.1311, lon:-84.5160},
 
 
 
@@ -463,7 +464,22 @@ published: true
         <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Cambridge" class="btn-primary">Register</a>
       </div>
     </div>
-            
+
+    <!-- University of Cincinnati -->
+    <div class="site-card" id="site-ucinci">
+      <span class="badge">Ohio, USA</span>
+      <h3>University of Cincinnati</h3>
+      <img class="site-logo" src="{{ '/assets/UCinci.png' | relative_url }}" alt="University of Cincinnati logo">
+      <div class="site-meta">
+        Cincinnati, OH • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Cincinnati" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Cincinnati" class="btn-primary">Register</a>
+      </div>
+    </div>
+
     <!-- Online (no pin) -->
     <div class="site-card" id="site-online">
       <span class="badge">Global</span>
