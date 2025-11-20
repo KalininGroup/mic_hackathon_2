@@ -115,6 +115,7 @@ menu_icon: house-door
     <div>Sungkyunkwan University (SKKU), Republic of Korea</div>
     <div>Nanyang Technological University (NTU), Singapore</div>
     <div>Texas A&M University</div>
+    <div>University of Cambridge</div>
     <div>Online (Global)</div>
   </div>
   <p style="margin-top:10px;">
