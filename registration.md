@@ -126,6 +126,7 @@ published: true
       <label><input type="checkbox" name="entry.1753222212" value="University of Cambridge">University of Cambridge</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Cincinnati">University of Cincinnati</label>
       <label><input type="checkbox" name="entry.1753222212" value="University College Dublin, Ireland">University College Dublin, Ireland</label>
+      <label><input type="checkbox" name="entry.1753222212" value="Oklahoma State University">Oklahoma State University</label>
 
 
     </div>
