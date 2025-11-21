@@ -70,6 +70,7 @@ published: true
     { id:"site-cambridge", name:"University of Cambridge", city:"Cambridge, United Kingdom", lat:52.2043, lon:0.1149},
     { id:"site-ucinci", name:"University of Cincinnati", city:"Cincinnati, OH, USA", lat:39.1311, lon:-84.5160},
     { id:"site-ucdublin", name:"University College Dublin", city:"Dublin, Ireland", lat:53.3080, lon:-6.2236},
+    { id:"site-osu", name:"Oklahoma State University", city:"Stillwater, OK, USA", lat:36.1255, lon:-97.0720},
 
 
 
@@ -495,6 +496,22 @@ published: true
       <a href="{{ '/registration/' | relative_url }}?site=University%20College%20Dublin,%20Ireland" class="btn-primary">Register</a>
     </div>
     </div>
+
+    <!-- Oklahoma State University -->
+    <div class="site-card" id="site-osu">
+      <span class="badge">Oklahoma, USA</span>
+      <h3>Oklahoma State University</h3>
+      <img class="site-logo" src="{{ '/assets/OSU.png' | relative_url }}" alt="Oklahoma State University logo">
+      <div class="site-meta">
+        Stillwater, OK • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Oklahoma%20State%20University%20Stillwater" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Oklahoma%20State%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+
 
     <!-- Online (no pin) -->
     <div class="site-card" id="site-online">
