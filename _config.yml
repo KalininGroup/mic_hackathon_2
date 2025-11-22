@@ -2,14 +2,17 @@ title: Microscopy Hackathon
 nav_title: Microscopy Hackathon
 
 event_date: December 16-18
-registration_opens_date: TBA
-registration_closes_date: TBA
+registration_opens_date: Now
+registration_closes_date: 10 Dec 2025 for in-person
 
 author:
 mailbox_address:
 
 description: |
-  The LLM March Madness Materials / Chemistry Hackathon is a virtual hackathon designed to explore and showcase innovative applications of large language models in the fields of materials science and chemistry.
+   A global multi-site hackathon focused on AI, machine learning, digital twins,
+  and autonomous microscopy. Participants collaborate across universities,
+  national labs, and industry partners to build data-driven solutions for
+  microscopy and materials science.
 
 url: "https://kaliningroup.github.io/mic_hackathon_2/"
 github_repo: kaliningroup
