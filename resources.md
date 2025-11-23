@@ -70,6 +70,22 @@ published: true
 </div>
 
 <div class="section-card">
+  <h2>Hackathon Launch Meeting (Nov 21, 2025)</h2>
+  <p>
+    Recording of the official launch session, covering team formation using slack and miro, challenge overview,
+    and walkthrough of available resources.
+  </p>
+
+  <video width="100%" controls>
+      <source src="https://drive.google.com/uc?export=download&id=1G5rqOKJk1OBuKbJ7BICKgGKSalDklqWF" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+
+  <p><em>Video credits: Hackathon Organizing Team</em></p>
+</div>
+
+
+<div class="section-card">
   <h2>Using Slack & Miro for Collaboration</h2>
   <p>
   This short video introduces how participants can use <strong>Slack</strong> and <strong>Miro</strong> effectively before and during the hackathon — to form teams, discuss ideas, interact with the organizers and collaborate with members even if they’re at different locations.  
