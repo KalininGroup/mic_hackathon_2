@@ -72,17 +72,17 @@ published: true
 <div class="section-card">
   <h2>Hackathon Launch Meeting (Nov 21, 2025)</h2>
   <p>
-    Recording of the official launch session, covering team formation using slack and miro, challenge overview,
-    and walkthrough of available resources.
+    Recording of the official launch session, covering team formation using Slack and Miro,
+    challenge overview, and walkthrough of available resources.
   </p>
 
-  <video width="100%" controls>
-      <source src="https://drive.google.com/uc?export=download&id=1G5rqOKJk1OBuKbJ7BICKgGKSalDklqWF" type="video/mp4">
-      Your browser does not support the video tag.
-  </video>
+  <iframe src="https://drive.google.com/file/d/1G5rqOKJk1OBuKbJ7BICKgGKSalDklqWF/preview"
+          width="100%" height="480" allow="autoplay">
+  </iframe>
 
   <p><em>Video credits: Hackathon Organizing Team</em></p>
 </div>
+
 
 
 <div class="section-card">
