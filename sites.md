@@ -71,6 +71,7 @@ published: true
     { id:"site-ucinci", name:"University of Cincinnati", city:"Cincinnati, OH, USA", lat:39.1311, lon:-84.5160},
     { id:"site-ucdublin", name:"University College Dublin", city:"Dublin, Ireland", lat:53.3080, lon:-6.2236},
     { id:"site-osu", name:"Oklahoma State University", city:"Stillwater, OK, USA", lat:36.1255, lon:-97.0720},
+    { id:"site-kaist", name:"Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea", city:"Daejeon, Republic of Korea", lat:36.3723, lon:127.3622},
 
 
 
@@ -512,6 +513,20 @@ published: true
       </div>
     </div>
 
+    <!-- Korea Advanced Institute of Science & Technology (KAIST), Daejeon -->
+    <div class="site-card" id="site-kaist">
+      <span class="badge">Republic of Korea</span>
+      <h3>Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea</h3>
+      <img class="site-logo" src="{{ '/assets/KAIST.png' | relative_url }}" alt="KAIST logo">
+      <div class="site-meta">
+        Daejeon, Republic of Korea • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=KAIST%20Daejeon" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Korea%20Advanced%20Institute%20of%20Science%20%26%20Technology%20(KAIST),%20Republic%20of%20Korea" class="btn-primary">Register</a>
+      </div>
+    </div>
 
     <!-- Online (no pin) -->
     <div class="site-card" id="site-online">
