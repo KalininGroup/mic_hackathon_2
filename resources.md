@@ -77,7 +77,7 @@ published: true
   </p>
 
   <iframe src="https://drive.google.com/file/d/1G5rqOKJk1OBuKbJ7BICKgGKSalDklqWF/preview"
-          width="100%" height="100%" allow="autoplay">
+          width="1920" height="1080" allow="autoplay">
   </iframe>
 
   <p><em>Video credits: Hackathon Organizing Team</em></p>
