@@ -100,7 +100,7 @@ menu_icon: house-door
     <div>North Carolina State University (NCSU)</div>
     <div>Northwestern University (NWU)</div>
     <div>University of Illinois at Chicago (UIC)</div>
-    <div>Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona</div>
+    <div>Institut Català de Nanociència i Nanotecnologia (ICN2) - co hosted by ALBA Synchrotron, Barcelona</div>
     <div>University of Toronto</div>
     <div>University of Wisconsin</div>
     <div>University of Colorado Boulder</div>
