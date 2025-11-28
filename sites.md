@@ -52,7 +52,7 @@ published: true
     { id:"site-ncsu",  name:"North Carolina State University (NCSU)",   city:"Raleigh, NC, USA",   lat:35.7847,  lon:-78.6821 },
     { id:"site-nwu",   name:"Northwestern University",                  city:"Evanston, IL, USA",  lat:42.05598, lon:-87.67517 },
     { id:"site-uic",   name:"University of Illinois at Chicago (UIC)",  city:"Chicago, IL, USA",   lat:41.8708,  lon:-87.6505 },
-    { id:"site-icn2",  name:"ICN2 — Institut Català de Nanociència i Nanotecnologia", city:"Barcelona (Bellaterra), Spain", lat:41.501, lon:2.105 },
+    { id:"site-icn2",  name:"ICN2 + ALBA Synchrotron", city:" Cerdanyola del Vallès, Spain", lat:41.4915, lon:2.1834 },
     { id:"site-iitd", name:"Indian Institute of Technology Delhi", city:"New Delhi, India", lat:28.5450, lon:77.1926 },
     { id:"site-utor",  name:"University of Toronto",                    city:"Toronto, ON, Canada",lat:43.6629,  lon:-79.3957 },
     { id:"site-uwisc", name:"University of Wisconsin",                  city:"Madison, WI, USA",   lat:43.0766,  lon:-89.4125 },
@@ -231,7 +231,7 @@ published: true
       <h3>ICN2 — Institut Català de Nanociència i Nanotecnologia</h3>
       <img class="site-logo" src="{{ '/assets/ICN2.png' | relative_url }}" alt="ICN2 logo">
       <div class="site-meta">
-        Barcelona • Building/Room: <em>TBD</em><br>
+        ALBA Synchrotron, Cerdanyola del Vallès • Building/Room: <em>TBD</em><br>
         Contact: <em>TBD</em>
       </div>
       <div class="site-actions">
