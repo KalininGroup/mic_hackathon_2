@@ -108,7 +108,7 @@ published: true
       <label><input type="checkbox" name="entry.1753222212" value="North Carolina State University"> North Carolina State University</label>
       <label><input type="checkbox" name="entry.1753222212" value="Northwestern University"> Northwestern University</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Illinois at Chicago"> University of Illinois at Chicago</label>
-      <label><input type="checkbox" name="entry.1753222212" value="Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona"> Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona</label>
+      <label><input type="checkbox" name="entry.1753222212" value="Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona"> Institut Català de Nanociència i Nanotecnologia (ICN2) - ALBA Synchrotron, Barcelona</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Toronto"> University of Toronto</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Wisconsin"> University of Wisconsin</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Colorado"> University of Colorado</label>
