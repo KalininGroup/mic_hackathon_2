@@ -237,12 +237,11 @@ published: true
     <!-- ICN2 -->
     <div class="site-card" id="site-icn2">
       <span class="badge">Barcelona, Spain</span>
-      <h3>ICN2 — Institut Català de Nanociència i Nanotecnologia</h3>
+      <h3>ICN2 — Institut Català de Nanociència i Nanotecnologia - ALBA Synchrotron</h3>
      <div class="site-logo-row" style="display:flex; gap:10px; align-items:center;">
       <img class="site-logo" src="{{ '/assets/ICN2.png' | relative_url }}" alt="ICN2 logo" style="max-height:44px;">
       <img class="site-logo" src="{{ '/assets/ALBA.png' | relative_url }}" alt="ALBA logo" style="max-height:44px;">
-     </div>
-      
+     </div>    
       <div class="site-meta">
         ALBA Synchrotron, Cerdanyola del Vallès • Building/Room: <em>TBD</em><br>
         Contact: <em>TBD</em>
