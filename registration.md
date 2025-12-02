@@ -128,6 +128,7 @@ published: true
       <label><input type="checkbox" name="entry.1753222212" value="University College Dublin, Ireland">University College Dublin, Ireland</label>
       <label><input type="checkbox" name="entry.1753222212" value="Oklahoma State University">Oklahoma State University</label>
       <label><input type="checkbox" name="entry.1753222212" value="Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea">Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea</label>
+      <label><input type="checkbox" name="entry.1753222212" value="University of Illinois Urbana–Champaign (UIUC)">University of Illinois Urbana–Champaign (UIUC)</label>
 
     </div>
   </fieldset>
