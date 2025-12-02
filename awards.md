@@ -64,7 +64,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
     <tr>
       <td style="text-align:center;">
         <a href="https://mat3ra.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/mat3ra.png' | relative_url }}" alt="Mat3ra" style="max-height:55px;">
+          <img src="{{ '/assets/mat3ra_logo.png' | relative_url }}" alt="Mat3ra" style="max-height:55px;">
         </a>
       </td>
       <td>Compute credits worth $5,000 </td>
@@ -136,8 +136,17 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td>$500</td>
       <td>Sponsored award from Waviks.</td>
     </tr>
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://polaron.ai" target="_blank" rel="noopener">
+          <img src="{{ '/assets/polaron.png' | relative_url }}" alt="Polaron" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$1000 + Access to Polaron platform</td>
+      <td>Sponsored award providing $1000 and access to the Polaron AI materials platform.</td>
+    </tr>
 
-
+  
   </tbody>
 </table>
 
