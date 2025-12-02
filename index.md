@@ -204,8 +204,8 @@ menu_icon: house-door
 <div class="section-card">
   <h2>Sponsors & Partners</h2>
   <p>
-    Supported by the <strong>Office of Naval Research (ONR)</strong>, <strong>Thermo Fisher Scientific</strong>, <strong>Renaissance Philanthropy</strong>, <strong>Mat3ra – Materials R&D Cloud</strong>, <strong>Toyota Research Institute</strong>, <strong>Waviks</strong>, <strong>Microscopy Society of Ameriica, Student Council</strong> and <strong>Hugging Face</strong>.
-    Learn more about our partners on the <a href="{{ '/about/' | relative_url }}">About page</a>.
+    Supported by the <strong>Office of Naval Research (ONR)</strong>, <strong>Thermo Fisher Scientific</strong>, <strong>Renaissance Philanthropy</strong>, <strong>Mat3ra – Materials R&D Cloud</strong>, <strong>Toyota Research Institute</strong>, <strong>Waviks</strong>, <strong>Microscopy Society of Ameriica, Student Council</strong>, <strong>Hugging Face</strong>, <strong>DENS solutions</strong>, <strong>Polaron</strong> and <strong>Theia Scientific</strong>.
+    Learn more about our partners on the <a href="{{ '/awards/' | relative_url }}">Awards page</a>.
   </p>
 </div>
 
