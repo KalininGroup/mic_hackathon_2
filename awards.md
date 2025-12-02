@@ -63,6 +63,15 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
     </tr>
     <tr>
       <td style="text-align:center;">
+        <a href="https://mat3ra.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/mat3ra.png' | relative_url }}" alt="Mat3ra" style="max-height:55px;">
+        </a>
+      </td>
+      <td>Compute credits worth $5,000 </td>
+      <td>Compute credits on Mat3ra.com for the winning team.</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">
         <a href="https://denssolutions.com" target="_blank">
           <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS Solutions" style="max-height:50px;">
         </a>
