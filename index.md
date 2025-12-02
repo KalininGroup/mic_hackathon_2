@@ -118,6 +118,9 @@ menu_icon: house-door
     <div>University of Cincinnati</div>
     <div>University of Cambridge</div>
     <div>University College Dublin</div>
+    <div>Oklahoma State University</div>
+    <div>Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea</div>
+    <div>University of Illinois Urbana–Champaign</div>
     <div>Online (Global)</div>
   </div>
   <p style="margin-top:10px;">
