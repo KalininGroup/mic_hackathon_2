@@ -81,6 +81,7 @@ published: true
     { id:"site-ucdublin", name:"University College Dublin", city:"Dublin, Ireland", lat:53.3080, lon:-6.2236},
     { id:"site-osu", name:"Oklahoma State University", city:"Stillwater, OK, USA", lat:36.1255, lon:-97.0720},
     { id:"site-kaist", name:"Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea", city:"Daejeon, Republic of Korea", lat:36.3723, lon:127.3622},
+    { id:"site-uiuc", name:"University of Illinois Urbana–Champaign (UIUC)", city:"Urbana–Champaign, Illinois, USA", lat:40.1106, lon:-88.2284},
 
 
 
@@ -537,6 +538,20 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=KAIST%20Daejeon" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=Korea%20Advanced%20Institute%20of%20Science%20%26%20Technology%20(KAIST),%20Republic%20of%20Korea" class="btn-primary">Register</a>
+      </div>
+    </div>
+
+    <div class="site-card" id="site-uiuc">
+      <span class="badge">Illinois, USA</span>
+      <h3>University of Illinois Urbana–Champaign (UIUC)</h3>
+      <img class="site-logo" src="{{ '/assets/UIUC.png' | relative_url }}" alt="UIUC logo">
+      <div class="site-meta">
+        Urbana–Champaign, IL • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Illinois%20Urbana%20Champaign" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Illinois%20Urbana%E2%80%93Champaign%20(UIUC)" class="btn-primary">Register</a>
       </div>
     </div>
 
