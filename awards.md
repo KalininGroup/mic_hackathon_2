@@ -61,6 +61,19 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td>$15000</td>
       <td>Sponsors the <strong>1st Overall Winner ($10,000)</strong> and <strong>2nd Overall Winner ($5,000)</strong> awards</td>
     </tr>
+    
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://covalentmetrology.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/covalent.png' | relative_url }}" alt="Covalent Metrology" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$5,000 total (distributed as two prizes: $3k + $2k)</td>
+      <td>
+        Sponsored by Covalent Metrology — supporting outstanding teams with a total of $5,000
+      </td>
+    </tr>
+  
     <tr>
       <td style="text-align:center;">
         <a href="https://mat3ra.com" target="_blank" rel="noopener">
