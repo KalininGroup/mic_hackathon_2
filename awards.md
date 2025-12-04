@@ -161,7 +161,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
 
     <tr>
       <td style="text-align:center;">
-        <a href="https://www.hitachi-hightech.com" target="_blank" rel="noopener">
+        <a href="https://www.hitachi-hightech.com/ca/en/" target="_blank" rel="noopener">
           <img src="{{ '/assets/hitachi.png' | relative_url }}" alt="Hitachi High-Tech Canada" style="max-height:55px;">
         </a>
       </td>
