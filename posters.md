@@ -8,24 +8,23 @@ permalink: /posters/
 
 A visual gallery of posters and social media art shared by local organizing teams.
 
-After viewing the posters below, you can cast your vote for the **Popular Opinion Prize**.  
-Each button opens a Google Form with that specific poster already selected.
+After viewing the posters, **click “Select this poster”** under your favorite design.  
+Then scroll to the bottom and click **“Submit Vote”** to record your choice.
+
+<p id="vote-status" class="vote-status"></p>
 
 ---
 
 ## Penn State University
 
 <div class="poster-gallery">
-  <figure class="poster-card">
+  <figure class="poster-card"
+          data-vote-value="Penn State University Poster">
     <img src="{{ '/posters/PSU_Poster.jfif' | relative_url }}" alt="Penn State University poster">
     <figcaption>Penn State University</figcaption>
-    <a
-      class="vote-btn"
-      target="_blank"
-      href="https://docs.google.com/forms/d/e/1FAIpQLSd-0mXsyFZr7D9ov-CfWhWEzIYT-DBEahj3FlHk1wN3wJcvyA/viewform?usp=pp_url&entry.2036557565=Penn+State+University+Poster"
-    >
-      Vote for this poster
-    </a>
+    <button type="button" class="select-btn">
+      Select this poster
+    </button>
   </figure>
 </div>
 
@@ -34,16 +33,13 @@ Each button opens a Google Form with that specific poster already selected.
 ## ICN2
 
 <div class="poster-gallery">
-  <figure class="poster-card">
+  <figure class="poster-card"
+          data-vote-value="ICN2 Poster">
     <img src="{{ '/posters/ICN2.jfif' | relative_url }}" alt="ICN2 poster">
     <figcaption>ICN2</figcaption>
-    <a
-      class="vote-btn"
-      target="_blank"
-      href="https://docs.google.com/forms/d/e/1FAIpQLSd-0mXsyFZr7D9ov-CfWhWEzIYT-DBEahj3FlHk1wN3wJcvyA/viewform?usp=pp_url&entry.2036557565=ICN2+Poster"
-    >
-      Vote for this poster
-    </a>
+    <button type="button" class="select-btn">
+      Select this poster
+    </button>
   </figure>
 </div>
 
@@ -53,49 +49,63 @@ Each button opens a Google Form with that specific poster already selected.
 
 <div class="poster-gallery">
 
-  <figure class="poster-card">
+  <figure class="poster-card"
+          data-vote-value="University of Toronto – Poster 1">
     <img src="{{ '/posters/Toronto1.jfif' | relative_url }}" alt="University of Toronto poster 1">
     <figcaption>University of Toronto — Poster 1</figcaption>
-    <a
-      class="vote-btn"
-      target="_blank"
-      href="https://docs.google.com/forms/d/e/1FAIpQLSd-0mXsyFZr7D9ov-CfWhWEzIYT-DBEahj3FlHk1wN3wJcvyA/viewform?usp=pp_url&entry.2036557565=University+of+Toronto+%E2%80%93+Poster+1"
-    >
-      Vote for this poster
-    </a>
+    <button type="button" class="select-btn">
+      Select this poster
+    </button>
   </figure>
 
-  <figure class="poster-card">
+  <figure class="poster-card"
+          data-vote-value="University of Toronto – Poster 2">
     <img src="{{ '/posters/Toronto2.jfif' | relative_url }}" alt="University of Toronto poster 2">
     <figcaption>University of Toronto — Poster 2</figcaption>
-    <a
-      class="vote-btn"
-      target="_blank"
-      href="https://docs.google.com/forms/d/e/1FAIpQLSd-0mXsyFZr7D9ov-CfWhWEzIYT-DBEahj3FlHk1wN3wJcvyA/viewform?usp=pp_url&entry.2036557565=University+of+Toronto+%E2%80%93+Poster+2"
-    >
-      Vote for this poster
-    </a>
+    <button type="button" class="select-btn">
+      Select this poster
+    </button>
   </figure>
 
-  <figure class="poster-card">
+  <figure class="poster-card"
+          data-vote-value="University of Toronto – Poster 3">
     <img src="{{ '/posters/Toronto3.jfif' | relative_url }}" alt="University of Toronto poster 3">
     <figcaption>University of Toronto — Poster 3</figcaption>
-    <a
-      class="vote-btn"
-      target="_blank"
-      href="https://docs.google.com/forms/d/e/1FAIpQLSd-0mXsyFZr7D9ov-CfWhWEzIYT-DBEahj3FlHk1wN3wJcvyA/viewform?usp=pp_url&entry.2036557565=University+of+Toronto+%E2%80%93+Poster+3"
-    >
-      Vote for this poster
-    </a>
+    <button type="button" class="select-btn">
+      Select this poster
+    </button>
   </figure>
 
 </div>
 
 ---
 
+## Submit Your Popular Opinion Vote
+
+<div id="vote-controls">
+  <p class="vote-note">
+    Selected poster: <strong><span id="selected-label">None</span></strong>
+  </p>
+  <button id="submit-vote-btn" type="button" class="submit-vote-btn">
+    Submit Vote
+  </button>
+</div>
+
 <p style="margin-top: 1.5rem; font-size: 0.9rem; opacity: 0.8;">
   This is a community Popular Opinion vote. Organizers may review responses for obvious duplicate patterns before announcing the winner.
 </p>
+
+<!-- Hidden form + iframe that actually sends the vote to Google Forms -->
+<iframe name="hidden_vote_iframe" style="display:none;"></iframe>
+
+<form id="vote-form"
+      action="https://docs.google.com/forms/d/e/1FAIpQLSd-0mXsyFZr7D9ov-CfWhWEzIYT-DBEahj3FlHk1wN3wJcvyA/formResponse"
+      method="POST"
+      target="hidden_vote_iframe"
+      style="display:none;">
+  <!-- This entry ID is from your form (entry.2036557565) -->
+  <input type="hidden" name="entry.2036557565" id="vote-entry">
+</form>
 
 <style>
 .poster-gallery {
@@ -111,7 +121,8 @@ Each button opens a Google Form with that specific poster already selected.
   padding: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   text-align: center;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  border: 2px solid transparent;
 }
 
 .poster-card img {
@@ -126,15 +137,20 @@ Each button opens a Google Form with that specific poster already selected.
   box-shadow: 0 4px 14px rgba(0,0,0,0.10);
 }
 
+.poster-card.selected {
+  border-color: #0077cc;
+  box-shadow: 0 0 0 2px rgba(0,119,204,0.2);
+}
+
 .poster-card figcaption {
   margin-top: 0.6rem;
   font-size: 0.9rem;
   color: #555;
 }
 
-/* Vote button styling */
-.vote-btn {
-  display: inline-block;
+/* Buttons */
+.select-btn,
+.submit-vote-btn {
   margin-top: 0.6rem;
   padding: 6px 14px;
   border-radius: 999px;
@@ -142,11 +158,134 @@ Each button opens a Google Form with that specific poster already selected.
   background: #ffffff;
   cursor: pointer;
   font-size: 0.85rem;
-  text-decoration: none;
-  color: inherit;
 }
 
-.vote-btn:hover {
+.select-btn:hover,
+.submit-vote-btn:hover {
   background: #f0f0f0;
 }
+
+.submit-vote-btn:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.vote-status {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.vote-note {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+#vote-controls {
+  margin-top: 1.2rem;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f7f9fb;
+  border: 1px solid #e1e5ea;
+}
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const cards = document.querySelectorAll('.poster-card');
+  const selectButtons = document.querySelectorAll('.select-btn');
+  const selectedLabelEl = document.getElementById('selected-label');
+  const statusEl = document.getElementById('vote-status');
+  const submitBtn = document.getElementById('submit-vote-btn');
+  const form = document.getElementById('vote-form');
+  const entryInput = document.getElementById('vote-entry');
+
+  const STORAGE_KEY_DONE = 'poster_vote_done';
+  const STORAGE_KEY_LABEL = 'poster_vote_label';
+
+  function hasVoted() {
+    return localStorage.getItem(STORAGE_KEY_DONE) === '1';
+  }
+
+  function getVotedLabel() {
+    return localStorage.getItem(STORAGE_KEY_LABEL) || null;
+  }
+
+  let currentSelection = null;  // vote-value string
+
+  function updateStatusUI() {
+    if (hasVoted()) {
+      const lbl = getVotedLabel();
+      statusEl.textContent = lbl
+        ? 'You have already submitted your vote for: ' + lbl + '.'
+        : 'You have already submitted your vote.';
+      submitBtn.disabled = true;
+      selectButtons.forEach(btn => btn.disabled = true);
+    } else {
+      statusEl.textContent = '';
+      submitBtn.disabled = false;
+      selectButtons.forEach(btn => btn.disabled = false);
+    }
+  }
+
+  function clearSelectionHighlight() {
+    cards.forEach(card => card.classList.remove('selected'));
+  }
+
+  // Initialize selection UI
+  selectButtons.forEach(btn => {
+    btn.addEventListener('click', function () {
+      if (hasVoted()) {
+        alert('Our records show you already voted from this browser. Thank you!');
+        return;
+      }
+      const card = btn.closest('.poster-card');
+      if (!card) return;
+
+      const voteValue = card.getAttribute('data-vote-value');
+      currentSelection = voteValue;
+
+      clearSelectionHighlight();
+      card.classList.add('selected');
+      selectedLabelEl.textContent = voteValue;
+    });
+  });
+
+  submitBtn.addEventListener('click', function () {
+    if (hasVoted()) {
+      alert('Our records show you already voted from this browser. Thank you!');
+      return;
+    }
+    if (!currentSelection) {
+      alert('Please select a poster before submitting your vote.');
+      return;
+    }
+
+    // Confirm with the user
+    const ok = confirm(
+      'Submit your Popular Opinion vote for:\n\n' +
+      currentSelection + '\n\n' +
+      'This will be recorded once per browser.'
+    );
+    if (!ok) return;
+
+    // Fill hidden form and submit in background
+    entryInput.value = currentSelection;
+    form.submit();
+
+    // Soft lockout in this browser
+    localStorage.setItem(STORAGE_KEY_DONE, '1');
+    localStorage.setItem(STORAGE_KEY_LABEL, currentSelection);
+
+    alert('Thank you! Your vote has been submitted.');
+    updateStatusUI();
+  });
+
+  // On load, reflect prior vote, if any
+  const prev = getVotedLabel();
+  if (prev) {
+    selectedLabelEl.textContent = prev;
+  }
+  updateStatusUI();
+});
+</script>
