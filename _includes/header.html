@@ -1,4 +1,24 @@
 <header class="site-header" role="banner">
+  
+<style>
+/* Center title + nav vertically within header */
+.site-header .wrapper {
+  display: flex !important;
+  align-items: center !important;   /* THIS is the real fix */
+}
+
+/* Ensure nav links align with the center line */
+.site-header .site-nav a {
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Optional: small downward adjustment (fine tuning) */
+.site-header .site-title {
+  position: relative;
+  top: 1px !important;   /* increase to 2–3px if needed */
+}
+</style>
 
   <!-- Tiny tweak: nudge site title down a bit -->
   <style>
