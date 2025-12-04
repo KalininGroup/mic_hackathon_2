@@ -5,44 +5,52 @@ nav_order: 4
 ---
 
 <style>
-/* FAQ accordion styling */
+/* FAQ accordion styling, matching site cards */
 .faq-item {
-  margin: 12px 0;
+  margin: 18px 0;
   padding: 0;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  background: #fafafa;
+  border: 1px solid #e5e7eb; /* light border like site */
+  border-radius: 12px;        /* round corners */
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08); /* soft shadow */
 }
 
+/* SUMMARY (QUESTION) */
 .faq-item summary {
-  padding: 14px 18px;
+  padding: 18px 22px;
   cursor: pointer;
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.05rem;
+  font-weight: 500;  /* softer than bold */
   list-style: none;
+  color: #111827;  /* match site text color */
+  display: flex;
+  align-items: center;
 }
 
+/* Remove default marker */
 .faq-item summary::-webkit-details-marker {
   display: none;
 }
 
-/* Custom arrow */
+/* Arrow */
 .faq-item summary::before {
   content: "▸";
-  font-size: 1.2rem;
-  margin-right: 10px;
+  font-size: 1.15rem;
+  margin-right: 12px;
   transition: transform 0.2s ease;
+  color: #2563eb;  /* subtle blue accent */
 }
 
 .faq-item[open] summary::before {
   transform: rotate(90deg);
 }
 
-/* Answer area */
+/* ANSWER CONTENT */
 .faq-item > *:not(summary) {
-  padding: 12px 20px 18px 20px;
+  padding: 16px 26px 22px 26px;
   font-size: 1rem;
-  line-height: 1.55;
+  line-height: 1.6;
+  color: #4b5563; /* neutral gray for body text */
 }
 </style>
 
