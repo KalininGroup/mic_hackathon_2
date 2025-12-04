@@ -159,6 +159,16 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td>Sponsored award providing $1000 and access to the Polaron AI materials platform.</td>
     </tr>
 
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://www.hitachi-hightech.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/hitachi.png' | relative_url }}" alt="Hitachi High-Tech Canada" style="max-height:55px;">
+        </a>
+      </td>
+      <td>TBD</td>
+      <td>Local prize for the University of Toronto site, sponsored by Hitachi High-Technologies Canada Inc.</td>
+    </tr>
+
   
   </tbody>
 </table>
