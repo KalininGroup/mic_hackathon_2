@@ -72,7 +72,7 @@ published: true
 <div class="section-card">
   <h2>FAQ</h2>
   <p>Looking for answers? Visit the full Frequently Asked Questions page.</p>
-  <p><a href="/faq/" style="font-weight:600; color:#1d4ed8;">→ Go to FAQ</a></p>
+  <p><a href="mic_hackathon_2/faq/" style="font-weight:600; color:#1d4ed8;">→ Go to FAQ</a></p>
 </div>
 
 
