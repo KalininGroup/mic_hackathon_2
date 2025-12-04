@@ -70,6 +70,13 @@ published: true
 </div>
 
 <div class="section-card">
+  <h2>FAQ</h2>
+  <p>Looking for answers? Visit the full Frequently Asked Questions page.</p>
+  <p><a href="/faq/" style="font-weight:600; color:#1d4ed8;">→ Go to FAQ</a></p>
+</div>
+
+
+<div class="section-card">
   <h2>Hackathon Launch Meeting (Nov 21, 2025)</h2>
   <p>
     Recording of the official launch session, covering team formation using Slack and Miro,
