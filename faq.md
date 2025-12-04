@@ -1,8 +1,9 @@
 ---
 layout: page
-title:  FAQ
+title:  Frequently Asked Questions
 permalink: /faq/
 nav_order: 4
+menu_title: "FAQ"
 ---
 
 <style>
