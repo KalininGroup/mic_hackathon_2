@@ -206,8 +206,6 @@ details.section-card {
 }
 </style>
 
-# Frequently Asked Questions
-
 <details class="section-card faq-item">
   <summary>Why should I participate?</summary>
 
