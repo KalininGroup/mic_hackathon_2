@@ -3,8 +3,46 @@ layout: page
 title: FAQ
 nav_order: 4
 ---
+/* FAQ accordion styling */
+.faq-item {
+  margin: 12px 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fafafa;
+}
 
-# FAQ
+.faq-item summary {
+  padding: 14px 18px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Custom arrow */
+.faq-item summary::before {
+  content: "▸";
+  font-size: 1.2rem;
+  margin-right: 10px;
+  transition: transform 0.2s ease;
+}
+
+.faq-item[open] summary::before {
+  transform: rotate(90deg);
+}
+
+/* Answer area */
+.faq-item > *:not(summary) {
+  padding: 12px 20px 18px 20px;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
 
 <details class="faq-item">
   <summary><strong>Why should I participate?</strong></summary>
