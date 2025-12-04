@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  Frequently Asked Questions
+permalink: /faq/
 nav_order: 4
 ---
 
