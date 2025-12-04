@@ -16,7 +16,7 @@ As more sites share their designs, we’ll keep adding them here.
 
 <div class="poster-gallery">
   <figure class="poster-card">
-    <img src="/posters/PSU_Poster.jfif" alt="Penn State University poster">
+    <img src="{{ '/posters/PSU_Poster.jfif' | relative_url }}" alt="Penn State University poster">
     <figcaption>Penn State University</figcaption>
   </figure>
 </div>
@@ -27,7 +27,7 @@ As more sites share their designs, we’ll keep adding them here.
 
 <div class="poster-gallery">
   <figure class="poster-card">
-    <img src="/posters/ICN2.jfif" alt="ICN2 poster">
+    <img src="{{ '/posters/ICN2.jfif' | relative_url }}" alt="ICN2 poster">
     <figcaption>ICN2</figcaption>
   </figure>
 </div>
@@ -39,17 +39,17 @@ As more sites share their designs, we’ll keep adding them here.
 <div class="poster-gallery">
 
   <figure class="poster-card">
-    <img src="/posters/Toronto1.jfif" alt="University of Toronto poster 1">
+    <img src="{{ '/posters/Toronto1.jfif' | relative_url }}" alt="University of Toronto poster 1">
     <figcaption>University of Toronto — Poster 1</figcaption>
   </figure>
 
   <figure class="poster-card">
-    <img src="/posters/Toronto2.jfif" alt="University of Toronto poster 2">
+    <img src="{{ '/posters/Toronto2.jfif' | relative_url }}" alt="University of Toronto poster 2">
     <figcaption>University of Toronto — Poster 2</figcaption>
   </figure>
 
   <figure class="poster-card">
-    <img src="/posters/Toronto3.jfif" alt="University of Toronto poster 3">
+    <img src="{{ '/posters/Toronto3.jfif' | relative_url }}" alt="University of Toronto poster 3">
     <figcaption>University of Toronto — Poster 3</figcaption>
   </figure>
 
