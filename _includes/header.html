@@ -1,9 +1,35 @@
 <header class="site-header" role="banner">
 
+  <!-- FIX: Vertically center the site title + nav -->
+  <style>
+    .site-header .wrapper {
+      display: flex;
+      align-items: center;          /* vertically center everything */
+      justify-content: space-between;
+    }
+
+    .site-header .site-title {
+      display: flex;
+      align-items: center;          /* align text baseline */
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Optional: center nav items as well */
+    .site-header .site-nav .page-link {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+  <!-- END FIX -->
+
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title {% if page.url == "/" | relative_url %}active{% endif %}" rel="author" href="{{ "/" | relative_url }}">
+
+    <a class="site-title {% if page.url == "/" | relative_url %}active{% endif %}" 
+       rel="author" 
+       href="{{ "/" | relative_url }}">
       {% if site.nav_title %}
         {{ site.nav_title }}
       {% else %}
@@ -26,20 +52,28 @@
           {%- for path in page_paths -%}
             {%- assign node = site.pages | where: "path", path | first -%}
             {%- if node.title -%}
-            {%- if (node.event_status contains site.event_status) or (node.event_status == blank) or (site.event_status == "demo") -%}
-              <a class="page-link {% if page.url == node.url %}active{% endif %}" href="{{ node.url | relative_url }}">
-                {% if node.menu_icon %}<i class="bi bi-{{ node.menu_icon | escape }}"></i>{% endif %}
-                {% if node.menu_title %}
-                  <span>{{ node.menu_title | escape }}</span>
-                {% else %}
-                  <span>{{ node.title | escape }}</span>
-                {% endif %}
-              </a>
-            {%- endif -%}
+              {%- if (node.event_status contains site.event_status) or 
+                     (node.event_status == blank) or 
+                     (site.event_status == "demo") -%}
+
+                <a class="page-link {% if page.url == node.url %}active{% endif %}" 
+                   href="{{ node.url | relative_url }}">
+                  {% if node.menu_icon %}
+                    <i class="bi bi-{{ node.menu_icon | escape }}"></i>
+                  {% endif %}
+                  {% if node.menu_title %}
+                    <span>{{ node.menu_title | escape }}</span>
+                  {% else %}
+                    <span>{{ node.title | escape }}</span>
+                  {% endif %}
+                </a>
+
+              {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
         </div>
       </nav>
     {%- endif -%}
+
   </div>
 </header>
