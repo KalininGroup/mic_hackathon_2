@@ -3,6 +3,8 @@ layout: page
 title: FAQ
 nav_order: 4
 ---
+
+<style>
 /* FAQ accordion styling */
 .faq-item {
   margin: 12px 0;
@@ -42,7 +44,7 @@ nav_order: 4
   font-size: 1rem;
   line-height: 1.55;
 }
-
+</style>
 
 <details class="faq-item">
   <summary><strong>Why should I participate?</strong></summary>
