@@ -1,5 +1,13 @@
 <header class="site-header" role="banner">
 
+  <!-- Tiny tweak: nudge site title down a bit -->
+  <style>
+    .site-header .site-title {
+      position: relative;
+      top: 3px;   /* adjust between 2–5px to taste */
+    }
+  </style>
+
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
