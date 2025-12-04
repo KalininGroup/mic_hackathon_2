@@ -15,7 +15,7 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 
 ---
 
-## Penn State University
+## Pennsylvania State University, Pennsylvania, USA
 
 <div class="poster-gallery">
   <figure class="poster-card"
@@ -30,7 +30,7 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 
 ---
 
-## ICN2
+## ICN2 — Institut Català de Nanociència i Nanotecnologia, Barcelona, Spain
 
 <div class="poster-gallery">
   <figure class="poster-card"
@@ -45,7 +45,7 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 
 ---
 
-## University of Toronto
+## University of Toronto, Ontario, Canada
 
 <div class="poster-gallery">
 
