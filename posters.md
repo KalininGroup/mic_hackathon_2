@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const ok = confirm(
       'Submit your Popular Opinion vote for:\n\n' +
       currentSelection + '\n\n' +
-      'This will be recorded once per browser.'
+      'Press OK to submit your vote.'
     );
     if (!ok) return;
 
