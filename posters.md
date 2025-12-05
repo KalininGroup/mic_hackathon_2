@@ -47,8 +47,6 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 
 ## University of Toronto, Ontario, Canada
 
-## University of Toronto
-
 <div class="poster-gallery">
 
   <figure class="poster-card"
@@ -82,6 +80,23 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
           data-vote-value="University of Toronto – Poster 4">
     <img src="{{ '/posters/Toronto4.png' | relative_url }}" alt="University of Toronto poster 4">
     <figcaption>University of Toronto — Poster 4</figcaption>
+    <button type="button" class="select-btn">
+      Select this poster
+    </button>
+  </figure>
+
+</div>
+
+---
+
+## AISCIA, Qatar
+
+<div class="poster-gallery">
+
+  <figure class="poster-card"
+          data-vote-value="AISCIA, Qatar">
+    <img src="{{ '/posters/AISCIA.jfif' | relative_url }}" alt="AISCIA Qatar poster">
+    <figcaption>AISCIA, Qatar</figcaption>
     <button type="button" class="select-btn">
       Select this poster
     </button>
