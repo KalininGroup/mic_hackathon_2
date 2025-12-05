@@ -109,7 +109,7 @@ menu_icon: house-door
     <div>Thermo Fisher Scientific – Eindhoven</div>
     <div>Johns Hopkins University, Maryland</div>
     <div>AISCIA Informatics – Doha, Qatar</div>
-    <div>Pennsylvania State Universityr</div>
+    <div>Pennsylvania State University</div>
     <div>University of Pennsylvania</div>
     <div>University of Michigan, Ann Arbor</div>
     <div>Sungkyunkwan University (SKKU), Republic of Korea</div>
