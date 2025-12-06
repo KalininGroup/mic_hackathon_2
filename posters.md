@@ -232,8 +232,30 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
   border-radius: 10px;
   background: #f7f9fb;
   border: 1px solid #e1e5ea;
+
+  button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
 }
 </style>
+
+<script>
+// TEMPORARY: disable all voting interactions
+document.addEventListener('DOMContentLoaded', function () {
+    const submitBtn = document.getElementById('submit-vote-btn');
+    const selectBtns = document.querySelectorAll('.select-btn');
+
+    if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Voting Temporarily Disabled";
+    }
+
+    selectBtns.forEach(btn => {
+        btn.disabled = true;
+    });
+});
+</script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
