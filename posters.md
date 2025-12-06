@@ -144,8 +144,12 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
       method="POST"
       target="hidden_vote_iframe"
       style="display:none;">
-  <!-- This entry ID is from your form (entry.2036557565) -->
+  <!-- Poster choice -->
   <input type="hidden" name="entry.2036557565" id="vote-entry">
+  <!-- Name -->
+  <input type="hidden" name="entry.1676687610" id="name-entry">
+  <!-- Institution -->
+  <input type="hidden" name="entry.392030886" id="inst-entry">
 </form>
 
 <style>
@@ -241,6 +245,12 @@ document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('vote-form');
   const entryInput = document.getElementById('vote-entry');
 
+  // New fields:
+  const nameInput = document.getElementById('voter-name');
+  const instInput = document.getElementById('voter-inst');
+  const nameEntryHidden = document.getElementById('name-entry');
+  const instEntryHidden = document.getElementById('inst-entry');
+
   const STORAGE_KEY_DONE = 'poster_vote_done';
   const STORAGE_KEY_LABEL = 'poster_vote_label';
 
@@ -262,10 +272,14 @@ document.addEventListener('DOMContentLoaded', function () {
         : 'You have already submitted your vote.';
       submitBtn.disabled = true;
       selectButtons.forEach(btn => btn.disabled = true);
+      nameInput.disabled = true;
+      instInput.disabled = true;
     } else {
       statusEl.textContent = '';
       submitBtn.disabled = false;
       selectButtons.forEach(btn => btn.disabled = false);
+      nameInput.disabled = false;
+      instInput.disabled = false;
     }
   }
 
@@ -273,7 +287,7 @@ document.addEventListener('DOMContentLoaded', function () {
     cards.forEach(card => card.classList.remove('selected'));
   }
 
-  // Initialize selection UI
+  // Selecting a poster
   selectButtons.forEach(btn => {
     btn.addEventListener('click', function () {
       if (hasVoted()) {
@@ -292,6 +306,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  // Submit vote
   submitBtn.addEventListener('click', function () {
     if (hasVoted()) {
       alert('Our records show you already voted from this browser. Thank you!');
@@ -302,7 +317,14 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
-    // Confirm with the user
+    const nameVal = nameInput.value.trim();
+    const instVal = instInput.value.trim();
+
+    if (!nameVal || !instVal) {
+      alert('Please enter your Name and Institution before submitting your vote.');
+      return;
+    }
+
     const ok = confirm(
       'Submit your Popular Opinion vote for:\n\n' +
       currentSelection + '\n\n' +
@@ -310,11 +332,15 @@ document.addEventListener('DOMContentLoaded', function () {
     );
     if (!ok) return;
 
-    // Fill hidden form and submit in background
-    entryInput.value = currentSelection;
+    // Fill hidden Google Form fields
+    entryInput.value = currentSelection;           // Poster choice
+    nameEntryHidden.value = nameVal;               // Name
+    instEntryHidden.value = instVal;               // Institution
+
+    // Submit to Google Forms in background
     form.submit();
 
-    // Soft lockout in this browser
+    // Soft lockout
     localStorage.setItem(STORAGE_KEY_DONE, '1');
     localStorage.setItem(STORAGE_KEY_LABEL, currentSelection);
 
@@ -322,7 +348,7 @@ document.addEventListener('DOMContentLoaded', function () {
     updateStatusUI();
   });
 
-  // On load, reflect prior vote, if any
+  // Load UI state for returning users
   const prev = getVotedLabel();
   if (prev) {
     selectedLabelEl.textContent = prev;
@@ -330,3 +356,4 @@ document.addEventListener('DOMContentLoaded', function () {
   updateStatusUI();
 });
 </script>
+
