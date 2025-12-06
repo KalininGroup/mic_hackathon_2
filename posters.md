@@ -259,6 +259,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  // 🔴 MASTER SWITCH: set to false to completely disable voting
+  const VOTING_ENABLED = false;
+
   const cards = document.querySelectorAll('.poster-card');
   const selectButtons = document.querySelectorAll('.select-btn');
   const selectedLabelEl = document.getElementById('selected-label');
@@ -267,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('vote-form');
   const entryInput = document.getElementById('vote-entry');
 
-  // New fields:
+  // Name & Institution fields
   const nameInput = document.getElementById('voter-name');
   const instInput = document.getElementById('voter-inst');
   const nameEntryHidden = document.getElementById('name-entry');
@@ -287,6 +290,22 @@ document.addEventListener('DOMContentLoaded', function () {
   let currentSelection = null;  // vote-value string
 
   function updateStatusUI() {
+    // If voting is globally disabled
+    if (!VOTING_ENABLED) {
+      if (statusEl) {
+        statusEl.textContent = 'Popular Opinion voting is currently closed.';
+      }
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Voting Temporarily Closed';
+      }
+      selectButtons.forEach(btn => btn.disabled = true);
+      if (nameInput) nameInput.disabled = true;
+      if (instInput) instInput.disabled = true;
+      return;  // do not run normal logic
+    }
+
+    // Normal behavior if voting is enabled
     if (hasVoted()) {
       const lbl = getVotedLabel();
       statusEl.textContent = lbl
@@ -312,6 +331,10 @@ document.addEventListener('DOMContentLoaded', function () {
   // Selecting a poster
   selectButtons.forEach(btn => {
     btn.addEventListener('click', function () {
+      if (!VOTING_ENABLED) {
+        alert('Popular Opinion voting is currently closed.');
+        return;
+      }
       if (hasVoted()) {
         alert('Our records show you already voted from this browser. Thank you!');
         return;
@@ -330,6 +353,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Submit vote
   submitBtn.addEventListener('click', function () {
+    if (!VOTING_ENABLED) {
+      alert('Popular Opinion voting is currently closed.');
+      return;
+    }
+
     if (hasVoted()) {
       alert('Our records show you already voted from this browser. Thank you!');
       return;
@@ -354,12 +382,19 @@ document.addEventListener('DOMContentLoaded', function () {
     );
     if (!ok) return;
 
+    // 🔒 Extra safety: if somehow VOTING_ENABLED changed mid-flow
+    if (!VOTING_ENABLED) {
+      alert('Popular Opinion voting is currently closed.');
+      return;
+    }
+
     // Fill hidden Google Form fields
     entryInput.value = currentSelection;           // Poster choice
     nameEntryHidden.value = nameVal;               // Name
     instEntryHidden.value = instVal;               // Institution
 
-    // Submit to Google Forms in background
+    // 🚫 To be extra sure nothing submits while disabled, this whole block
+    // will never run because of checks above. No need to remove form.submit().
     form.submit();
 
     // Soft lockout
