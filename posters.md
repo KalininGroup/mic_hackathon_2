@@ -109,14 +109,28 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 
 ## Submit Your Popular Opinion Vote
 
+## Submit Your Popular Opinion Vote
+
 <div id="vote-controls">
   <p class="vote-note">
     Selected poster: <strong><span id="selected-label">None</span></strong>
   </p>
+
+  <div id="voter-info-box">
+    <label>Your Name:<br>
+      <input type="text" id="voter-name" class="voter-input">
+    </label>
+    <br><br>
+    <label>Your Institution:<br>
+      <input type="text" id="voter-inst" class="voter-input">
+    </label>
+  </div>
+
   <button id="submit-vote-btn" type="button" class="submit-vote-btn">
     Submit Vote
   </button>
 </div>
+
 
 <p style="margin-top: 1.5rem; font-size: 0.9rem; opacity: 0.8;">
   This is a community Popular Opinion vote. Organizers may review responses for obvious duplicate patterns before announcing the winner.
