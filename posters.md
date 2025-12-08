@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   // 🔴 MASTER SWITCH: set to false to completely disable voting
-  const VOTING_ENABLED = false;
+  const VOTING_ENABLED = true;
 
   const cards = document.querySelectorAll('.poster-card');
   const selectButtons = document.querySelectorAll('.select-btn');
