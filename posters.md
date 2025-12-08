@@ -104,10 +104,34 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 
 </div>
 
-
 ---
 
-## Submit Your Popular Opinion Vote
+## University of Tennessee, Knoxville
+
+<div class="poster-gallery">
+
+  <figure class="poster-card"
+          data-vote-value="University of Tennessee - Poster 1">
+    <img src="{{ '/posters/UTK_1.jpg' | relative_url }}" alt="University of Tennessee poster 1">
+    <figcaption>University of Tennessee — Poster 1</figcaption>
+    <button type="button" class="select-btn">
+      Select this poster
+    </button>
+  </figure>
+
+  <figure class="poster-card"
+          data-vote-value="University of Tennessee - Poster 2">
+    <img src="{{ '/posters/UTK_2.jpg' | relative_url }}" alt="University of Tennessee poster 2">
+    <figcaption>University of Tennessee — Poster 2</figcaption>
+    <button type="button" class="select-btn">
+      Select this poster
+    </button>
+  </figure>
+
+</div>
+
+
+---
 
 ## Submit Your Popular Opinion Vote
 
