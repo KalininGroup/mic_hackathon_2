@@ -58,8 +58,8 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
           <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy" style="max-height:50px;">
         </a>
       </td>
-      <td>$15000</td>
-      <td>Sponsors the <strong>1st Overall Winner ($10,000)</strong> and <strong>2nd Overall Winner ($5,000)</strong> awards</td>
+      <td>$10000</td>
+      <td>Sponsors the <strong>1st Overall Winner ($7,000)</strong> and <strong>2nd Overall Winner ($3,000)</strong> awards</td>
     </tr>
     
     <tr>
