@@ -264,28 +264,9 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 }
 </style>
 
-<script>
-// TEMPORARY: disable all voting interactions
-document.addEventListener('DOMContentLoaded', function () {
-    const submitBtn = document.getElementById('submit-vote-btn');
-    const selectBtns = document.querySelectorAll('.select-btn');
-
-    if (submitBtn) {
-        submitBtn.disabled = true;
-        submitBtn.textContent = "Voting Temporarily Disabled";
-    }
-
-    selectBtns.forEach(btn => {
-        btn.disabled = true;
-    });
-});
-</script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  // 🔴 MASTER SWITCH: set to false to completely disable voting
-  const VOTING_ENABLED = true;
-
   const cards = document.querySelectorAll('.poster-card');
   const selectButtons = document.querySelectorAll('.select-btn');
   const selectedLabelEl = document.getElementById('selected-label');
@@ -314,37 +295,29 @@ document.addEventListener('DOMContentLoaded', function () {
   let currentSelection = null;  // vote-value string
 
   function updateStatusUI() {
-    // If voting is globally disabled
-    if (!VOTING_ENABLED) {
+    if (hasVoted()) {
+      const lbl = getVotedLabel();
       if (statusEl) {
-        statusEl.textContent = 'Popular Opinion voting is currently closed.';
+        statusEl.textContent = lbl
+          ? 'You have already submitted your vote for: ' + lbl + '.'
+          : 'You have already submitted your vote.';
       }
-      if (submitBtn) {
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Voting Temporarily Closed';
-      }
+      if (submitBtn) submitBtn.disabled = true;
       selectButtons.forEach(btn => btn.disabled = true);
       if (nameInput) nameInput.disabled = true;
       if (instInput) instInput.disabled = true;
-      return;  // do not run normal logic
-    }
-
-    // Normal behavior if voting is enabled
-    if (hasVoted()) {
-      const lbl = getVotedLabel();
-      statusEl.textContent = lbl
-        ? 'You have already submitted your vote for: ' + lbl + '.'
-        : 'You have already submitted your vote.';
-      submitBtn.disabled = true;
-      selectButtons.forEach(btn => btn.disabled = true);
-      nameInput.disabled = true;
-      instInput.disabled = true;
     } else {
-      statusEl.textContent = '';
-      submitBtn.disabled = false;
+      if (statusEl) statusEl.textContent = '';
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Vote';
+      }
       selectButtons.forEach(btn => btn.disabled = false);
-      nameInput.disabled = false;
-      instInput.disabled = false;
+      if (nameInput) nameInput.disabled = false;
+      if (instInput) instInput.disabled = false;
+      if (!currentSelection && selectedLabelEl) {
+        selectedLabelEl.textContent = 'None';
+      }
     }
   }
 
@@ -355,10 +328,6 @@ document.addEventListener('DOMContentLoaded', function () {
   // Selecting a poster
   selectButtons.forEach(btn => {
     btn.addEventListener('click', function () {
-      if (!VOTING_ENABLED) {
-        alert('Popular Opinion voting is currently closed.');
-        return;
-      }
       if (hasVoted()) {
         alert('Our records show you already voted from this browser. Thank you!');
         return;
@@ -371,17 +340,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
       clearSelectionHighlight();
       card.classList.add('selected');
-      selectedLabelEl.textContent = voteValue;
+      if (selectedLabelEl) selectedLabelEl.textContent = voteValue;
     });
   });
 
   // Submit vote
   submitBtn.addEventListener('click', function () {
-    if (!VOTING_ENABLED) {
-      alert('Popular Opinion voting is currently closed.');
-      return;
-    }
-
     if (hasVoted()) {
       alert('Our records show you already voted from this browser. Thank you!');
       return;
@@ -406,19 +370,12 @@ document.addEventListener('DOMContentLoaded', function () {
     );
     if (!ok) return;
 
-    // 🔒 Extra safety: if somehow VOTING_ENABLED changed mid-flow
-    if (!VOTING_ENABLED) {
-      alert('Popular Opinion voting is currently closed.');
-      return;
-    }
-
     // Fill hidden Google Form fields
     entryInput.value = currentSelection;           // Poster choice
     nameEntryHidden.value = nameVal;               // Name
     instEntryHidden.value = instVal;               // Institution
 
-    // 🚫 To be extra sure nothing submits while disabled, this whole block
-    // will never run because of checks above. No need to remove form.submit().
+    // Submit to Google Forms in background
     form.submit();
 
     // Soft lockout
@@ -431,10 +388,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Load UI state for returning users
   const prev = getVotedLabel();
-  if (prev) {
+  if (prev && selectedLabelEl) {
     selectedLabelEl.textContent = prev;
   }
   updateStatusUI();
 });
 </script>
+
 
