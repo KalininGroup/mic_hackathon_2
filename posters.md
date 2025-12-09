@@ -128,7 +128,17 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
     </button>
   </figure>
 
+  <figure class="poster-card"
+          data-vote-value="University of Tennessee - Poster 3">
+    <img src="{{ '/posters/UTK_3.jpg' | relative_url }}" alt="University of Tennessee poster 3">
+    <figcaption>University of Tennessee — Poster 3</figcaption>
+    <button type="button" class="select-btn">
+      Select this poster
+    </button>
+  </figure>
+
 </div>
+
 
 
 ---
