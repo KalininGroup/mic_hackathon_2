@@ -213,7 +213,7 @@ published: true
 <script>
 (function(){
   const boxes = document.querySelectorAll('input[type="checkbox"][name="entry.1753222212"]');
-  const MESSAGE = 'Registration is currently available only for Online and University of Cambridge sites.';
+  const MESSAGE = 'Registration is currently available only for Online, University of Cambridge and Sungkyunkwan University (SKKU) sites.';
 
   boxes.forEach(box => {
     const val = box.value.trim();
