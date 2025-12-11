@@ -46,6 +46,41 @@
 
 {% include vote_banner.html %} 
 
+
+<style>
+  /* Beyond Hackathon global banner */
+  .global-sub-banner {
+    display: block;
+    width: 100%;
+    padding: 14px 0;
+    margin: 0;
+    text-align: center;
+
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+
+    /* Attention–grabbing gradient bar */
+    background: linear-gradient(90deg, #ff7a18, #ff3f1a);
+
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+
+    position: relative;
+    z-index: 100;
+    transition: background 0.25s ease, transform 0.15s ease;
+  }
+
+  .global-sub-banner:hover {
+    background: linear-gradient(90deg, #ff9a4a, #ff5b3b);
+    transform: scale(1.01);
+    text-decoration: none;
+  }
+</style>
+
 <a class="global-sub-banner" href="{{ '/beyond-hackathon/' | relative_url }}">
-  🚀 Beyond the Hackathon: Run Your Code on Automated SPM & STEM Instruments →
+  🚀 Beyond the Hackathon Automate Your Experiments →
 </a>
+
