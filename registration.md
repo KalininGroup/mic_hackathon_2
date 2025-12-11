@@ -50,6 +50,15 @@ published: true
 }
 .checkgrid input{ margin-top:.2rem; }
 
+/* GREYED-OUT CLOSED SITES */
+.checkgrid label.site-closed{
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.checkgrid label.site-closed input{
+  cursor: not-allowed;
+}
+
 /* button */
 .btn-primary{
   display:inline-block; padding:.7rem 1.1rem; border-radius:10px;
@@ -196,3 +205,41 @@ published: true
 })();
 </script>
 
+<!-- LOCK ALL SITES EXCEPT ONLINE + CAMBRIDGE -->
+<script>
+(function(){
+  const boxes = document.querySelectorAll('input[type="checkbox"][name="entry.1753222212"]');
+  const MESSAGE = 'Registration is currently available only for Online and University of Cambridge sites.';
+
+  boxes.forEach(box => {
+    const val = box.value.trim();
+    const isOpen = (val === 'Online' || val === 'University of Cambridge');
+
+    if (!isOpen) {
+      // mark visual state
+      const label = box.closest('label');
+      if (label) label.classList.add('site-closed');
+
+      // ensure it starts unchecked
+      box.checked = false;
+
+      // intercept clicks
+      box.addEventListener('click', function(e){
+        e.preventDefault();
+        box.checked = false;
+        alert(MESSAGE);
+      });
+
+      // also catch clicks on the label text
+      const labelEl = box.closest('label');
+      if (labelEl) {
+        labelEl.addEventListener('click', function(e){
+          e.preventDefault();
+          box.checked = false;
+          alert(MESSAGE);
+        });
+      }
+    }
+  });
+})();
+</script>
