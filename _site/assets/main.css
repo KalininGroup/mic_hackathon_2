@@ -273,3 +273,28 @@ ul.grid .resource-block { background: #f0f0f0; }
 .video .video-container { position: relative; }
 .video .video-container .play-button { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; color: #000; line-height: 0.6; font-size: 60px; }
 .video .video-container .play-button:hover { color: #777; }
+
+/* ===== Global Beyond Hackathon banner ===== */
+.global-sub-banner {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 14px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff !important;
+  text-decoration: none;
+
+  /* Attention-grabbing gradient */
+  background: linear-gradient(90deg, #ff9800, #ff5722);
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  transition: background 0.25s ease, transform 0.15s ease;
+  z-index: 50;
+}
+
+.global-sub-banner:hover {
+  background: linear-gradient(90deg, #ffb74d, #ff7043);
+  transform: scale(1.01);
+}
+
