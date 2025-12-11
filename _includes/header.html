@@ -48,36 +48,40 @@
 
 
 <style>
-  /* Beyond Hackathon global banner */
-  .global-sub-banner {
-    display: block;
-    width: 100%;
-    padding: 14px 0;
-    margin: 0;
-    text-align: center;
+/* ===== Global Beyond Hackathon Banner ===== */
+.global-sub-banner {
+  display: block !important;
+  width: 100% !important;
+  padding: 16px 0 !important;
+  margin: 0;
+  text-align: center !important;
 
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: none;
+  font-size: 1.25rem !important;       /* Larger text */
+  font-weight: 800 !important;         /* Heavier weight */
+  color: #ffffff !important;           /* Pure white text */
+  letter-spacing: 0.5px;               /* Improves readability */
+  text-decoration: none !important;
 
-    /* Attention–grabbing gradient bar */
-    background: linear-gradient(90deg, #ff7a18, #ff3f1a);
+  /* Strong, bright gradient */
+  background: linear-gradient(90deg, #ff6a00, #ff3c00);
 
-    border: none;
-    outline: none;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+  border: none !important;
+  outline: none !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.18);
 
-    position: relative;
-    z-index: 100;
-    transition: background 0.25s ease, transform 0.15s ease;
-  }
+  /* Add subtle outline to text for visibility */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.45);
 
-  .global-sub-banner:hover {
-    background: linear-gradient(90deg, #ff9a4a, #ff5b3b);
-    transform: scale(1.01);
-    text-decoration: none;
-  }
+  position: relative;
+  z-index: 100;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+
+.global-sub-banner:hover {
+  background: linear-gradient(90deg, #ff8333, #ff5233);
+  transform: scale(1.01);
+  text-decoration: none !important;
+}
 </style>
 
 <a class="global-sub-banner" href="{{ '/beyond-hackathon/' | relative_url }}">
