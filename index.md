@@ -145,10 +145,16 @@ menu_icon: house-door
     <tbody>
       <tr>
         <td>Registration & Team Formation</td>
-        <td>Now – Dec 10</td>
-        <td>Register, join Slack, and find collaborators.</td>
+        <td>Now – Dec 14</td>
+        <td>Register to attend online or in-person at one of our sites. Registration for attending in-person closes Dec 10</td>
       </tr>
 
+      <tr>
+        <td>Team Formation</td>
+        <td>Now – Dec 16</td>
+        <td>Join Slack, and find collaborators.</td>
+      </tr>
+      
       <tr>
         <td>Hackathon Start</td>
         <td>Dec 16</td>
