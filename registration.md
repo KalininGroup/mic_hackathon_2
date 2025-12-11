@@ -116,6 +116,7 @@ published: true
       <!-- ACTIVE OPTIONS (put these first so they appear together) -->
       <label><input type="checkbox" name="entry.1753222212" value="Online"> Online</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Cambridge">University of Cambridge</label>
+      <label><input type="checkbox" name="entry.1753222212" value="Sungkyunkwan University (SKKU), Republic of Korea"> Sungkyunkwan University (SKKU), Republic of Korea</label>
     
       <!-- ALL OTHER SITES (greyed out by your JS) -->
       <label><input type="checkbox" name="entry.1753222212" value="University of Tennessee, Knoxville"> University of Tennessee, Knoxville</label>
@@ -134,7 +135,6 @@ published: true
       <label><input type="checkbox" name="entry.1753222212" value="Pennsylvania State University"> Pennsylvania State University </label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Pennsylvania"> University of Pennsylvania </label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Michigan, Ann Arbor"> University of Michigan, Ann Arbor </label>
-      <label><input type="checkbox" name="entry.1753222212" value="Sungkyunkwan University (SKKU), Republic of Korea"> Sungkyunkwan University (SKKU), Republic of Korea</label>
       <label><input type="checkbox" name="entry.1753222212" value="Nanyang Technological University (NTU), Singapore">Nanyang Technological University (NTU), Singapore </label>
       <label><input type="checkbox" name="entry.1753222212" value="Texas A&M University">Texas A&M University</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Cincinnati">University of Cincinnati</label>
@@ -217,7 +217,7 @@ published: true
 
   boxes.forEach(box => {
     const val = box.value.trim();
-    const isOpen = (val === 'Online' || val === 'University of Cambridge');
+    const isOpen = (val === 'Online' || val === 'University of Cambridge' || val === 'Sungkyunkwan University (SKKU), Republic of Korea');
 
     if (!isOpen) {
       // mark visual state
