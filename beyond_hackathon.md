@@ -4,8 +4,21 @@ title: Beyond Hackathon
 permalink: /beyond-hackathon/
 ---
 
+<style>
+  /* Local styles just for this page */
+  .video-wrapper {
+    max-width: 900px;
+    margin: 1.5rem auto;
+  }
+  .video-wrapper iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* prevents stretching */
+    border: 0;
+  }
+</style>
+
 <section class="section-card">
-  <h2>Beyond the Hackathon</h2>
   <p>
     The momentum does not stop when the hackathon ends. The University of Tennessee, Knoxville—together with several of our co-organizers—hosts
     <strong>automated STEM and SPM instruments that can be fully controlled through Python-based workflows</strong>.
@@ -19,23 +32,28 @@ permalink: /beyond-hackathon/
   </p>
 </section>
 
+<section class="section-card">
+  <h2>Representative Automated Workflows</h2>
+  <ul>
+    <li>Exploring combinatorial libraries using automated SPM</li>
+    <li>Optimizing AFM parameters using Bayesian Optimization</li>
+    <li>Topography-based discovery on combinatorial libraries</li>
+    <li>Theory–experiment co-navigation on automated AFM</li>
+    <li>Real-time structure–property relationship mapping</li>
+    <li>Deep Kernel Learning based optimization workflows in real time automated SPM and STEM</li>
+    <li>Atomic fabrication and control in STEM</li>
+    <li>Automated EDS acquisition and analysis in STEM</li>
+  </ul>
+</section>
 
 <!-- =====================  UTK SPM SECTION  ===================== -->
 
 <section class="section-card">
   <h2>UTK Automated SPM</h2>
 
-  <p>Below are examples of autonomous Scanning Probe Microscopy (SPM) workflows developed at UT Knoxville and with our collaborators.</p>
+  <p>Examples of autonomous Scanning Probe Microscopy (SPM) workflows developed at UT Knoxville.</p>
 
-  <h3>Example SPM Workflows</h3>
-  <ul>
-    <li><strong>Optimization</strong> – automated tuning, parameter search, and stability optimization.</li>
-    <li><strong>Structure–Property Discovery</strong> – mapping how local structure controls switching and functional response.</li>
-    <li><strong>Feature Finding</strong> – identifying domains, defects, and functional regions in a reward-driven fashion.</li>
-    <li><strong>Combinatorial Libraries</strong> – autonomously exploring large composition spaces on combi libraries.</li>
-  </ul>
-
-  <h3>Example Videos</h3>
+  <h3>Example SPM Videos</h3>
 
   <!-- SPM Video 1 -->
   <div class="video-wrapper">
@@ -43,8 +61,6 @@ permalink: /beyond-hackathon/
     <p>MOBO-DKL explores how nanoscale domain structure and local neighborhood control ferroelectric switching dynamics under applied bias.</p>
     <iframe
       src="https://drive.google.com/file/d/1RlgCpXQ8gJ2fNmkM5A8dZW6G2-mophgO/preview"
-      width="100%" height="480"
-      frameborder="0"
       allow="autoplay; encrypted-media"
       allowfullscreen
       loading="lazy">
@@ -54,11 +70,9 @@ permalink: /beyond-hackathon/
   <!-- SPM Video 2 -->
   <div class="video-wrapper">
     <h4>Combinatorial Library Optimization</h4>
-    <p>Multi-objective Bayesian optimization searches a combi library for compositions that simultaneously maximize grain size and minimize surface roughness.</p>
+    <p>Multi-objective Bayesian Optimization searches a combi library for compositions with large grains and low surface roughness.</p>
     <iframe
       src="https://drive.google.com/file/d/1LtUZQxNX9dVPzRI5lLmJ_cjI3JpIKoKX/preview"
-      width="100%" height="480"
-      frameborder="0"
       allow="autoplay; encrypted-media"
       allowfullscreen
       loading="lazy">
@@ -68,11 +82,9 @@ permalink: /beyond-hackathon/
   <!-- SPM Video 3 -->
   <div class="video-wrapper">
     <h4>Cross-Platform Automated SPM on OpenSPM</h4>
-    <p>Multi-objective Bayesian optimization is deployed on the open-source OpenSPM controller, demonstrating portable, standards-based automated SPM workflows.</p>
+    <p>Automated tapping-mode optimization is deployed on the open-source OpenSPM controller, demonstrating portable, standards-based SPM workflows.</p>
     <iframe
       src="https://drive.google.com/file/d/1s-F3WSchTTjt5Gi2bdQxERRadGx6NnhA/preview"
-      width="100%" height="480"
-      frameborder="0"
       allow="autoplay; encrypted-media"
       allowfullscreen
       loading="lazy">
@@ -81,23 +93,14 @@ permalink: /beyond-hackathon/
 
 </section>
 
-
 <!-- =====================  STEM / SPECTRA SECTION  ===================== -->
 
 <section class="section-card">
   <h2>Automated STEM & Spectroscopy</h2>
 
-  <p>These examples highlight automated STEM and spectroscopy workflows developed with Utkarsh and collaborators.</p>
+  <p>Examples of automated STEM and spectroscopy workflows developed with Utkarsh and collaborators.</p>
 
-  <h3>Example Spectra / STEM Workflows</h3>
-  <ul>
-    <li><strong>Optimization</strong> – adaptive acquisition of EELS, EDS, CL, or related spectra.</li>
-    <li><strong>Structure–Property Discovery</strong> – learning how spectral signatures relate to composition, defects, and device behavior.</li>
-    <li><strong>Feature Finding</strong> – atom finding, defect detection, and segmentation based on physics-informed rewards.</li>
-    <li><strong>Combinatorial Libraries</strong> – autonomous spectroscopy across composition spreads and device libraries.</li>
-  </ul>
-
-  <h3>Example Videos</h3>
+  <h3>Example STEM / Spectra Videos</h3>
 
   <!-- STEM / Spectra Video 1 -->
   <div class="video-wrapper">
@@ -105,8 +108,6 @@ permalink: /beyond-hackathon/
     <p>Reward-based optimization enables robust, unsupervised atom finding and segmentation for real-time STEM image analysis.</p>
     <iframe
       src="https://drive.google.com/file/d/1Ie8JBLl_3ztjMXxkPOVEk3oETRNx1mAD/preview"
-      width="100%" height="480"
-      frameborder="0"
       allow="autoplay; encrypted-media"
       allowfullscreen
       loading="lazy">
@@ -119,8 +120,6 @@ permalink: /beyond-hackathon/
     <p>An autonomous workflow controls EDS acquisition to efficiently explore device structure and uncover structure–property relationships.</p>
     <iframe
       src="https://drive.google.com/file/d/1EqL8SD_EXVxVRKlPKT2AEp1aTShMjOgj/preview"
-      width="100%" height="480"
-      frameborder="0"
       allow="autoplay; encrypted-media"
       allowfullscreen
       loading="lazy">
@@ -128,9 +127,6 @@ permalink: /beyond-hackathon/
   </div>
 
 </section>
-
-
-<!-- =====================  MORE VIDEOS LINK  ===================== -->
 
 <section class="section-card">
   <h2>More Examples</h2>
