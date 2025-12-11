@@ -112,7 +112,12 @@ published: true
   <fieldset>
     <legend>Where do you want to attend the hackathon? <span class="required">*</span></legend>
     <div class="checkgrid">
+
+      <!-- ACTIVE OPTIONS (put these first so they appear together) -->
       <label><input type="checkbox" name="entry.1753222212" value="Online"> Online</label>
+      <label><input type="checkbox" name="entry.1753222212" value="University of Cambridge">University of Cambridge</label>
+    
+      <!-- ALL OTHER SITES (greyed out by your JS) -->
       <label><input type="checkbox" name="entry.1753222212" value="University of Tennessee, Knoxville"> University of Tennessee, Knoxville</label>
       <label><input type="checkbox" name="entry.1753222212" value="North Carolina State University"> North Carolina State University</label>
       <label><input type="checkbox" name="entry.1753222212" value="Northwestern University"> Northwestern University</label>
@@ -132,13 +137,12 @@ published: true
       <label><input type="checkbox" name="entry.1753222212" value="Sungkyunkwan University (SKKU), Republic of Korea"> Sungkyunkwan University (SKKU), Republic of Korea</label>
       <label><input type="checkbox" name="entry.1753222212" value="Nanyang Technological University (NTU), Singapore">Nanyang Technological University (NTU), Singapore </label>
       <label><input type="checkbox" name="entry.1753222212" value="Texas A&M University">Texas A&M University</label>
-      <label><input type="checkbox" name="entry.1753222212" value="University of Cambridge">University of Cambridge</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Cincinnati">University of Cincinnati</label>
       <label><input type="checkbox" name="entry.1753222212" value="University College Dublin, Ireland">University College Dublin, Ireland</label>
       <label><input type="checkbox" name="entry.1753222212" value="Oklahoma State University">Oklahoma State University</label>
       <label><input type="checkbox" name="entry.1753222212" value="Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea">Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Illinois Urbana–Champaign (UIUC)">University of Illinois Urbana–Champaign (UIUC)</label>
-
+    
     </div>
   </fieldset>
 
