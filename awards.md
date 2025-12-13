@@ -169,6 +169,15 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td>Local prize for the University of Toronto site, sponsored by Hitachi High-Technologies Canada Inc.</td>
     </tr>
 
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://afm.oxinst.com/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/asylum.png' | relative_url }}" alt="Oxford Instruments - Asylum Research" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$1000</td>
+      <td>Award sponsored for best AFM/SPM project</td>
+    </tr>
   
   </tbody>
 </table>
