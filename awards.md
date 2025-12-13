@@ -137,7 +137,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>$1000</td>
-      <td>Special category award sponsored by the Toyota Research Institute (TRI).</td>
+      <td>Prize sponsored by Toyota Research Institute (TRI) for Best Interactivity, recognizing dynamic and performant solutions for human-AI collaborations.</td>
     </tr>
 
     <tr>
