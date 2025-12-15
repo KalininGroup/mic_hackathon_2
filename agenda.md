@@ -49,28 +49,54 @@ nav_exclude: false
 <div class="section-card">
   <h2 class="h-sub">Day 1 – Tuesday, December 16 • Kickoff & Talks</h2>
   <ul class="agenda-list">
-    <li><span class="agenda-time">9:00 AM EST</span>Welcome and Introduction</li>
-    <li><span class="agenda-time">9:05 AM EST</span><strong>Keynote Speaker:</strong> Sergei V. Kalinin (University of Tennessee, Knoxville)<br>
-      <em>Topic:</em> Machine Learning Across the Microscopy Workflow</li>
-    <li><span class="agenda-time">9:25 AM EST</span><strong>Sponsor Presentations:</strong>
+
+    <li>
+      <span class="agenda-time">9:00–9:20 AM EST</span>
+      <strong>Speaker:</strong> Gerd Duscher (University of Tennessee, Knoxville)<br>
+      <em>Topic:</em> Machine Learning in Electron Microscopy: Old and New
+    </li>
+
+    <li>
+      <span class="agenda-time">9:20–9:45 AM EST</span>
+      <strong>Sponsor Talks:</strong>
       <div class="sponsors">
-        <span class="sponsor-pill">Renaissance Philanthropy</span>
-        <span class="sponsor-pill">Theia Scientific</span>
-        <span class="sponsor-pill">Thermo Fisher Scientific</span>
-        <span class="sponsor-pill">Hugging Face</span>
-        <span class="sponsor-pill">DENS Solutions</span>
+        <span class="sponsor-pill">John Phipps – Institute for Advanced Materials & Manufacturing, UTK</span>
+        <span class="sponsor-pill">Tom Kalil & Charles Yang – Renaissance Philanthropy</span>
+        <span class="sponsor-pill">Antti Makinen – Office of Naval Research</span>
+        <span class="sponsor-pill">Craig Hunter – Covalent</span>
       </div>
     </li>
-    <li><span class="agenda-time">9:50 AM EST</span><strong>Speaker:</strong> Rama K. Vasudevan (Oak Ridge National Laboratory)<br>
-      <em>Topic:</em> Ecosystems for Microscopy</li>
-    <li><span class="agenda-time">10:10 AM EST</span><strong>Speaker:</strong> Gerd Duscher (University of Tennessee, Knoxville)<br>
-      <em>Topic:</em> Joining the Hackathon – Projects, Organization, Deliverables, Awards</li>
-    <li><span class="agenda-time">10:30 AM EST</span>Short Break & Last-Minute Team Formation</li>
-    <li><span class="agenda-time">11:00 AM EST</span><strong>Hackathon Launch!</strong><br>
-      <em>Hacking continues throughout the day.</em></li>
+
+    <li>
+      <span class="agenda-time">9:45–10:05 AM EST</span>
+      <strong>Speaker:</strong> Rama K. Vasudevan (Oak Ridge National Laboratory)<br>
+      <em>Topic:</em> Open ecosystems for microscopy: software and experiments in the age of agentic AI
+    </li>
+
+    <li>
+      <span class="agenda-time">10:05–10:25 AM EST</span>
+      <strong>Speaker:</strong> Sergei V. Kalinin (University of Tennessee, Knoxville)<br>
+      <em>Topic:</em> Microscopy for Materials Discovery and Hackathon Plan
+    </li>
+
+    <li>
+      <span class="agenda-time">10:25–11:00 AM EST</span>
+      Short Break & Last-Minute Team Formation
+    </li>
+
+    <li>
+      <span class="agenda-time">11:00 AM EST</span>
+      <strong>Hackathon Launch!</strong><br>
+      <em>Hacking continues throughout the day.</em>
+    </li>
+
   </ul>
-  <div class="note">Organizers will be online on Slack and Zoom from 9:00 AM – 5:00 PM EST.</div>
+
+  <div class="note">
+    Organizers will be online on Slack and Zoom from 9:00 AM – 5:00 PM EST.
+  </div>
 </div>
+
 
 <div class="section-card">
   <h2 class="h-sub">Day 2 – Wednesday, December 17 • Full Work Day</h2>
