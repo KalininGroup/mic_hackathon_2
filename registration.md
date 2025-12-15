@@ -115,7 +115,6 @@ published: true
 
       <!-- ACTIVE OPTIONS (put these first so they appear together) -->
       <label><input type="checkbox" name="entry.1753222212" value="Online"> Online</label>
-      <label><input type="checkbox" name="entry.1753222212" value="University of Cambridge">University of Cambridge</label>
       <label><input type="checkbox" name="entry.1753222212" value="Sungkyunkwan University (SKKU), Republic of Korea"> Sungkyunkwan University (SKKU), Republic of Korea</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Michigan, Ann Arbor"> University of Michigan, Ann Arbor </label>
     
@@ -135,7 +134,7 @@ published: true
       <label><input type="checkbox" name="entry.1753222212" value="AISCIA Informatics – Doha, Qatar"> AISCIA Informatics – Doha, Qatar </label>
       <label><input type="checkbox" name="entry.1753222212" value="Pennsylvania State University"> Pennsylvania State University </label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Pennsylvania"> University of Pennsylvania </label>
-      
+      <label><input type="checkbox" name="entry.1753222212" value="University of Cambridge">University of Cambridge</label>
       <label><input type="checkbox" name="entry.1753222212" value="Nanyang Technological University (NTU), Singapore">Nanyang Technological University (NTU), Singapore </label>
       <label><input type="checkbox" name="entry.1753222212" value="Texas A&M University">Texas A&M University</label>
       <label><input type="checkbox" name="entry.1753222212" value="University of Cincinnati">University of Cincinnati</label>
@@ -214,11 +213,11 @@ published: true
 <script>
 (function(){
   const boxes = document.querySelectorAll('input[type="checkbox"][name="entry.1753222212"]');
-  const MESSAGE = 'Registration is currently available only for Online, University of Cambridge, University of Michigan, Ann Arbor and Sungkyunkwan University (SKKU) sites.';
+  const MESSAGE = 'Registration is currently available only for Online, University of Michigan, Ann Arbor and Sungkyunkwan University (SKKU) sites.';
 
   boxes.forEach(box => {
     const val = box.value.trim();
-    const isOpen = (val === 'Online' || val === 'University of Cambridge' || val === 'Sungkyunkwan University (SKKU), Republic of Korea' || val === 'University of Michigan, Ann Arbor');
+    const isOpen = (val === 'Online' || val === 'Sungkyunkwan University (SKKU), Republic of Korea' || val === 'University of Michigan, Ann Arbor');
 
     if (!isOpen) {
       // mark visual state
