@@ -7,6 +7,33 @@ permalink: /registration/
 published: true
 ---
 
+<div style="
+  background:#fdecea;
+  border:1px solid #f5c2c0;
+  color:#b71c1c;
+  padding:1rem 1.2rem;
+  border-radius:10px;
+  font-size:1.05rem;
+  font-weight:600;
+  margin-bottom:1.5rem;
+">
+  Registration is now closed.  
+  If you still wish to participate, please email 
+  <a href="mailto:araghav4@vols.utk.edu" style="color:#b71c1c; text-decoration:underline;">
+    araghav4@vols.utk.edu
+  </a>
+  to request access for online attendance.
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("onsite-registration-form");
+  if (form) {
+    form.style.display = "none"; // hide entire form
+  }
+});
+</script>
+
 <style>
 /* keep everything inside the card */
 .reg-card, .reg-card * { box-sizing: border-box; }
@@ -213,11 +240,11 @@ published: true
 <script>
 (function(){
   const boxes = document.querySelectorAll('input[type="checkbox"][name="entry.1753222212"]');
-  const MESSAGE = 'Registration is currently available only for Online, University of Michigan, Ann Arbor and Sungkyunkwan University (SKKU) sites.';
+  const MESSAGE = 'Registration is now closed.';
 
   boxes.forEach(box => {
     const val = box.value.trim();
-    const isOpen = (val === 'Online' || val === 'Sungkyunkwan University (SKKU), Republic of Korea' || val === 'University of Michigan, Ann Arbor');
+    const isOpen = ();
 
     if (!isOpen) {
       // mark visual state
