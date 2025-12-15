@@ -202,7 +202,7 @@ menu_icon: house-door
     <strong>Slack + Miro</strong> for collaboration.
   </p>
   <ul>
-    <li><a href="https://tiny.utk.edu/slack">Join the Slack workspace</a></li>
+    <li><a href="https://join.slack.com/t/mic-hackathon/shared_invite/zt-3l53xikrq-tXIEG5e3d2Sr6uGyEWc5GA">Join the Slack workspace</a></li>
     <li><a href="https://miro.com/app/board/uXjVJTYNLw4=/?share_link_id=534372708492">Access the Miro Board to create teams/projects</a></li>
   </ul>
 </div>
