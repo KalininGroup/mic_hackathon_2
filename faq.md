@@ -309,11 +309,16 @@ details.section-card {
 
   <ul>
     <li>Through the hackathon Slack channels (recommended)</li>
+    <li>By browsing project ideas on the Miro board and reaching out to organizers or participants</li>
     <li>Also, at local sites</li>
   </ul>
 
-  <p>We encourage teams with mixed expertise (ML, microscopy, physics, coding, domain knowledge), but single-person teams are also allowed.</p>
+  <p>
+    We encourage teams with mixed expertise (ML, microscopy, physics, coding, domain knowledge),
+    but single-person teams are also allowed.
+  </p>
 </details>
+
 
 <details class="section-card faq-item">
   <summary>How is the hackathon organized?</summary>
