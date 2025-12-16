@@ -18,6 +18,11 @@ published: true
   margin-bottom:1.5rem;
 ">
   Registration is now closed.  
+  If you still wish to participate, please email Aditya
+  <a href="mailto:araghav4@vols.utk.edu" style="color:#b71c1c; text-decoration:underline;">
+    (araghav4@vols.utk.edu)
+  </a>
+  to request access for online attendance.
 </div>
 
 <script>
