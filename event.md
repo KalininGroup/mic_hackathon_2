@@ -17,9 +17,9 @@ This page shares live snapshots from the ongoing hackathon, including online ses
 
 ## Zoom Kick-off Sessions
 <div class="photo-grid">
-  <img src='/assets/event_photos/Online/Zoom1.png' alt="Hackathon Zoom session">
-  <img src='/assets/event_photos/Online/Zoom2.png' alt="Hackathon Zoom session">
-  <img src='/assets/event_photos/Online/Zoom3.png' alt="Hackathon Zoom session">
+  <img src="{{ '/assets/event_photos/Online/Zoom1.png' | relative_url }}" alt="Hackathon Zoom session">
+  <img src="{{ '/assets/event_photos/Online/Zoom2.png' | relative_url }}" alt="Hackathon Zoom session">
+  <img src="{{ '/assets/event_photos/Online/Zoom3.png' | relative_url }}" alt="Hackathon Zoom session">
 </div>
 
 
