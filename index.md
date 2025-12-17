@@ -46,36 +46,46 @@ menu_icon: house-door
   <p style="margin-top:6px;"><a href="https://kaliningroup.github.io/mic-hackathon/">See the 2024 edition</a></p>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 32px; margin: 40px 0; align-items: center; flex-wrap: wrap;">
+<div style="margin: 40px 0; text-align: center;">
 
-  <!-- Left: Video -->
-  <video
-      src="{{ '/assets/Hackathon_2025_Fun_small.mp4' | relative_url }}"
-      autoplay
-      muted
-      playsinline
-      controls
-      style="width: 320px; height: 570px; border-radius:12px; border:1px solid #e8ecf3; background:#000;">
-  </video>
+  <!-- Full-width responsive video container -->
+  <div style="
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #e8ecf3;">
+    
+    <!-- 16:9 aspect ratio -->
+    <div style="padding-top: 56.25%;"></div>
 
-  <!-- Right: Text -->
-  <div style="max-width: 420px;">
-    <h3 style="margin-top:0; color:#1d2a56;">Don’t camp in the lab to join the hackathon 😄</h3>
-    <p style="font-size:1.05rem; line-height:1.6; color:#344054;">
-      Two enthusiastic participants decided to camp out in the microscopy lab so they wouldn’t
-      miss the hackathon… until a friend walks in and reminds them:
-      you can just <a href="{{ '/registration' | relative_url }}" style="color:#1d4ed8; text-decoration:underline;">register online</a>.
-      <br><br>
-      No sleeping bags required — just bring your ideas, curiosity, and a laptop.
-      Sign up, join a team, and be ready when the challenges drop.
-    </p>
-
-    <p style="font-size:0.85rem; color:#6b7280; margin-top:16px;">
-      <em>Video created by Austin Houston, Utkarsh Pratiush and Kamyar Barakati.</em>
-    </p>
+    <!-- Google Drive embed (no autoplay, sound enabled) -->
+    <iframe
+        src="https://drive.google.com/file/d/1pNDjP8UDJVSIGjjU_O-ttxaX6vstCnOP/preview"
+        style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border: 0;">
+    </iframe>
   </div>
 
+  <!-- Text below the video -->
+  <p style="font-size:1.05rem; line-height:1.6; color:#344054; max-width: 700px; margin: 24px auto 0;">
+    Watch the recording from today's live kickoff session — including the welcome,
+    introduction, and overview of the hackathon.
+    <br><br>
+    If you weren’t able to join the Zoom session, this video will help you catch up
+    before jumping into the challenges.
+  </p>
+
 </div>
+
+
 
 
 
