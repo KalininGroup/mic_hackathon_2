@@ -178,6 +178,16 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td>$1000</td>
       <td>Award sponsored for best AFM/SPM project</td>
     </tr>
+
+    <tr>
+      <td style="text-align:center;">
+        <a href="https://jeol.com/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/Jeol.png' | relative_url }}" alt="Jeol" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$500</td>
+      <td>Award sponsored for one projects</td>
+    </tr>
   
   </tbody>
 </table>
