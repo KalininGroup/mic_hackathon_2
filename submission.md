@@ -43,6 +43,38 @@ nav_exclude: false
 }
 </style>
 
+<div class="section-card" style="padding:25px; margin:30px 0;">
+
+  <h2 style="text-align:center;">Project Submission</h2>
+
+  <p style="margin-top:10px;">
+    Please submit your final project using the link below:
+  </p>
+
+  <div style="text-align:center; margin:20px 0;">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDTICPOkuZTS9YYc4L7yBRQ8xUH2VF1jItDnZM-2CLXM9Hhw/viewform?usp=header"
+       style="background:#007acc; color:white; padding:14px 28px; font-size:18px; border-radius:8px; text-decoration:none; font-weight:600;">
+      Submit Project →
+    </a>
+  </div>
+
+  <p>
+    <strong>Regarding the writeup:</strong><br>
+    Consider it like a short paper. Later, when we compile the full hackathon paper,
+    we will use your writeup.  
+    You can take a look at last year's hackathon paper here — each project description
+    appears in the appendix.
+  </p>
+
+  <p>
+    Last year's paper:  
+    <a href="https://arxiv.org/pdf/2506.08423" target="_blank">
+      https://arxiv.org/pdf/2506.08423
+    </a>
+  </p>
+
+</div>
+
 
 Use the resources below to prepare your final hackathon submission.  
 Each section includes links and instructions to help you navigate the process.
