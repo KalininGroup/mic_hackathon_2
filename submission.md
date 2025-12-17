@@ -55,12 +55,17 @@ nav_exclude: false
       Submit Project →
     </a>
   </div>
-
+<p>
+  <strong>Submission deadline:</strong>
+  December 18, 2025 at 11:59 PM (EST).
+</p>
   <p>
   <strong>Regarding the writeup:</strong><br>
   Please prepare your writeup in the style of a short paper. We will use these writeups when compiling the full hackathon proceedings. For reference, you can review 
   <a href="https://arxiv.org/pdf/2506.08423" target="_blank">last year's hackathon paper</a>, where each project summary appears in the appendix.
 </p>
+
+
 
 </div>
 
