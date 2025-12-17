@@ -76,7 +76,7 @@ menu_icon: house-door
 
   <!-- Text below the video -->
   <p style="font-size:1.05rem; line-height:1.6; color:#344054; max-width: 700px; margin: 24px auto 0;">
-    Watch the recording from today's live kickoff session — including the welcome,
+    Watch the recording from the live kickoff session — including the welcome,
     introduction, and overview of the hackathon.
     <br><br>
     If you weren’t able to join the Zoom session, this video will help you catch up
