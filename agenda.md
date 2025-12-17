@@ -116,7 +116,7 @@ nav_exclude: false
       Submission procedure will be updated soon...
       <ul style="margin:6px 0 0 22px">
         <li>~2-minute video about the project</li>
-        <li>1-page summary (text or PDF)</li>
+        <li>2-page summary (Google docs preferred)</li>
         <li>Code – GitHub link or shared drive folder</li>
       </ul>
     </li>
