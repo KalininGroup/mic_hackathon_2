@@ -43,31 +43,49 @@ nav_exclude: false
 }
 </style>
 
-<div class="section-card" style="padding:25px; margin:30px 0;">
+## Hackathon Submissions
 
-  <h2 style="text-align:left;">Project Submission</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Description</th>
+      <th>Links</th>
+      <th>Team</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for p in site.data.projects %}
+    <tr>
+      <td><strong>{{ p.title }}</strong></td>
 
-  <p>Please submit your final project using the link below:</p>
+      <td>{{ p.description }}</td>
 
-  <div style="margin:20px 0;">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDTICPOkuZTS9YYc4L7yBRQ8xUH2VF1jItDnZM-2CLXM9Hhw/viewform?usp=header"
-       style="background:#007acc; color:white; padding:14px 28px; font-size:18px; border-radius:8px; text-decoration:none; font-weight:600;">
-      Submit Project →
-    </a>
-  </div>
-<p>
-  <strong>Submission deadline:</strong>
-  December 18, 2025 at 11:59 PM (EST).
-</p>
-  <p>
-  <strong>Regarding the writeup:</strong><br>
-  Please prepare your writeup in the style of a short paper. We will use these writeups when compiling the full hackathon proceedings. For reference, you can review 
-  <a href="https://arxiv.org/pdf/2506.08423" target="_blank">last year's hackathon paper</a>, where each project summary appears in the appendix.
-</p>
+      <td>
+        {% if p.repo and p.repo != "N/A" %}
+          <a href="{{ p.repo }}" target="_blank">Code</a><br>
+        {% endif %}
+        {% if p.video and p.video != "N/A" %}
+          <a href="{{ p.video }}" target="_blank">Video</a><br>
+        {% endif %}
+        {% if p.slides and p.slides != "N/A" %}
+          <a href="{{ p.slides }}" target="_blank">Slides</a>
+        {% endif %}
+      </td>
 
+      <td>
+        {% for i in (1..8) %}
+          {% assign key = "member" | append: i %}
+          {% if p[key] and p[key] != "N/A" %}
+            {{ p[key] }}<br>
+          {% endif %}
+        {% endfor %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
-
-</div>
 
 
 
