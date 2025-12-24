@@ -56,25 +56,37 @@ nav_exclude: false
   </thead>
   <tbody>
     {% for p in site.data.projects %}
-    <tr>
-      <td><strong>{{ p.title }}</strong></td>
-      <td>{{ p.description }}</td>
-      <td>
-        {% if p.repo and p.repo != "N/A" %}<a href="{{ p.repo }}" target="_blank" rel="noopener">Code</a><br>{% endif %}
-        {% if p.video and p.video != "N/A" %}<a href="{{ p.video }}" target="_blank" rel="noopener">Video</a><br>{% endif %}
-        {% if p.slides and p.slides != "N/A" %}<a href="{{ p.slides }}" target="_blank" rel="noopener">Slides</a>{% endif %}
-      </td>
-      <td>
-        {% if p.member1 and p.member1 != "N/A" %}{{ p.member1 }}<br>{% endif %}
-        {% if p.member2 and p.member2 != "N/A" %}{{ p.member2 }}<br>{% endif %}
-        {% if p.member3 and p.member3 != "N/A" %}{{ p.member3 }}<br>{% endif %}
-        {% if p.member4 and p.member4 != "N/A" %}{{ p.member4 }}<br>{% endif %}
-        {% if p.member5 and p.member5 != "N/A" %}{{ p.member5 }}<br>{% endif %}
-        {% if p.member6 and p.member6 != "N/A" %}{{ p.member6 }}<br>{% endif %}
-        {% if p.member7 and p.member7 != "N/A" %}{{ p.member7 }}<br>{% endif %}
-        {% if p.member8 and p.member8 != "N/A" %}{{ p.member8 }}{% endif %}
-      </td>
-    </tr>
+      {% if p["Project title"] and p["Project title"] != "" %}
+      <tr>
+        <td>
+          <strong>{{ p["Project title"] }}</strong><br>
+          <small>ID: {{ p["Project ID"] }}</small>
+        </td>
+
+        <td>{{ p["Brief project description (2-3 sentences)"] }}</td>
+
+        <td>
+          {% if p["Code link (pref: GitHub)"] and p["Code link (pref: GitHub)"] != "N/A" %}
+            <a href="{{ p["Code link (pref: GitHub)"] }}" target="_blank" rel="noopener">Code</a><br>
+          {% endif %}
+          {% if p["Video link (pref: YouTube, 2-3min)"] and p["Video link (pref: YouTube, 2-3min)"] != "N/A" %}
+            <a href="{{ p["Video link (pref: YouTube, 2-3min)"] }}" target="_blank" rel="noopener">Video</a><br>
+          {% endif %}
+          {% if p["Document link (pref: Google Docs, 2pg max)"] and p["Document link (pref: Google Docs, 2pg max)"] != "N/A" %}
+            <a href="{{ p["Document link (pref: Google Docs, 2pg max)"] }}" target="_blank" rel="noopener">Doc</a>
+          {% endif %}
+        </td>
+
+        <td>
+          {% for i in (1..8) %}
+            {% assign k = "Member " | append: i %}
+            {% if p[k] and p[k] != "" and p[k] != "N/A" %}
+              {{ p[k] }}<br>
+            {% endif %}
+          {% endfor %}
+        </td>
+      </tr>
+      {% endif %}
     {% endfor %}
   </tbody>
 </table>
