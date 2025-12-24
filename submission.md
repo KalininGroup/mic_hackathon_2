@@ -43,7 +43,7 @@ nav_exclude: false
 }
 </style>
 
-## Hackathon Submissions
+<h2>Hackathon Submissions</h2>
 
 <table>
   <thead>
@@ -58,33 +58,27 @@ nav_exclude: false
     {% for p in site.data.projects %}
     <tr>
       <td><strong>{{ p.title }}</strong></td>
-
       <td>{{ p.description }}</td>
-
       <td>
-        {% if p.repo and p.repo != "N/A" %}
-          <a href="{{ p.repo }}" target="_blank">Code</a><br>
-        {% endif %}
-        {% if p.video and p.video != "N/A" %}
-          <a href="{{ p.video }}" target="_blank">Video</a><br>
-        {% endif %}
-        {% if p.slides and p.slides != "N/A" %}
-          <a href="{{ p.slides }}" target="_blank">Slides</a>
-        {% endif %}
+        {% if p.repo and p.repo != "N/A" %}<a href="{{ p.repo }}" target="_blank" rel="noopener">Code</a><br>{% endif %}
+        {% if p.video and p.video != "N/A" %}<a href="{{ p.video }}" target="_blank" rel="noopener">Video</a><br>{% endif %}
+        {% if p.slides and p.slides != "N/A" %}<a href="{{ p.slides }}" target="_blank" rel="noopener">Slides</a>{% endif %}
       </td>
-
       <td>
-        {% for i in (1..8) %}
-          {% assign key = "member" | append: i %}
-          {% if p[key] and p[key] != "N/A" %}
-            {{ p[key] }}<br>
-          {% endif %}
-        {% endfor %}
+        {% if p.member1 and p.member1 != "N/A" %}{{ p.member1 }}<br>{% endif %}
+        {% if p.member2 and p.member2 != "N/A" %}{{ p.member2 }}<br>{% endif %}
+        {% if p.member3 and p.member3 != "N/A" %}{{ p.member3 }}<br>{% endif %}
+        {% if p.member4 and p.member4 != "N/A" %}{{ p.member4 }}<br>{% endif %}
+        {% if p.member5 and p.member5 != "N/A" %}{{ p.member5 }}<br>{% endif %}
+        {% if p.member6 and p.member6 != "N/A" %}{{ p.member6 }}<br>{% endif %}
+        {% if p.member7 and p.member7 != "N/A" %}{{ p.member7 }}<br>{% endif %}
+        {% if p.member8 and p.member8 != "N/A" %}{{ p.member8 }}{% endif %}
       </td>
     </tr>
     {% endfor %}
   </tbody>
 </table>
+
 
 
 
