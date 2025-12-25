@@ -42,7 +42,7 @@ nav_exclude: false
   font-weight:600;
 }
 </style>
-**TEST-DEPLOY-123**
+
 
 <h2>Hackathon Submissions</h2>
 
@@ -80,9 +80,26 @@ nav_exclude: false
         <td>
           {% for i in (1..8) %}
             {% assign k = "Member " | append: i %}
-            {% if p[k] and p[k] != "" and p[k] != "N/A" %}
-              {% assign name = p[k] | split: "," | first | strip %}
+            {% assign raw = p[k] | strip %}
+            {% if raw and raw != "" and raw != "N/A" %}
+        
+              {%- comment -%}
+              Step 1: remove everything after first "(" (emails in parentheses)
+              {%- endcomment -%}
+              {% assign no_paren = raw | split: "(" | first %}
+        
+              {%- comment -%}
+              Step 2: split on comma and take first part
+              {%- endcomment -%}
+              {% assign name = no_paren | split: "," | first %}
+        
+              {%- comment -%}
+              Step 3: remove "Name:" prefix if present
+              {%- endcomment -%}
+              {% assign name = name | replace: "Name:", "" | strip %}
+        
               {{ name }}<br>
+        
             {% endif %}
           {% endfor %}
         </td>
