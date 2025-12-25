@@ -76,12 +76,12 @@ nav_exclude: false
             <a href="{{ p["Document link (pref: Google Docs, 2pg max)"] }}" target="_blank" rel="noopener">Doc</a>
           {% endif %}
         </td>
-
         <td>
           {% for i in (1..8) %}
             {% assign k = "Member " | append: i %}
             {% if p[k] and p[k] != "" and p[k] != "N/A" %}
-              {{ p[k] }}<br>
+              {% assign name = p[k] | split: "," | first | strip %}
+              {{ name }}<br>
             {% endif %}
           {% endfor %}
         </td>
