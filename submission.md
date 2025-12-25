@@ -83,19 +83,17 @@ nav_exclude: false
             {% assign raw = p[k] | strip %}
             {% if raw and raw != "" and raw != "N/A" %}
         
-              {%- comment -%}
-              Step 1: remove everything after first "(" (emails in parentheses)
-              {%- endcomment -%}
-              {% assign no_paren = raw | split: "(" | first %}
+              {%- comment -%} 1) remove emails in parentheses like (a@b.com) {%- endcomment -%}
+              {% assign s = raw | split: "(" | first | strip %}
         
-              {%- comment -%}
-              Step 2: split on comma and take first part
-              {%- endcomment -%}
-              {% assign name = no_paren | split: "," | first %}
+              {%- comment -%} 2) if pipe-separated, take the first chunk; else take chunk before first comma {%- endcomment -%}
+              {% if s contains "|" %}
+                {% assign name = s | split: "|" | first | strip %}
+              {% else %}
+                {% assign name = s | split: "," | first | strip %}
+              {% endif %}
         
-              {%- comment -%}
-              Step 3: remove "Name:" prefix if present
-              {%- endcomment -%}
+              {%- comment -%} 3) remove "Name:" if present {%- endcomment -%}
               {% assign name = name | replace: "Name:", "" | strip %}
         
               {{ name }}<br>
