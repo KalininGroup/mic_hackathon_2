@@ -1,0 +1,3 @@
+# IQ-X (Image Quality Assessment via Cross-Modal Validation)
+
+IQ-X is a reference-based, physics-informed framework for assessing AFM image quality using SEM as a non-contact stability baseline. By comparing the temporal evolution of interpretable image metrics across paired AFM–SEM images acquired from the same region, IQ-X distinguishes AFM-specific degradation from true sample morphology. Metrics that remain stable in SEM but evolve in AFM are identified as indicators of AFM image quality, enabling diagnosis of dominant degradation mechanisms such as loss of high-frequency spatial detail while ruling out feedback instability and double-tip artifacts.

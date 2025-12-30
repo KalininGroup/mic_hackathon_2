@@ -1,0 +1,12 @@
+streamlit
+numpy
+pandas
+matplotlib
+plotly
+scikit-learn
+torch
+timm
+umap-learn
+Pillow
+transformers
+scikit-image

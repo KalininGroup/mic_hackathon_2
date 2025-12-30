@@ -1,0 +1,33 @@
+# SE(3)-Equivariant AFM Reconstruction - Requirements
+# Python 3.9+
+
+# Core deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data handling
+h5py>=3.8.0
+opencv-python>=4.7.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pillow>=9.5.0
+
+# Training utilities
+tensorboard>=2.12.0
+tqdm>=4.65.0
+
+# Optional: For production SE(3)-equivariant operations
+# e3nn>=0.5.0
+# torch-geometric>=2.3.0
+
+# Development tools (optional)
+pytest>=7.3.0
+black>=23.3.0
+flake8>=6.0.0

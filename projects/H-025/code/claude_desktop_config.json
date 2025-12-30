@@ -1,0 +1,9 @@
+
+{
+  "mcpServers": {
+    "AFMDT": {        
+      "command": "uv",
+      "args": ["--directory", "C:/Users/clarq/Documents/", "run", "AFM_DT.py"]
+    }
+  }
+}

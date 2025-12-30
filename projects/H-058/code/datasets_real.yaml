@@ -1,0 +1,46 @@
+# VantaScope Real Dataset Configuration
+# Updated with actual data paths
+
+datasets:
+  # Graphene dataset - multiple folders with H5 files
+  graphene_stem:
+    name: "graphene_stem" 
+    data_path: "./data/graphene"  # Parent folder containing all graphene subfolders
+    format: "graphene_multi"  # Custom format for multi-folder structure
+    channels: ["HAADF", "ADF"]
+    complexity: "basic"
+    source: "Hackathon STEM collection"
+    description: "Graphene defect analysis from multiple experiments"
+    preprocessing:
+      target_size: 512
+      normalization: "percentile"
+      percentile_range: [2.0, 98.0]
+
+  # PZT dataset - AFM data
+  pzt_ferroelectric:
+    name: "pzt_ferroelectric"
+    data_path: "./data/PZT_final0001.h5"
+    format: "hdf5"
+    channels: ["HeightRetrace", "Phase1Retrace"]
+    complexity: "advanced" 
+    source: "DTMicroscope AFM"
+    description: "PZT domain wall dynamics"
+    preprocessing:
+      target_size: 512
+      normalization: "percentile"
+      percentile_range: [1.0, 99.0]
+
+# Training configuration
+training:
+  batch_size: 4
+  validation_split: 0.2
+  seed: 42
+  device: "auto"
+  
+# Model configuration  
+model:
+  backbone: "facebook/dinov2-base"
+  feature_dim: 768
+  graph_hidden_dim: 256
+  num_attention_heads: 8
+  fuzzy_centers: 5

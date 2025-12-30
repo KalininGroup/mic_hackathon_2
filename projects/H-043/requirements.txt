@@ -1,0 +1,16 @@
+google-adk==1.19.0
+google-genai>=0.3
+
+scikit-learn>=1.0
+scikit-image>=0.19
+Pillow>=10.0
+opencv-python>=4.9
+
+numpy==1.26.4
+
+plotly>=5.18
+kaleido>=0.2
+
+fastapi>=0.109
+uvicorn>=0.27
+python-multipart>=0.0.6

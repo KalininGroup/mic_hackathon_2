@@ -1,0 +1,16 @@
+streamlit
+pillow
+numpy
+opencv-python
+scikit-image
+scipy
+torch
+matplotlib
+openai
+pydantic
+tifffile
+python-dotenv
+langchain-openai
+langgraph
+langchain-community
+streamlit-drawable-canvas

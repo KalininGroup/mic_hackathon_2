@@ -1,0 +1,22 @@
+[project]
+name = "vantascope"
+version = "0.1.0"
+description = "Next-generation microscopy analysis with foundation models"
+authors = [{name = "Microscope Megaminds", email = "team@vantascope.ai"}]
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "torchvision", 
+    "transformers",
+    "streamlit",
+    "numpy",
+    "h5py",
+    "scikit-learn",
+    "matplotlib",
+    "pyvis",
+    "pydantic",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

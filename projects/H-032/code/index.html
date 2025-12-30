@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bio STEM GPT</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🔬 Bio STEM GPT</h1>
+    <p class="subtitle">
+        Upload a segmented microscopy image and receive quantitative analysis,
+        visual overlays, and an expert explanation.
+    </p>
+
+    <!-- Chat / Results Panel -->
+    <div id="chat-box"></div>
+
+    <!-- Input Form -->
+    <form id="chat-form">
+        <label class="file-upload">
+            📁 Upload Image
+            <input type="file" id="image" accept="image/*" required />
+        </label>
+
+        <textarea
+            id="prompt"
+            placeholder="e.g., Describe the nuclei distribution and morphology..."
+            required
+        ></textarea>
+
+        <button type="submit">Analyze</button>
+    </form>
+
+    <!-- Results -->
+    <div id="results" class="hidden">
+        <h2>📊 Segmentation Results</h2>
+
+        <div class="stats">
+            <div><strong>Detected Objects:</strong> <span id="count"></span></div>
+            <div><strong>Mean Area:</strong> <span id="area"></span></div>
+        </div>
+
+        <div class="images">
+            <div>
+                <h3>Input Segmented Image</h3>
+                <img id="input-image" />
+            </div>
+
+            <div>
+                <h3>Segmentation Overlay</h3>
+                <img id="overlay" />
+            </div>
+        </div>
+
+
+        <h2>🧠 Expert Explanation</h2>
+        <p id="response"></p>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

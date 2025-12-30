@@ -1,0 +1,6 @@
+# H-055
+
+Project archived for the AI/ML Microscopy Hackathon.
+
+## Original submission
+https://colab.research.google.com/drive/1tg1PkQiOBbr-sBQXQ5faEjosyOcrq7Va?usp=sharing

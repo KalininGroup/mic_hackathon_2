@@ -1,0 +1,97 @@
+# VantaScope Dataset Configuration
+# Real microscopy datasets for progressive benchmarking
+
+datasets:
+  # Tier 1: Basic (MNIST-level complexity)
+  graphene_stem:
+    name: "graphene_stem" 
+    data_path: "./data/graphene_img.npy"
+    format: "numpy"
+    channels: ["HAADF"]
+    complexity: "basic"
+    source: "Hackathon STEM collection (Austin Houston)"
+    description: "Graphene defect time series for temporal tracking"
+    download:
+      method: "gdown"
+      google_drive_id: "1JwyebhoktJVNAeRCn96e4a3TWqbpvNAQ"
+      processing: "hdf5_to_numpy_timeseries"
+    preprocessing:
+      target_size: 512
+      normalization: "percentile"
+      percentile_range: [2.0, 98.0]
+    expected_features:
+      geometric: ["lattice_rotation", "drift_correction"] 
+      topological: ["vacancy_defects", "grain_boundaries"]
+      noise: ["shot_noise", "scan_artifacts"]
+
+  # Tier 2: Intermediate (Fashion-MNIST level)
+  coag_stem_eels:
+    name: "coag_stem_eels"
+    data_path: "./data/coag_haadf.h5" 
+    format: "hdf5"
+    channels: ["HAADF", "EELS"]
+    complexity: "intermediate"
+    source: "ORNL Gerd Duscher archive"
+    description: "CoAg phase separation with chemical mapping"
+    download:
+      method: "gdown_multi"
+      files:
+        haadf: "1DRD_XUAhPhHBuErgJJDrjI8iLDFG5bXu"
+        eels: "13e3QSaFlbwcBqFGO3hWIlO6-4QZ57PRh"
+      processing: "combine_numpy_to_hdf5"
+    preprocessing:
+      target_size: 512
+      normalization: "minmax"
+    expected_features:
+      geometric: ["nanoparticle_size", "interface_curvature"]
+      topological: ["phase_boundaries", "percolation_paths"] 
+      noise: ["beam_damage", "drift"]
+
+  # Tier 3: Advanced (ImageNet-level)
+  pzt_ferroelectric:
+    name: "pzt_ferroelectric"
+    data_path: "./data/PZT_final0001.h5"
+    format: "hdf5"
+    channels: ["HeightRetrace", "Phase1Retrace"]
+    complexity: "advanced" 
+    source: "DTMicroscope AFM simulation"
+    description: "PZT domain wall dynamics and polarization analysis"
+    download:
+      method: "git_clone"
+      repository: "https://github.com/pycroscopy/DTMicroscope.git"
+      file_path: "DTMicroscope/data/AFM/PZT_final0001.h5"
+    preprocessing:
+      target_size: 512
+      normalization: "percentile"
+      percentile_range: [1.0, 99.0]
+    expected_features:
+      geometric: ["domain_orientation", "lattice_strain"]
+      topological: ["domain_walls", "polar_vortices"]
+      noise: ["tip_artifacts", "thermal_drift"]
+
+# Training configuration
+training:
+  batch_size: 4  # Conservative for high-res data
+  validation_split: 0.2
+  seed: 42
+  device: "auto"
+  
+# Progressive evaluation setup
+evaluation:
+  complexity_order: ["basic", "intermediate", "advanced"]
+  metrics:
+    reconstruction: ["mse", "ssim", "psnr"]
+    clustering: ["silhouette", "davies_bouldin"] 
+    disentanglement: ["factor_manipulation", "latent_stability"]
+  targets:
+    basic: 0.90      # >90% accuracy on graphene
+    intermediate: 0.80  # >80% accuracy on CoAg
+    advanced: 0.70   # >70% accuracy on PZT
+
+# Model configuration
+model:
+  backbone: "facebook/dinov2-base"
+  feature_dim: 768
+  graph_hidden_dim: 256
+  num_attention_heads: 8
+  fuzzy_centers: 5
