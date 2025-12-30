@@ -14,3 +14,7 @@ The complete project is available at:
 
 ## Note about this link
 This submission is provided as a **github_clone_failed** link. To archive additional files here, export/download them and place them in this folder.
+
+
+⚠️ Project document could not be auto-downloaded:
+https://kfupmedusa-my.sharepoint.com/:b:/g/personal/g202103630_kfupm_edu_sa/IQBk71guBEU3RYOuJcJXntvtAfsS55XA8SrX1bJaJ9Ym1Ao?e=BSzqvW

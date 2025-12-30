@@ -25,3 +25,13 @@ Examples of files not included:
 - `DTMicroscope/DTMicroscope/server/__init__.py`
 - `DTMicroscope/notebooks/AFM/temp/scan_0001.ibw`
 - `DTMicroscope/notebooks/foam/foam_rfr.pkl`
+
+
+⚠️ Failed to download document:
+https://drive.google.com/file/d/1QRkStX97KD4SwN-mgMxcCMC3nWREDoEv/view?usp=drive_link
+Reason: usage: gdown [-h] [-V] [-O OUTPUT] [-q] [--fuzzy] [--id] [--proxy PROXY]
+             [--speed SPEED] [--no-cookies] [--no-check-certificate]
+             [--continue] [--folder] [--remaining-ok] [--format FORMAT]
+             [--user-agent USER_AGENT]
+             url_or_id
+gdown: error: unrecognized arguments: https://drive.google.com/file/d/1QRkStX97KD4SwN-mgMxcCMC3nWREDoEv/view?usp=drive_link

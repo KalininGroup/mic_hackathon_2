@@ -19,3 +19,7 @@ Examples of files not included:
 - `.gitignore`
 - `data/000278.h5`
 - `models/__init__.py`
+
+
+⚠️ Project document could not be auto-downloaded:
+https://lunduniversityo365-my.sharepoint.com/:w:/g/personal/le7714ol_lu_se/IQDW20QbAf4UQ59bdMNzbBSQAVPPPw4U2ZIqjMf3ljBgYSk?e=GGimOe

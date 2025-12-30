@@ -24,3 +24,13 @@ Examples of files not included:
 - `assets/spot2_0d_0_mask.tif`
 - `src/.DS_Store`
 - `models/.DS_Store`
+
+
+⚠️ Failed to download document:
+https://drive.google.com/file/d/1ODP2wW0J87imdIfkiVdEo7whU_SXSxt8/view?usp=drive_link
+Reason: usage: gdown [-h] [-V] [-O OUTPUT] [-q] [--fuzzy] [--id] [--proxy PROXY]
+             [--speed SPEED] [--no-cookies] [--no-check-certificate]
+             [--continue] [--folder] [--remaining-ok] [--format FORMAT]
+             [--user-agent USER_AGENT]
+             url_or_id
+gdown: error: unrecognized arguments: https://drive.google.com/file/d/1ODP2wW0J87imdIfkiVdEo7whU_SXSxt8/view?usp=drive_link

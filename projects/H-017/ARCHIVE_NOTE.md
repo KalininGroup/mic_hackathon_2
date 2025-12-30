@@ -20,3 +20,13 @@ Examples of files not included:
 - `data/Acta_Materialia/S1359645423004445/S1359645423004445.xml`
 - `data/Acta_Materialia/S1359645422007212/S1359645422007212.xml`
 - `src/Untitled`
+
+
+⚠️ Failed to download document:
+https://drive.google.com/file/d/1RqHBcShCLnzvI89hERXP3YLTDlXaVt0Y/view
+Reason: usage: gdown [-h] [-V] [-O OUTPUT] [-q] [--fuzzy] [--id] [--proxy PROXY]
+             [--speed SPEED] [--no-cookies] [--no-check-certificate]
+             [--continue] [--folder] [--remaining-ok] [--format FORMAT]
+             [--user-agent USER_AGENT]
+             url_or_id
+gdown: error: unrecognized arguments: https://drive.google.com/file/d/1RqHBcShCLnzvI89hERXP3YLTDlXaVt0Y/view

@@ -14,3 +14,13 @@ The complete project is available at:
 
 ## Note about this link
 This submission is provided as a **colab** link. To archive additional files here, export/download them and place them in this folder.
+
+
+⚠️ Failed to download document:
+https://drive.google.com/file/d/1Cpry-i-RlEn9uCwrf4kRyxGZ4p2XzNzq/view?usp=drive_link
+Reason: usage: gdown [-h] [-V] [-O OUTPUT] [-q] [--fuzzy] [--id] [--proxy PROXY]
+             [--speed SPEED] [--no-cookies] [--no-check-certificate]
+             [--continue] [--folder] [--remaining-ok] [--format FORMAT]
+             [--user-agent USER_AGENT]
+             url_or_id
+gdown: error: unrecognized arguments: https://drive.google.com/file/d/1Cpry-i-RlEn9uCwrf4kRyxGZ4p2XzNzq/view?usp=drive_link

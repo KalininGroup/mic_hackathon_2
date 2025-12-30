@@ -37,3 +37,13 @@ Examples of files not included:
 - `src/nanorange/image_analyzer/plotter/stats_plotter/__init__.py`
 - `src/nanorange/image_analyzer/plotter/shape_plotter/__init__.py`
 - … and 14 more
+
+
+⚠️ Failed to download document:
+https://drive.google.com/file/d/1nFrG6FeXXmRTi3v34puIb-ZXY5m31t3P/view?usp=drive_link
+Reason: usage: gdown [-h] [-V] [-O OUTPUT] [-q] [--fuzzy] [--id] [--proxy PROXY]
+             [--speed SPEED] [--no-cookies] [--no-check-certificate]
+             [--continue] [--folder] [--remaining-ok] [--format FORMAT]
+             [--user-agent USER_AGENT]
+             url_or_id
+gdown: error: unrecognized arguments: https://drive.google.com/file/d/1nFrG6FeXXmRTi3v34puIb-ZXY5m31t3P/view?usp=drive_link

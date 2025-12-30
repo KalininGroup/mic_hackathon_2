@@ -12,3 +12,7 @@ The complete project is available at:
 
 - https://github.com/msehabibur/mic-hackathon-25/tree/main
 
+
+
+⚠️ Project document could not be auto-downloaded:
+https://github.com/msehabibur/mic-hackathon-25/blob/main/DeepScan_Pro_2_pages.pdf
