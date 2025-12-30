@@ -29,3 +29,8 @@ Examples of files not included:
 - `data/10788.tif`
 - `static/outputs/overlay_10970.tif`
 - `static/outputs/overlay_6516.tif`
+
+
+## Report / notebook link
+This file could not be exported automatically (permissions or download restrictions). Please view it here:
+- https://docs.google.com/document/d/1KwB881--Xqerfyj83lflEXIcy2dX_s9HM0zpN9xcz_4/edit?usp=sharing

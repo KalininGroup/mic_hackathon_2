@@ -25,3 +25,8 @@ Examples of files not included:
 - `Domain evolution data/Raw data/6.gwy`
 - `Domain evolution data/Raw data/2.gwy`
 - `Domain evolution data/Raw data/8.gwy`
+
+
+## Report / notebook link
+This file could not be exported automatically (permissions or download restrictions). Please view it here:
+- https://docs.google.com/document/d/17h-ztiT6jK0tJr4ahOrKZHzCWUNTYDt1q6c0Kem3pFk/edit?tab=t.0

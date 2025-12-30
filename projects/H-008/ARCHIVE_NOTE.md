@@ -24,3 +24,8 @@ Reason: usage: gdown [-h] [-V] [-O OUTPUT] [-q] [--fuzzy] [--id] [--proxy PROXY]
              [--user-agent USER_AGENT]
              url_or_id
 gdown: error: unrecognized arguments: https://drive.google.com/file/d/1Cpry-i-RlEn9uCwrf4kRyxGZ4p2XzNzq/view?usp=drive_link
+
+
+## Report / notebook link
+This file could not be exported automatically (permissions or download restrictions). Please view it here:
+- https://drive.google.com/file/d/1Cpry-i-RlEn9uCwrf4kRyxGZ4p2XzNzq/view?usp=drive_link

@@ -18,3 +18,8 @@ Some large datasets, image stacks, trained model files, or generated environment
 Examples of files not included:
 - `FinalWriteup.docx`
 - `Video_submission.mp4`
+
+
+## Report / notebook link
+This file could not be exported automatically (permissions or download restrictions). Please view it here:
+- https://docs.google.com/document/d/16V7syL1Br6MEOSfZCSSCMTVa-QyzMyaH/edit?usp=drive_link&ouid=101268053338165049347&rtpof=true&sd=true
