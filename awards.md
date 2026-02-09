@@ -63,7 +63,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
     <tr>
       <td rowspan="2" style="text-align:center; vertical-align:middle;">
         <a href="https://www.renaissancephilanthropy.org" target="_blank" rel="noopener">
-          <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy" style="max-height:50px;">
+          <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy" style="max-height:80px;">
         </a>
       </td>
       <td><strong>Overall Winner</strong> ($7,000)</td>
@@ -120,17 +120,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       </td>
       <td>$1,000</td>
       <td><strong>H-043</strong> — Automated particle detection and quantitative analysis from electron microscopy images</td>
-    </tr>
-
-    <!-- Thermo Fisher Scientific (winner not provided in your list) -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://www.thermofisher.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/tf_logo.png' | relative_url }}" alt="Thermo Fisher Scientific" style="max-height:50px;">
-        </a>
-      </td>
-      <td>$500</td>
-      <td><em>TBD</em></td>
     </tr>
 
     <!-- Hugging Face -->
