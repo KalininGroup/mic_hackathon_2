@@ -137,16 +137,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td><strong>H-042</strong> — EM-Caddie</td>
     </tr>
 
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://www.sciencedirect.com/journal/computational-materials-science" target="_blank" rel="noopener">
-          <img src="{{ '/assets/commat.png' | relative_url }}" alt="COMMAT" style="max-height:55px;">
-        </a>
-      </td>
-      <td>$500 (Canada Regional Winner)</td>
-      <td><strong>H-014</strong> — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology</td>
-    </tr>
-
     <!-- JEOL (note: your winners list says $1,000; your old table said $500) -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -214,6 +204,16 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td><strong>H-043</strong> — Automated particle detection and quantitative analysis from electron microscopy images</td>
     </tr>
 
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://www.sciencedirect.com/journal/computational-materials-science" target="_blank" rel="noopener">
+          <img src="{{ '/assets/commat.jpg' | relative_url }}" alt="COMMAT" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$500 (Canada Regional Winner)</td>
+      <td><strong>H-014</strong> — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology</td>
+    </tr>
+    
     <!-- Hitachi High-Tech Canada (updated from your winners list) -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
