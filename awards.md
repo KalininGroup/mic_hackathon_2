@@ -66,11 +66,21 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td><strong>Overall Winner</strong> ($7,000)</td>
-      <td><strong>H-051</strong> — Interpretable Digital Twins for Autonomous STEM Aberration Correction</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-051' | relative_url }}">H-051</a>
+        </strong>
+        — Interpretable Digital Twins for Autonomous STEM Aberration Correction
+      </td>
     </tr>
     <tr>
       <td><strong>2nd Overall Winner</strong> ($3,000)</td>
-      <td><strong>H-065</strong> — Autonomous Identification of Metal Microstructural Features via Latent Space Mapping-Based Microscope Control</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-065' | relative_url }}">H-065</a>
+        </strong>
+        — Autonomous Identification of Metal Microstructural Features via Latent Space Mapping-Based Microscope Control
+      </td>
     </tr>
 
     <!-- Covalent Metrology (2 rows) -->
@@ -81,11 +91,21 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td><strong>2nd Place</strong> ($3,000)</td>
-      <td><strong>H-068</strong> — TwinSpec: A Digital Twin Framework for GIWAXS Data, Geometry, and Physics-Aware ML</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-068' | relative_url }}">H-068</a>
+        </strong>
+        — TwinSpec: A Digital Twin Framework for GIWAXS Data, Geometry, and Physics-Aware ML
+      </td>
     </tr>
     <tr>
       <td><strong>3rd Place</strong> ($2,000)</td>
-      <td><strong>H-064</strong> — RONIN - Ronchigram based Optical Neural Inference for aberration detection</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-064' | relative_url }}">H-064</a>
+        </strong>
+        — RONIN - Ronchigram based Optical Neural Inference for aberration detection
+      </td>
     </tr>
 
     <!-- Theia Scientific -->
@@ -96,7 +116,12 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>$1,000</td>
-      <td><strong>H-043</strong> — Automated particle detection and quantitative analysis from electron microscopy images</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-043' | relative_url }}">H-043</a>
+        </strong>
+        — Automated particle detection and quantitative analysis from electron microscopy images
+      </td>
     </tr>
 
     <!-- Toyota Research Institute -->
@@ -107,9 +132,13 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>$1,000 (Best Interactivity)</td>
-      <td><strong>H-022</strong> — DeepScan Pro: Intelligent Microscopy Agent</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-022' | relative_url }}">H-022</a>
+        </strong>
+        — DeepScan Pro: Intelligent Microscopy Agent
+      </td>
     </tr>
-    
 
     <!-- Oxford Instruments - Asylum Research -->
     <tr>
@@ -119,7 +148,12 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>$1,000 (Best AFM/SPM Project)</td>
-      <td><strong>H-035</strong> — Angle-Dependent Morphologies of Ferroelectric Domain Walls</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-035' | relative_url }}">H-035</a>
+        </strong>
+        — Angle-Dependent Morphologies of Ferroelectric Domain Walls
+      </td>
     </tr>
 
     <!-- Polaron (2 rows) -->
@@ -130,14 +164,24 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td><strong>Award Winner</strong> ($1,000 + platform access)</td>
-      <td><strong>H-065</strong> — Autonomous Identification of Metal Microstructural Features via Latent Space Mapping-Based Microscope Control</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-065' | relative_url }}">H-065</a>
+        </strong>
+        — Autonomous Identification of Metal Microstructural Features via Latent Space Mapping-Based Microscope Control
+      </td>
     </tr>
     <tr>
       <td><strong>Runner-up</strong> (platform access)</td>
-      <td><strong>H-042</strong> — EM-Caddie</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-042' | relative_url }}">H-042</a>
+        </strong>
+        — EM-Caddie
+      </td>
     </tr>
 
-    <!-- JEOL (note: your winners list says $1,000; your old table said $500) -->
+    <!-- JEOL -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
         <a href="https://jeol.com/" target="_blank" rel="noopener">
@@ -145,9 +189,13 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>$1,000</td>
-      <td><strong>H-041</strong> — Machine Learning Denoising of Reciprocal Space Maps for realistic center-of-mass evaluation</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-041' | relative_url }}">H-041</a>
+        </strong>
+        — Machine Learning Denoising of Reciprocal Space Maps for realistic center-of-mass evaluation
+      </td>
     </tr>
-  
 
     <!-- MSA Student Council -->
     <tr>
@@ -157,7 +205,12 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>$500 + Student registration to MSA 2026 PMC (Milwaukee)</td>
-      <td><strong>H-014</strong> — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-014' | relative_url }}">H-014</a>
+        </strong>
+        — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology
+      </td>
     </tr>
 
     <!-- Waviks -->
@@ -168,7 +221,12 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>$500</td>
-      <td><strong>H-042</strong> — EM-Caddie</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-042' | relative_url }}">H-042</a>
+        </strong>
+        — EM-Caddie
+      </td>
     </tr>
 
     <!-- Hugging Face -->
@@ -179,7 +237,12 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>Merch + 2 months Hugging Face Pro</td>
-      <td><strong>H-002</strong> — Contrastive Micrograph-Metadata Pre-Training</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-002' | relative_url }}">H-002</a>
+        </strong>
+        — Contrastive Micrograph-Metadata Pre-Training
+      </td>
     </tr>
 
     <!-- Mat3ra -->
@@ -190,7 +253,12 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>Compute credits worth $5,000</td>
-      <td><strong>H-051</strong> — Interpretable Digital Twins for Autonomous STEM Aberration Correction</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-051' | relative_url }}">H-051</a>
+        </strong>
+        — Interpretable Digital Twins for Autonomous STEM Aberration Correction
+      </td>
     </tr>
 
     <!-- DENS Solutions -->
@@ -201,9 +269,15 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>Mystery Prize (Gin-Situ)</td>
-      <td><strong>H-043</strong> — Automated particle detection and quantitative analysis from electron microscopy images</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-043' | relative_url }}">H-043</a>
+        </strong>
+        — Automated particle detection and quantitative analysis from electron microscopy images
+      </td>
     </tr>
 
+    <!-- COMMAT -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
         <a href="https://www.sciencedirect.com/journal/computational-materials-science" target="_blank" rel="noopener">
@@ -211,10 +285,15 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>$500 (Canada Regional Winner)</td>
-      <td><strong>H-014</strong> — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-014' | relative_url }}">H-014</a>
+        </strong>
+        — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology
+      </td>
     </tr>
-    
-    <!-- Hitachi High-Tech Canada (updated from your winners list) -->
+
+    <!-- Hitachi -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
         <a href="https://www.hitachi-hightech.com/ca/en/" target="_blank" rel="noopener">
@@ -222,10 +301,15 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>$300 (Canada Regional Runner-up)</td>
-      <td><strong>H-062</strong> — ANCHOR: Registration by Alignment</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-062' | relative_url }}">H-062</a>
+        </strong>
+        — ANCHOR: Registration by Alignment
+      </td>
     </tr>
 
-    <!-- MENA / Qatar Award (AISCIA) -->
+    <!-- AISCIA -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
         <a href="https://aiscia.com" target="_blank" rel="noopener">
@@ -233,9 +317,13 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         </a>
       </td>
       <td>MENA Regional Award</td>
-      <td><strong>H-011</strong> — Digital Bubble Stability Tracking Microscope</td>
+      <td>
+        <strong>
+          <a href="{{ '/submissions/#H-011' | relative_url }}">H-011</a>
+        </strong>
+        — Digital Bubble Stability Tracking Microscope
+      </td>
     </tr>
-
   </tbody>
 </table>
 
