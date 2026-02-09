@@ -41,12 +41,11 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
 </style>
 
 <div class="section-card">
-  <h2>Prize Breakdown</h2>
+  <h2>Awards & Winners</h2>
 
   <p>
-    Awards recognize outstanding work across categories such as <em>Best Overall Project</em>,
-    <em>Best Open Science</em>, <em>Best Methods</em>, and <em>Best Visualization</em>.
-    Final prize assignments will be announced during the hackathon.
+    The following awards recognize outstanding hackathon projects, based on judging scores
+    and sponsor selections. Winning teams and projects are listed below.
   </p>
 
 <table class="table-soft">
