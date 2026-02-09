@@ -239,10 +239,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
   </tbody>
 </table>
 
-
-  <p style="margin-top:8px; color:#475467;">
-    <em>Exact prize-to-category mapping will be finalized based on submissions and judging outcomes.</em><br>
-  </p>
 </div>
 
 <div class="section-card" style="text-align:center;">
