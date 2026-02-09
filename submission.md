@@ -58,10 +58,10 @@ nav_exclude: false
   <tbody>
     {% for p in site.data.projects %}
       {% if p["Project title"] and p["Project title"] != "" %}
-      <tr>
+      <tr id="{{ p['Project ID'] }}">  
         <td>
           <strong>{{ p["Project title"] }}</strong><br>
-          <small>ID: {{ p["Project ID"] }}</small>
+          <small>ID:<a href="#{{ p['Project ID'] }}">{ p["Project ID"] }}</a></small>
         </td>
 
         <td>{{ p["Brief project description (2-3 sentences)"] }}</td>
