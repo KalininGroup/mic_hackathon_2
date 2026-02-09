@@ -88,6 +88,110 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td><strong>H-064</strong> — RONIN - Ronchigram based Optical Neural Inference for aberration detection</td>
     </tr>
 
+    <!-- Theia Scientific -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://theiascientific.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:60px;">
+        </a>
+      </td>
+      <td>$1,000</td>
+      <td><strong>H-043</strong> — Automated particle detection and quantitative analysis from electron microscopy images</td>
+    </tr>
+
+    <!-- Toyota Research Institute -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://www.tri.global" target="_blank" rel="noopener">
+          <img src="{{ '/assets/TRI.png' | relative_url }}" alt="Toyota Research Institute" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$1,000 (Best Interactivity)</td>
+      <td><strong>H-022</strong> — DeepScan Pro: Intelligent Microscopy Agent</td>
+    </tr>
+    
+
+    <!-- Oxford Instruments - Asylum Research -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://afm.oxinst.com/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/asylum.png' | relative_url }}" alt="Oxford Instruments - Asylum Research" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$1,000 (Best AFM/SPM Project)</td>
+      <td><strong>H-035</strong> — Angle-Dependent Morphologies of Ferroelectric Domain Walls</td>
+    </tr>
+
+    <!-- Polaron (2 rows) -->
+    <tr>
+      <td rowspan="2" style="text-align:center; vertical-align:middle;">
+        <a href="https://polaron.ai" target="_blank" rel="noopener">
+          <img src="{{ '/assets/polaron.png' | relative_url }}" alt="Polaron" style="max-height:55px;">
+        </a>
+      </td>
+      <td><strong>Award Winner</strong> ($1,000 + platform access)</td>
+      <td><strong>H-065</strong> — Autonomous Identification of Metal Microstructural Features via Latent Space Mapping-Based Microscope Control</td>
+    </tr>
+    <tr>
+      <td><strong>Runner-up</strong> (platform access)</td>
+      <td><strong>H-042</strong> — EM-Caddie</td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://www.sciencedirect.com/journal/computational-materials-science" target="_blank" rel="noopener">
+          <img src="{{ '/assets/commat.png' | relative_url }}" alt="COMMAT" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$500 (Canada Regional Winner)</td>
+      <td><strong>H-014</strong> — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology</td>
+    </tr>
+
+    <!-- JEOL (note: your winners list says $1,000; your old table said $500) -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://jeol.com/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/Jeol.png' | relative_url }}" alt="JEOL" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$1,000</td>
+      <td><strong>H-041</strong> — Machine Learning Denoising of Reciprocal Space Maps for realistic center-of-mass evaluation</td>
+    </tr>
+  
+
+    <!-- MSA Student Council -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://microscopy.org/the-student-council-stc/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/msa_stc.png' | relative_url }}" alt="MSA Student Council" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$500 + Student registration to MSA 2026 PMC (Milwaukee)</td>
+      <td><strong>H-014</strong> — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology</td>
+    </tr>
+
+    <!-- Waviks -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://www.waviks.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/waviks.png' | relative_url }}" alt="Waviks" style="max-height:50px;">
+        </a>
+      </td>
+      <td>$500</td>
+      <td><strong>H-042</strong> — EM-Caddie</td>
+    </tr>
+
+    <!-- Hugging Face -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://huggingface.co" target="_blank" rel="noopener">
+          <img src="{{ '/assets/hf.png' | relative_url }}" alt="Hugging Face" style="max-height:50px;">
+        </a>
+      </td>
+      <td>Merch + 2 months Hugging Face Pro</td>
+      <td><strong>H-002</strong> — Contrastive Micrograph-Metadata Pre-Training</td>
+    </tr>
+
     <!-- Mat3ra -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -110,76 +214,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td><strong>H-043</strong> — Automated particle detection and quantitative analysis from electron microscopy images</td>
     </tr>
 
-    <!-- Theia Scientific -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://theiascientific.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:60px;">
-        </a>
-      </td>
-      <td>$1,000</td>
-      <td><strong>H-043</strong> — Automated particle detection and quantitative analysis from electron microscopy images</td>
-    </tr>
-
-    <!-- Hugging Face -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://huggingface.co" target="_blank" rel="noopener">
-          <img src="{{ '/assets/hf.png' | relative_url }}" alt="Hugging Face" style="max-height:50px;">
-        </a>
-      </td>
-      <td>Merch + 2 months Hugging Face Pro</td>
-      <td><strong>H-002</strong> — Contrastive Micrograph-Metadata Pre-Training</td>
-    </tr>
-
-    <!-- MSA Student Council -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://microscopy.org/the-student-council-stc/" target="_blank" rel="noopener">
-          <img src="{{ '/assets/msa_stc.png' | relative_url }}" alt="MSA Student Council" style="max-height:55px;">
-        </a>
-      </td>
-      <td>$500 + Student registration to MSA 2026 PMC (Milwaukee)</td>
-      <td><strong>H-014</strong> — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology</td>
-    </tr>
-
-    <!-- Toyota Research Institute -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://www.tri.global" target="_blank" rel="noopener">
-          <img src="{{ '/assets/TRI.png' | relative_url }}" alt="Toyota Research Institute" style="max-height:55px;">
-        </a>
-      </td>
-      <td>$1,000 (Best Interactivity)</td>
-      <td><strong>H-022</strong> — DeepScan Pro: Intelligent Microscopy Agent</td>
-    </tr>
-
-    <!-- Waviks -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://www.waviks.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/waviks.png' | relative_url }}" alt="Waviks" style="max-height:50px;">
-        </a>
-      </td>
-      <td>$500</td>
-      <td><strong>H-042</strong> — EM-Caddie</td>
-    </tr>
-
-    <!-- Polaron (2 rows) -->
-    <tr>
-      <td rowspan="2" style="text-align:center; vertical-align:middle;">
-        <a href="https://polaron.ai" target="_blank" rel="noopener">
-          <img src="{{ '/assets/polaron.png' | relative_url }}" alt="Polaron" style="max-height:55px;">
-        </a>
-      </td>
-      <td><strong>Award Winner</strong> ($1,000 + platform access)</td>
-      <td><strong>H-065</strong> — Autonomous Identification of Metal Microstructural Features via Latent Space Mapping-Based Microscope Control</td>
-    </tr>
-    <tr>
-      <td><strong>Runner-up</strong> (platform access)</td>
-      <td><strong>H-042</strong> — EM-Caddie</td>
-    </tr>
-
     <!-- Hitachi High-Tech Canada (updated from your winners list) -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -191,27 +225,17 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td><strong>H-062</strong> — ANCHOR: Registration by Alignment</td>
     </tr>
 
-    <!-- Oxford Instruments - Asylum Research -->
+    <!-- MENA / Qatar Award (AISCIA) -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
-        <a href="https://afm.oxinst.com/" target="_blank" rel="noopener">
-          <img src="{{ '/assets/asylum.png' | relative_url }}" alt="Oxford Instruments - Asylum Research" style="max-height:55px;">
+        <a href="https://aiscia.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/aiscia.png' | relative_url }}" alt="AISCIA" style="max-height:55px;">
         </a>
       </td>
-      <td>$1,000 (Best AFM/SPM Project)</td>
-      <td><strong>H-035</strong> — Angle-Dependent Morphologies of Ferroelectric Domain Walls</td>
+      <td>MENA Regional Award</td>
+      <td><strong>H-011</strong> — Digital Bubble Stability Tracking Microscope</td>
     </tr>
 
-    <!-- JEOL (note: your winners list says $1,000; your old table said $500) -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://jeol.com/" target="_blank" rel="noopener">
-          <img src="{{ '/assets/Jeol.png' | relative_url }}" alt="JEOL" style="max-height:55px;">
-        </a>
-      </td>
-      <td>$1,000</td>
-      <td><strong>H-041</strong> — Machine Learning Denoising of Reciprocal Space Maps for realistic center-of-mass evaluation</td>
-    </tr>
   </tbody>
 </table>
 
