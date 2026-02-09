@@ -229,7 +229,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
     <tr>
       <td style="text-align:center; vertical-align:middle;">
         <a href="https://aiscia.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/aiscia.png' | relative_url }}" alt="AISCIA" style="max-height:55px;">
+          <img src="{{ '/assets/AISCIA.png' | relative_url }}" alt="AISCIA" style="max-height:55px;">
         </a>
       </td>
       <td>MENA Regional Award</td>
