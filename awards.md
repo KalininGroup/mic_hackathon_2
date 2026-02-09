@@ -207,7 +207,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
     <tr>
       <td style="text-align:center; vertical-align:middle;">
         <a href="https://www.sciencedirect.com/journal/computational-materials-science" target="_blank" rel="noopener">
-          <img src="{{ '/assets/commat.jpg' | relative_url }}" alt="COMMAT" style="max-height:55px;">
+          <img src="{{ '/assets/commat.png' | relative_url }}" alt="COMMAT" style="max-height:55px;">
         </a>
       </td>
       <td>$500 (Canada Regional Winner)</td>
