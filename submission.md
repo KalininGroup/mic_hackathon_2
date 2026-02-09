@@ -63,7 +63,7 @@ nav_exclude: false
           <strong id="{{ p['Project ID'] }}">
             {{ p["Project title"] }}
           </strong><br>
-          <small>ID:<a href="#{{ p['Project ID'] }}">{ p["Project ID"] }}</a></small>
+          <small>ID: {{ p["Project ID"] }}</small>
         </td>
 
         <td>{{ p["Brief project description (2-3 sentences)"] }}</td>
