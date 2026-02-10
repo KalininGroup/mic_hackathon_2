@@ -63,7 +63,7 @@ menu_icon: house-door
 
     <!-- Google Drive embed (no autoplay, sound enabled) -->
     <iframe
-        src="https://drive.google.com/file/d/1PgsxxLM7vup39rpNvNhC0-TeUbB_lBE7/preview"
+        src="https://drive.google.com/file/d/1wNcB2CheQbFXenAAZffMaa12lge-8H8e/preview"
         style="
           position: absolute;
           top: 0;
@@ -76,17 +76,14 @@ menu_icon: house-door
 
   <!-- Text below the video -->
   <p style="font-size:1.05rem; line-height:1.6; color:#344054; max-width: 700px; margin: 24px auto 0;">
-    Watch the recording from the live kickoff session — including the welcome,
-    introduction, and overview of the hackathon.
+    Watch the award ceremony from the AI/ML Microscopy Hackathon —
+    celebrating outstanding projects, teams, and contributions.
     <br><br>
-    If you weren’t able to join the Zoom session, this video will help you catch up
-    before jumping into the challenges.
+    This recording includes the announcement of winners, sponsor awards,
+    and closing remarks from the organizing team.
   </p>
 
 </div>
-
-
-
 
 
 <div class="section-card">
