@@ -54,6 +54,54 @@ permalink: /summary/
   max-width: 900px;
 }
 
+   .summary-hero-collage {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 18px 0;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 360px;
+}
+
+.hero-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.35) 0%,
+    rgba(0,0,0,0.65) 100%
+  );
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 20px;
+  left: 24px;
+  right: 24px;
+  color: white;
+}
+
+.hero-text h1 {
+  margin: 0 0 6px 0;
+  font-size: 2rem;
+}
+
+.hero-text p {
+  margin: 0;
+  opacity: 0.95;
+}
+
+   
 /* =========================
    Metrics row
 ========================= */
@@ -282,9 +330,9 @@ permalink: /summary/
 ========================= -->
 <div class="summary-hero-collage">
   <div class="hero-grid">
-    <img src="/assets/event_photos/Online/Zoom1.png" alt="Zoom Kickoff 1">
-    <img src="/assets/event_photos/Online/Zoom2.png" alt="Zoom Kickoff 2">
-    <img src="/assets/event_photos/Online/Zoom3.png" alt="Zoom Kickoff 3">
+    <img src="{{ '/assets/event_photos/Online/Zoom1.png' | relative_url }}" alt="Zoom Kickoff 1">
+    <img src="{{ '/assets/event_photos/Online/Zoom2.png' | relative_url }}" alt="Zoom Kickoff 2">
+    <img src="{{ '/assets/event_photos/Online/Zoom3.png' | relative_url }}" alt="Zoom Kickoff 3">
   </div>
 
   <div class="hero-overlay"></div>
@@ -294,7 +342,6 @@ permalink: /summary/
     <p>Global collaboration across sites, connected live through Zoom and local events.</p>
   </div>
 </div>
-
 
 <!-- =========================
      METRICS (edit values)
