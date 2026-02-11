@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hackathon Summary
+title: Summary
 permalink: /summary/
 ---
 
