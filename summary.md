@@ -577,10 +577,6 @@ permalink: /summary/
     </div>
 
     <div class="sponsor-logo">
-      <img src="{{ '/assets/sponsors/elsevier.png' | relative_url }}" alt="Elsevier">
-    </div>
-
-    <div class="sponsor-logo">
       <img src="{{ '/assets/hitachi.png' | relative_url }}" alt="Hitachi HiTech">
     </div>
 
@@ -604,7 +600,7 @@ permalink: /summary/
 <div class="cta">
   Thank you to all participants, site organizers, judges, and sponsors who made this global event possible.
   <br><br>
-  <a href="/projects/">Explore all projects →</a>
+  <a href="/submissions/">Explore all projects →</a>
 </div>
 
 <!-- =========================
