@@ -280,14 +280,21 @@ permalink: /summary/
 <!-- =========================
      HERO (replace hero image path)
 ========================= -->
-<div class="summary-hero">
-  <img src="/assets/event_photos/summary/hero_collage.jpg" alt="Hackathon collage">
-  <div class="overlay"></div>
-  <div class="text">
+<div class="summary-hero-collage">
+  <div class="hero-grid">
+    <img src="/assets/event_photos/Online/Zoom1.png" alt="Zoom Kickoff 1">
+    <img src="/assets/event_photos/Online/Zoom2.png" alt="Zoom Kickoff 2">
+    <img src="/assets/event_photos/Online/Zoom3.png" alt="Zoom Kickoff 3">
+  </div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-text">
     <h1>AI/ML for Microscopy Hackathon 2025</h1>
-    <p>A global, multi-site event bringing together students, researchers, and industry to build AI-driven solutions for microscopy — from image analysis to autonomous experimentation.</p>
+    <p>Global collaboration across sites, connected live through Zoom and local events.</p>
   </div>
 </div>
+
 
 <!-- =========================
      METRICS (edit values)
