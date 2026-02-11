@@ -391,7 +391,7 @@ permalink: /summary/
       <div class="ratio">
         <!-- Replace with your embed iframe OR a <video> tag -->
         <iframe
-          src="[https://www.youtube.com/embed/VIDEO_ID_AWARDS](https://drive.google.com/file/d/1wNcB2CheQbFXenAAZffMaa12lge-8H8e/preview)"
+          src="https://drive.google.com/file/d/1wNcB2CheQbFXenAAZffMaa12lge-8H8e/preview"
           title="Awards Ceremony"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
@@ -416,39 +416,95 @@ permalink: /summary/
     <!-- Duplicate a block per photo -->
 
     <div class="gallery-item">
-      <img src="/assets/event_photos/summary/knoxville_1.jpg" alt="Knoxville, USA"
-           onclick="openLightbox(this.src, 'Knoxville, USA')">
-      <div class="caption">Knoxville, USA</div>
+      <img src="{{ '/assets/event_photos/UTK_1.JPG' | relative_url }}"
+           alt="University of Tennessee Knoxville"
+           onclick="openLightbox(this.src, 'University of Tennessee Knoxville')">
+      <div class="caption">University of Tennessee Knoxville</div>
+    </div>
+   
+    <div class="gallery-item">
+      <img src="{{ '/assets/event_photos/UTK_2.JPG' | relative_url }}"
+           alt="University of Tennessee Knoxville"
+           onclick="openLightbox(this.src, 'University of Tennessee Knoxville')">
+      <div class="caption">University of Tennessee Knoxville</div>
+    </div>
+   
+    <div class="gallery-item">
+      <img src="{{ '/assets/event_photos/UTK_3.JPG' | relative_url }}"
+           alt="University of Tennessee Knoxville"
+           onclick="openLightbox(this.src, 'University of Tennessee Knoxville')">
+      <div class="caption">University of Tennessee Knoxville</div>
+    </div>
+   
+    <div class="gallery-item">
+      <img src="{{ '/assets/event_photos/UTK_4.JPG' | relative_url }}"
+           alt="University of Tennessee Knoxville"
+           onclick="openLightbox(this.src, 'University of Tennessee Knoxville')">
+      <div class="caption">University of Tennessee Knoxville</div>
+    </div>
+
+
+    <div class="gallery-item">
+      <img src="{{ '/assets/event_photos/NCSU_1.jfif' | relative_url }}"
+           alt="NCSU Site"
+           onclick="openLightbox(this.src, 'North Carolina State University')">
+      <div class="caption">NCSU</div>
     </div>
 
     <div class="gallery-item">
-      <img src="/assets/event_photos/summary/delhi_1.jpg" alt="Delhi, India"
-           onclick="openLightbox(this.src, 'Delhi, India')">
-      <div class="caption">Delhi, India</div>
+     <img src="{{ '/assets/event_photos/TF_1.jpg' | relative_url }}"
+          alt="Thermo Fisher Eindhoven"
+          onclick="openLightbox(this.src, 'Thermo Fisher – Eindhoven')">
+     <div class="caption">Thermo Fisher – Eindhoven</div>
+    </div>
+   
+    <div class="gallery-item">
+      <img src="{{ '/assets/event_photos/TF_2.jpg' | relative_url }}"
+           alt="Thermo Fisher Eindhoven"
+           onclick="openLightbox(this.src, 'Thermo Fisher – Eindhoven')">
+      <div class="caption">Thermo Fisher – Eindhoven</div>
+    </div>
+   
+    <div class="gallery-item">
+      <img src="{{ '/assets/event_photos/TF_3.jpg' | relative_url }}"
+           alt="Thermo Fisher Eindhoven"
+           onclick="openLightbox(this.src, 'Thermo Fisher – Eindhoven')">
+      <div class="caption">Thermo Fisher – Eindhoven</div>
+    </div>
+   
+    <div class="gallery-item">
+      <img src="{{ '/assets/event_photos/TF_4.jpg' | relative_url }}"
+           alt="Thermo Fisher Eindhoven"
+           onclick="openLightbox(this.src, 'Thermo Fisher – Eindhoven')">
+      <div class="caption">Thermo Fisher – Eindhoven</div>
+    </div>
+   
+    <div class="gallery-item">
+      <img src="{{ '/assets/event_photos/TF_5.jpg' | relative_url }}"
+           alt="Thermo Fisher Eindhoven"
+           onclick="openLightbox(this.src, 'Thermo Fisher – Eindhoven')">
+      <div class="caption">Thermo Fisher – Eindhoven</div>
     </div>
 
     <div class="gallery-item">
-      <img src="/assets/event_photos/summary/barcelona_1.jpg" alt="Barcelona, Spain"
-           onclick="openLightbox(this.src, 'Barcelona, Spain')">
-      <div class="caption">Barcelona, Spain</div>
+      <img src="{{ '/assets/event_photos/UCD_1.jpg' | relative_url }}"
+           alt="University College Dublin"
+           onclick="openLightbox(this.src, 'University College Dublin')">
+      <div class="caption">University College Dublin</div>
     </div>
-
+   
     <div class="gallery-item">
-      <img src="/assets/event_photos/summary/qatar_1.jpg" alt="Qatar"
-           onclick="openLightbox(this.src, 'Qatar')">
-      <div class="caption">Qatar</div>
+      <img src="{{ '/assets/event_photos/UCD_2.jpg' | relative_url }}"
+           alt="University College Dublin"
+           onclick="openLightbox(this.src, 'University College Dublin')">
+      <div class="caption">University College Dublin</div>
     </div>
-
+    
     <div class="gallery-item">
-      <img src="/assets/event_photos/summary/canada_1.jpg" alt="Canada"
-           onclick="openLightbox(this.src, 'Canada')">
-      <div class="caption">Canada</div>
-    </div>
-
-    <div class="gallery-item">
-      <img src="/assets/event_photos/summary/mena_1.jpg" alt="MENA"
-           onclick="openLightbox(this.src, 'MENA')">
-      <div class="caption">MENA</div>
+      <img src="{{ '/assets/event_photos/IITD_1.jpeg' | relative_url }}"
+           alt="Indian Institute of Technology Delhi"
+           onclick="openLightbox(this.src, 'Indian Institute of Technology Delhi')">
+      <div class="caption">Indian Institute of Technology Delhi</div>
     </div>
 
   </div>
