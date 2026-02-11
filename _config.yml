@@ -26,7 +26,7 @@ header_pages:
   - summary.md
   - sites.md
   #- agenda.md
-  - beyond-hackathon.md
+  - beyond_hackathon.md
   - awards.md
   # - projects.md
   - submission.md
