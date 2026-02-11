@@ -348,7 +348,7 @@ permalink: /summary/
 ========================= -->
 <div class="metrics">
   <div class="metric">
-    <div class="num">670+</div>
+    <div class="num">250+</div>
     <div class="lbl">Participants</div>
   </div>
   <div class="metric">
@@ -465,13 +465,24 @@ permalink: /summary/
 
   <div class="sponsors">
     <!-- Replace src paths with your logo files -->
-    <div class="sponsor-logo"><img src="/assets/sponsors/jeol.png" alt="JEOL"></div>
-    <div class="sponsor-logo"><img src="/assets/sponsors/denssolutions.png" alt="DENSsolutions"></div>
-    <div class="sponsor-logo"><img src="/assets/sponsors/mat3ra.png" alt="Mat3ra"></div>
+    <div class="sponsor-logo"><img src="/assets/ONR.png" alt="Office of Naval Research"></div>
+    <div class="sponsor-logo"><img src="/assets/renaissance.png" alt="Rennaisanace Philanthropy"></div>
+    <div class="sponsor-logo"><img src="/assets/Jeol.png" alt="JEOL"></div>
+    <div class="sponsor-logo"><img src="/assets/covalent.png" alt="Covalent"></div>
+    <div class="sponsor-logo"><img src="/assets/TRI.png" alt="Toyota Research Institute"></div>
+    <div class="sponsor-logo"><img src="/assets/DENS.png" alt="DENSsolutions"></div>
+    <div class="sponsor-logo"><img src="/assets/mat3ra_logo.png" alt="Mat3ra"></div>
+    <div class="sponsor-logo"><img src="/assets/msa_stc.png" alt="Microscopy Society of America Student Council"></div>
+    <div class="sponsor-logo"><img src="/assets/asylum.png" alt="Asylum Research"></div>
+    <div class="sponsor-logo"><img src="/assets/hf.png" alt="Hugging Face"></div>
+    <div class="sponsor-logo"><img src="/assets/waviks.png" alt="Waviks"></div>
+    <div class="sponsor-logo"><img src="/assets/commat.png" alt="COMMAT"></div>
+    <div class="sponsor-logo"><img src="/assets/TheiaScientific.png" alt="TheiaScientific"></div>
+    <div class="sponsor-logo"><img src="/assets/polaron.png" alt="Polaron"></div>
     <div class="sponsor-logo"><img src="/assets/sponsors/elsevier.png" alt="Elsevier"></div>
-    <div class="sponsor-logo"><img src="/assets/sponsors/hitachi.png" alt="Hitachi"></div>
-    <div class="sponsor-logo"><img src="/assets/sponsors/aiscia.png" alt="AISCIA"></div>
-    <div class="sponsor-logo"><img src="/assets/sponsors/ncsu_coe.png" alt="NCSU College of Engineering"></div>
+    <div class="sponsor-logo"><img src="/assets/hitachi.png" alt="Hitachi HiTech"></div>
+    <div class="sponsor-logo"><img src="/assets/AISCIA.png" alt="AISCIA"></div>
+    <div class="sponsor-logo"><img src="/assets/ncsu.png" alt="NCSU College of Engineering"></div>
   </div>
 
   <div class="note">See the <a href="/awards/">Awards</a> page for award categories and sponsors.</div>
