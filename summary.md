@@ -464,30 +464,85 @@ permalink: /summary/
   <h2>Supported By</h2>
 
   <div class="sponsors">
-    <!-- Replace src paths with your logo files -->
-    <div class="sponsor-logo"><img src="/assets/ONR.png" alt="Office of Naval Research"></div>
-    <div class="sponsor-logo"><img src="/assets/renaissance.png" alt="Rennaisanace Philanthropy"></div>
-    <div class="sponsor-logo"><img src="/assets/Jeol.png" alt="JEOL"></div>
-    <div class="sponsor-logo"><img src="/assets/covalent.png" alt="Covalent"></div>
-    <div class="sponsor-logo"><img src="/assets/TRI.png" alt="Toyota Research Institute"></div>
-    <div class="sponsor-logo"><img src="/assets/DENS.png" alt="DENSsolutions"></div>
-    <div class="sponsor-logo"><img src="/assets/mat3ra_logo.png" alt="Mat3ra"></div>
-    <div class="sponsor-logo"><img src="/assets/msa_stc.png" alt="Microscopy Society of America Student Council"></div>
-    <div class="sponsor-logo"><img src="/assets/asylum.png" alt="Asylum Research"></div>
-    <div class="sponsor-logo"><img src="/assets/hf.png" alt="Hugging Face"></div>
-    <div class="sponsor-logo"><img src="/assets/waviks.png" alt="Waviks"></div>
-    <div class="sponsor-logo"><img src="/assets/commat.png" alt="COMMAT"></div>
-    <div class="sponsor-logo"><img src="/assets/TheiaScientific.png" alt="TheiaScientific"></div>
-    <div class="sponsor-logo"><img src="/assets/polaron.png" alt="Polaron"></div>
-    <div class="sponsor-logo"><img src="/assets/sponsors/elsevier.png" alt="Elsevier"></div>
-    <div class="sponsor-logo"><img src="/assets/hitachi.png" alt="Hitachi HiTech"></div>
-    <div class="sponsor-logo"><img src="/assets/AISCIA.png" alt="AISCIA"></div>
-    <div class="sponsor-logo"><img src="/assets/ncsu.png" alt="NCSU College of Engineering"></div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/ONR.png' | relative_url }}" alt="Office of Naval Research">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/Jeol.png' | relative_url }}" alt="JEOL">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/covalent.png' | relative_url }}" alt="Covalent">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/TRI.png' | relative_url }}" alt="Toyota Research Institute">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENSsolutions">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/mat3ra_logo.png' | relative_url }}" alt="Mat3ra">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/msa_stc.png' | relative_url }}" alt="Microscopy Society of America Student Council">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/asylum.png' | relative_url }}" alt="Asylum Research">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/hf.png' | relative_url }}" alt="Hugging Face">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/waviks.png' | relative_url }}" alt="Waviks">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/commat.png' | relative_url }}" alt="COMMAT">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/polaron.png' | relative_url }}" alt="Polaron">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/sponsors/elsevier.png' | relative_url }}" alt="Elsevier">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/hitachi.png' | relative_url }}" alt="Hitachi HiTech">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/AISCIA.png' | relative_url }}" alt="AISCIA">
+    </div>
+
+    <div class="sponsor-logo">
+      <img src="{{ '/assets/ncsu.png' | relative_url }}" alt="NCSU College of Engineering">
+    </div>
+
   </div>
 
-  <div class="note">See the <a href="/awards/">Awards</a> page for award categories and sponsors.</div>
+  <div class="note">
+    See the <a href="{{ '/awards/' | relative_url }}">Awards</a> page for award categories and sponsors.
+  </div>
 </div>
-
 <!-- =========================
      CLOSING / LINKS
 ========================= -->
