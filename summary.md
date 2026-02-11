@@ -299,8 +299,7 @@ permalink: /summary/
   max-height: 60px;
   max-width: 100%;
   object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 /* Small note text */
@@ -376,7 +375,7 @@ permalink: /summary/
       <div class="ratio">
         <!-- Replace with your embed iframe OR a <video> tag -->
         <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID_LAUNCH"
+          src="https://drive.google.com/file/d/1PgsxxLM7vup39rpNvNhC0-TeUbB_lBE7/preview"
           title="Hackathon Launch"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
@@ -384,7 +383,7 @@ permalink: /summary/
       </div>
       <div class="desc">
         <div class="title">Hackathon Launch</div>
-        <div class="sub">Welcome, overview, and how to get started.</div>
+        <div class="sub">Watch the recording from the live kickoff session — including the welcome, introduction, and overview of the hackathon.</div>
       </div>
     </div>
 
@@ -392,7 +391,7 @@ permalink: /summary/
       <div class="ratio">
         <!-- Replace with your embed iframe OR a <video> tag -->
         <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID_AWARDS"
+          src="[https://www.youtube.com/embed/VIDEO_ID_AWARDS](https://drive.google.com/file/d/1wNcB2CheQbFXenAAZffMaa12lge-8H8e/preview)"
           title="Awards Ceremony"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
@@ -400,7 +399,7 @@ permalink: /summary/
       </div>
       <div class="desc">
         <div class="title">Awards Ceremony</div>
-        <div class="sub">Project highlights and award announcements.</div>
+        <div class="sub">Revisiting the Hackathon, award announcements, and closing remarks.</div>
       </div>
     </div>
 
