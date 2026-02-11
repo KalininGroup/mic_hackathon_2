@@ -332,3 +332,13 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
 <div class="section-card" style="text-align:center;">
   <em>These prizes celebrate creativity, collaboration, and the spirit of open science at the Hackathon.</em>
 </div>
+
+<hr>
+
+<div style="border:1px solid rgba(0,0,0,0.12); border-radius:12px; padding:14px 16px; background:rgba(255,255,255,0.75);">
+  <h3 style="margin:0 0 6px 0;">Popular Opinion Poster Voting</h3>
+  <p style="margin:0;">
+    <strong>Winner:</strong> AISCIA Qatar<br>
+    Voted as the <strong>Popular Opinion Poster</strong> winner by the community.
+  </p>
+</div>
